@@ -1,0 +1,2496 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'es' Physical Memory: 32716 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58783
+Successfully changed project path to: D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
+D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 52.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.14501.28009
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001468 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 48.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.076 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001263 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.448 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1807 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2254.
+Total: 1.988900 ms (FindLiveObjects: 0.217700 ms CreateObjectMapping: 0.055000 ms MarkObjects: 1.657300 ms  DeleteObjects: 0.057700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Animation/Player/Idle_idle_0.controller
+  artifactKey: Guid(acbc69d46b9233742824b036baa54652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Idle_idle_0.controller using Guid(acbc69d46b9233742824b036baa54652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f859f76a70be21f1951816ca8f34fe') in 0.034385 seconds
+  Import took 0.037452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026688 seconds.
+  path: Assets/Animation/Player/Idle_idle_0.controller
+  artifactKey: Guid(acbc69d46b9233742824b036baa54652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player/Idle_idle_0.controller using Guid(acbc69d46b9233742824b036baa54652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f859f76a70be21f1951816ca8f34fe') in 0.004182 seconds
+  Import took 0.007073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.395094 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left
+  artifactKey: Guid(e9e43f787e4a907499b44bd750f65aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left using Guid(e9e43f787e4a907499b44bd750f65aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0754c7453de2d16fe4fadb18d6822dd8') in 0.007387 seconds
+  Import took 0.010243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076824 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_0.png
+  artifactKey: Guid(9e51d573c8a33eb4ebc46115829dfb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_0.png using Guid(9e51d573c8a33eb4ebc46115829dfb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a1358731ff4e419a0c4adf2e0ebb48') in 0.102477 seconds
+  Import took 0.105448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_2.png
+  artifactKey: Guid(6bd9d58e1c2ede348890bb8005818ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_2.png using Guid(6bd9d58e1c2ede348890bb8005818ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9cd638232387984fdf2f77a084fb46a') in 0.011336 seconds
+  Import took 0.014373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_1.png
+  artifactKey: Guid(117279a9803fd9847a8ea15de9c41506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_1.png using Guid(117279a9803fd9847a8ea15de9c41506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd7bbf3f24ec5f5e2b912a8776a3a37') in 0.011726 seconds
+  Import took 0.014666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_7.png
+  artifactKey: Guid(3ac55acf7c98e6e46b0a79062d779265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_7.png using Guid(3ac55acf7c98e6e46b0a79062d779265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aeda812a0ff21c2d2db67084ddff32b') in 0.012767 seconds
+  Import took 0.015786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_4.png
+  artifactKey: Guid(2c424d8e820bce142a72e16211fb946d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_4.png using Guid(2c424d8e820bce142a72e16211fb946d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45d43d45a11e49c9ea5ac307bcbd413') in 0.010949 seconds
+  Import took 0.013720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_5.png
+  artifactKey: Guid(e9e3fc2655cc3214e911a124ba99e5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_5.png using Guid(e9e3fc2655cc3214e911a124ba99e5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f58a6517ebec50687e57f233637a9e') in 0.011237 seconds
+  Import took 0.014214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_6.png
+  artifactKey: Guid(51b0c62eaad1e844c97bed5731aae2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_6.png using Guid(51b0c62eaad1e844c97bed5731aae2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '474113d44719b13c56c5928334bbb156') in 0.011581 seconds
+  Import took 0.014532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_3.png
+  artifactKey: Guid(96f7047077a4fd340adc47c89fd286a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_3.png using Guid(96f7047077a4fd340adc47c89fd286a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5581678d8e07962ef1c64ea23e7d0bd0') in 0.011542 seconds
+  Import took 0.014559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016039 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_5.png
+  artifactKey: Guid(e9e3fc2655cc3214e911a124ba99e5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_5.png using Guid(e9e3fc2655cc3214e911a124ba99e5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f58a6517ebec50687e57f233637a9e') in 0.007562 seconds
+  Import took 0.010616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.002022 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_0.png
+  artifactKey: Guid(9e51d573c8a33eb4ebc46115829dfb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_0.png using Guid(9e51d573c8a33eb4ebc46115829dfb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97e9504d05c277222aeb9f31848479f0') in 0.007886 seconds
+  Import took 0.010917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_2.png
+  artifactKey: Guid(6bd9d58e1c2ede348890bb8005818ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_2.png using Guid(6bd9d58e1c2ede348890bb8005818ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08866a7b982d77227023f524e0f8db83') in 0.007475 seconds
+  Import took 0.010327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_1.png
+  artifactKey: Guid(117279a9803fd9847a8ea15de9c41506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_1.png using Guid(117279a9803fd9847a8ea15de9c41506) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323903ed189a3c7415a94e1828e5bcf5') in 0.007173 seconds
+  Import took 0.010088 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_7.png
+  artifactKey: Guid(3ac55acf7c98e6e46b0a79062d779265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_7.png using Guid(3ac55acf7c98e6e46b0a79062d779265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdd60352fd2c94498151feff8230859') in 0.016756 seconds
+  Import took 0.019782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_4.png
+  artifactKey: Guid(2c424d8e820bce142a72e16211fb946d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_4.png using Guid(2c424d8e820bce142a72e16211fb946d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4ea3a425a7c3cd17c892bba5768a7e') in 0.009561 seconds
+  Import took 0.012475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_5.png
+  artifactKey: Guid(e9e3fc2655cc3214e911a124ba99e5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_5.png using Guid(e9e3fc2655cc3214e911a124ba99e5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1effc44ba43db17313257278894b3cd4') in 0.011836 seconds
+  Import took 0.014698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_6.png
+  artifactKey: Guid(51b0c62eaad1e844c97bed5731aae2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_6.png using Guid(51b0c62eaad1e844c97bed5731aae2e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0226cd85ed19ee5132a873d73155cd') in 0.012737 seconds
+  Import took 0.015876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_3.png
+  artifactKey: Guid(96f7047077a4fd340adc47c89fd286a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/left/run_runLeft_3.png using Guid(96f7047077a4fd340adc47c89fd286a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f429f4108d80ff6d571f3920e5c904fe') in 0.011848 seconds
+  Import took 0.014916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 329.911142 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(4ea02df7d53b4a04cb1a51b606f2988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(4ea02df7d53b4a04cb1a51b606f2988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6c26e1b6752ebf84139aeaa1f7f6d48') in 0.014577 seconds
+  Import took 0.017678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.693962 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(4ea02df7d53b4a04cb1a51b606f2988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(4ea02df7d53b4a04cb1a51b606f2988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3435032184559a3fac10ac967e58cea2') in 0.003733 seconds
+  Import took 0.007968 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001192 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.991 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.5 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2263.
+Total: 1.940000 ms (FindLiveObjects: 0.171300 ms CreateObjectMapping: 0.042800 ms MarkObjects: 1.706700 ms  DeleteObjects: 0.018000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001081 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.940 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2266.
+Total: 1.901100 ms (FindLiveObjects: 0.198300 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.643300 ms  DeleteObjects: 0.013800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001117 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2269.
+Total: 1.968500 ms (FindLiveObjects: 0.179100 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.727900 ms  DeleteObjects: 0.016200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001155 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2272.
+Total: 2.088900 ms (FindLiveObjects: 0.236500 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.790800 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001140 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.955 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2275.
+Total: 2.101700 ms (FindLiveObjects: 0.216000 ms CreateObjectMapping: 0.046000 ms MarkObjects: 1.821700 ms  DeleteObjects: 0.016900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001098 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2278.
+Total: 1.834800 ms (FindLiveObjects: 0.176100 ms CreateObjectMapping: 0.043900 ms MarkObjects: 1.601000 ms  DeleteObjects: 0.012800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 373.182791 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/main gun_Gun_0.png
+  artifactKey: Guid(a4fb4409a105a0346b31a3472b8b6261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/main gun_Gun_0.png using Guid(a4fb4409a105a0346b31a3472b8b6261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b77e0da22b7025604d74fe7774d43d') in 0.052653 seconds
+  Import took 0.055536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.040542 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/main gun_Gun_0.png
+  artifactKey: Guid(a4fb4409a105a0346b31a3472b8b6261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/main gun_Gun_0.png using Guid(a4fb4409a105a0346b31a3472b8b6261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c40d9a29cfd6ace6ce05923a54b93e1') in 0.007467 seconds
+  Import took 0.010429 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001123 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.923 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2282.
+Total: 1.907200 ms (FindLiveObjects: 0.177300 ms CreateObjectMapping: 0.044200 ms MarkObjects: 1.669200 ms  DeleteObjects: 0.015700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001094 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2285.
+Total: 1.879400 ms (FindLiveObjects: 0.192500 ms CreateObjectMapping: 0.043900 ms MarkObjects: 1.627600 ms  DeleteObjects: 0.014300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 162.242652 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/main gun_GunLeft_0.png
+  artifactKey: Guid(ff639afc609a7214498db38f07ff9034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/main gun_GunLeft_0.png using Guid(ff639afc609a7214498db38f07ff9034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a757012a0e0c064a5d4d3274d882d806') in 0.052266 seconds
+  Import took 0.055106 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/main gun_GunLeftUp_0.png
+  artifactKey: Guid(39a7a6abcf7dc264493a7ec1d99c33f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/main gun_GunLeftUp_0.png using Guid(39a7a6abcf7dc264493a7ec1d99c33f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f684e5852f0de3f215d2b8e4a908d2c') in 0.012072 seconds
+  Import took 0.014756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.044018 seconds.
+  path: Assets/Animation/Player
+  artifactKey: Guid(e98197eb70e26e747aabb73ceb7a73f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player using Guid(e98197eb70e26e747aabb73ceb7a73f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611dfb691bd33721cf4fc30e4e34e8d8') in 0.007994 seconds
+  Import took 0.010866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.269717 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(63acafe13d5448d498e8c3f19b23ed90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(63acafe13d5448d498e8c3f19b23ed90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90611a946ede43a9a1e809dabf157b3c') in 0.006881 seconds
+  Import took 0.009739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.446626 seconds.
+  path: Assets/Animation/MainGun
+  artifactKey: Guid(0f97fa17faddbc44b9372a934f443a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MainGun using Guid(0f97fa17faddbc44b9372a934f443a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c6032a3944f6f0940d610f5d87140d') in 0.006658 seconds
+  Import took 0.009568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.171411 seconds.
+  path: Assets/Animation/MainGun/Gun.controller
+  artifactKey: Guid(d1ccdd99a68f4404bb8e019698e0ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MainGun/Gun.controller using Guid(d1ccdd99a68f4404bb8e019698e0ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea86eb762c79bdac78fdae2d846c3f11') in 0.008967 seconds
+  Import took 0.011906 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.949425 seconds.
+  path: Assets/Animation/MainGun/MainGun.controller
+  artifactKey: Guid(d1ccdd99a68f4404bb8e019698e0ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MainGun/MainGun.controller using Guid(d1ccdd99a68f4404bb8e019698e0ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825fd3b28b67a793b92982ccbaf81432') in 0.003008 seconds
+  Import took 0.006069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 234.423378 seconds.
+  path: Assets/Animation/MainGun/MainGun.controller
+  artifactKey: Guid(d1ccdd99a68f4404bb8e019698e0ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MainGun/MainGun.controller using Guid(d1ccdd99a68f4404bb8e019698e0ac79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b509eadf2d0d7035210df614112efe') in 0.002998 seconds
+  Import took 0.006137 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001082 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.994 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2290.
+Total: 1.870900 ms (FindLiveObjects: 0.184600 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.626500 ms  DeleteObjects: 0.014200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 93.474378 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(4d55ff2d2f1f147419948ce28c7ba93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(4d55ff2d2f1f147419948ce28c7ba93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910b5ec4c9fef9d75e7cb4669b402ed8') in 0.009560 seconds
+  Import took 0.012607 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001432 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2293.
+Total: 2.087800 ms (FindLiveObjects: 0.194200 ms CreateObjectMapping: 0.045100 ms MarkObjects: 1.828900 ms  DeleteObjects: 0.018400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001118 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2296.
+Total: 2.066100 ms (FindLiveObjects: 0.204600 ms CreateObjectMapping: 0.049800 ms MarkObjects: 1.795300 ms  DeleteObjects: 0.015500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.807289 seconds.
+  path: Assets/Scripts/Movement.cs
+  artifactKey: Guid(4d55ff2d2f1f147419948ce28c7ba93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Movement.cs using Guid(4d55ff2d2f1f147419948ce28c7ba93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cfbeb36ec1dbd346490e3e331b3ab6') in 0.004938 seconds
+  Import took 0.008047 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001131 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2299.
+Total: 1.860300 ms (FindLiveObjects: 0.176800 ms CreateObjectMapping: 0.044000 ms MarkObjects: 1.621200 ms  DeleteObjects: 0.017400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001215 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.927 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2302.
+Total: 1.883000 ms (FindLiveObjects: 0.182200 ms CreateObjectMapping: 0.044400 ms MarkObjects: 1.640400 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001171 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2305.
+Total: 1.893000 ms (FindLiveObjects: 0.201600 ms CreateObjectMapping: 0.046900 ms MarkObjects: 1.627500 ms  DeleteObjects: 0.016100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.190947 seconds.
+  path: Assets/Animation/MainGun/MainGunRight.anim
+  artifactKey: Guid(79639e2ae5136e64aa693205e664f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MainGun/MainGunRight.anim using Guid(79639e2ae5136e64aa693205e664f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002220e1f02ad5c1d13247c78cb65366') in 0.017428 seconds
+  Import took 0.020418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037849 seconds.
+  path: Assets/Animation/MainGun/MainGunRight.anim
+  artifactKey: Guid(79639e2ae5136e64aa693205e664f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MainGun/MainGunRight.anim using Guid(79639e2ae5136e64aa693205e664f7c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002220e1f02ad5c1d13247c78cb65366') in 0.003514 seconds
+  Import took 0.007242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.070814 seconds.
+  path: Assets/Animation/MainGun/MainGunLeft.anim
+  artifactKey: Guid(123798a1531b8e14b9d0c79edaf2429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MainGun/MainGunLeft.anim using Guid(123798a1531b8e14b9d0c79edaf2429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c4e12ffa792ebd2b3409ddbd398e1c') in 0.007207 seconds
+  Import took 0.010244 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003099 seconds.
+  path: Assets/Animation/MainGun/MainGunLeft.anim
+  artifactKey: Guid(123798a1531b8e14b9d0c79edaf2429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MainGun/MainGunLeft.anim using Guid(123798a1531b8e14b9d0c79edaf2429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c4e12ffa792ebd2b3409ddbd398e1c') in 0.002981 seconds
+  Import took 0.005968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.308003 seconds.
+  path: Assets/Animation/MainGun/MainGunUp.anim
+  artifactKey: Guid(a595f9450d68d3b40a4fe609ecc753de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MainGun/MainGunUp.anim using Guid(a595f9450d68d3b40a4fe609ecc753de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a6b5d8f5c8cd0021f4d1d80b0686d9') in 0.007270 seconds
+  Import took 0.010278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002118 seconds.
+  path: Assets/Animation/MainGun/MainGunUp.anim
+  artifactKey: Guid(a595f9450d68d3b40a4fe609ecc753de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/MainGun/MainGunUp.anim using Guid(a595f9450d68d3b40a4fe609ecc753de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51a6b5d8f5c8cd0021f4d1d80b0686d9') in 0.002776 seconds
+  Import took 0.006163 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001101 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.928 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2308.
+Total: 1.828500 ms (FindLiveObjects: 0.178400 ms CreateObjectMapping: 0.044500 ms MarkObjects: 1.590100 ms  DeleteObjects: 0.014600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001116 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2311.
+Total: 1.969300 ms (FindLiveObjects: 0.210500 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.698000 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.315801 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/Materials
+  artifactKey: Guid(0f745e2ddbd880a4ebbb5e895ca335c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/Materials using Guid(0f745e2ddbd880a4ebbb5e895ca335c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d37cacf1bb21ab24d810f508ec8545') in 0.010421 seconds
+  Import took 0.013441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041701 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/Materials/main gun_GunLeft_0.mat
+  artifactKey: Guid(7f6e129e5b3045548b514a26bfa85605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/Materials/main gun_GunLeft_0.mat using Guid(7f6e129e5b3045548b514a26bfa85605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56f6191aaf903027da48e14d528c08c') in 0.064923 seconds
+  Import took 0.067987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.412189 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/main gun_GunLeft_0.png
+  artifactKey: Guid(ff639afc609a7214498db38f07ff9034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/main gun_GunLeft_0.png using Guid(ff639afc609a7214498db38f07ff9034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183538d887f1dc391181a14e951d2939') in 0.022423 seconds
+  Import took 0.025480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/main gun_GunLeftUp_0.png
+  artifactKey: Guid(39a7a6abcf7dc264493a7ec1d99c33f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Gun/Main Gun/main gun_GunLeftUp_0.png using Guid(39a7a6abcf7dc264493a7ec1d99c33f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c4cc7ad41143ccc034c6fc0ebd539d1') in 0.008374 seconds
+  Import took 0.011384 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001107 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2352.
+Total: 1.824200 ms (FindLiveObjects: 0.177500 ms CreateObjectMapping: 0.042900 ms MarkObjects: 1.590100 ms  DeleteObjects: 0.012900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001099 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 1.990400 ms (FindLiveObjects: 0.192500 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.736100 ms  DeleteObjects: 0.015600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.946 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2358.
+Total: 2.113200 ms (FindLiveObjects: 0.223700 ms CreateObjectMapping: 0.047500 ms MarkObjects: 1.824400 ms  DeleteObjects: 0.016300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 639.453588 seconds.
+  path: Assets/Art/topdown_shooter
+  artifactKey: Guid(0e19067accc270c49996df9626048101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter using Guid(0e19067accc270c49996df9626048101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b302485f5a406878f4efa4740c7ea97d') in 0.010637 seconds
+  Import took 0.013920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.647231 seconds.
+  path: Assets/Art/topdown_shooter/cursors
+  artifactKey: Guid(f8fd6b0216055284b914d384c7eddb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors using Guid(f8fd6b0216055284b914d384c7eddb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3c67d99eba71e2037b52a589c182c2') in 0.006664 seconds
+  Import took 0.009594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.750169 seconds.
+  path: Assets/Art/topdown_shooter/characters
+  artifactKey: Guid(cff16861aa5eb9b46a9ca47350c4fe48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters using Guid(cff16861aa5eb9b46a9ca47350c4fe48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7951316a79952e48e4c6072412bedff') in 0.006767 seconds
+  Import took 0.009697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081114 seconds.
+  path: Assets/Art/topdown_shooter/characters/1.png
+  artifactKey: Guid(9cfe73be38bcb334082939f7b09350b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1.png using Guid(9cfe73be38bcb334082939f7b09350b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18aedb3c5262667f29ce8152abd69315') in 0.052457 seconds
+  Import took 0.055503 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Art/topdown_shooter/characters/3_diagup.png
+  artifactKey: Guid(4a2a819dae595a843843cdd60e953d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/3_diagup.png using Guid(4a2a819dae595a843843cdd60e953d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6620388e8e3f2bb873c2b36abf63bf1d') in 0.012992 seconds
+  Import took 0.016185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_north.png
+  artifactKey: Guid(81b573616a6d345489867280509b3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_north.png using Guid(81b573616a6d345489867280509b3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95d1cff369d79c947b50ec05bbbb2e5') in 0.013521 seconds
+  Import took 0.016451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Art/topdown_shooter/characters/3_side.png
+  artifactKey: Guid(e595f27affcfdf64783f20eddf94a82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/3_side.png using Guid(e595f27affcfdf64783f20eddf94a82c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfe999f6467cb0659c9cad278a2a293') in 0.013398 seconds
+  Import took 0.016318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_side.png
+  artifactKey: Guid(b40262fbde86dac4f819936624fd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_side.png using Guid(b40262fbde86dac4f819936624fd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212b386747a00402b43c994548942bab') in 0.010528 seconds
+  Import took 0.013534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Art/topdown_shooter/characters/3_south2.png
+  artifactKey: Guid(27ea26d33d89a1f498b443228bdccda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/3_south2.png using Guid(27ea26d33d89a1f498b443228bdccda7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f37aea0818cd98331c300a3f84e53e8b') in 0.013437 seconds
+  Import took 0.016253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Art/topdown_shooter/characters/3_south.png
+  artifactKey: Guid(155e11f2bf3ac2a42b8a28fc511b00d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/3_south.png using Guid(155e11f2bf3ac2a42b8a28fc511b00d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab489accdaf7b15f14229ab1e426c3a') in 0.012958 seconds
+  Import took 0.015875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagdown.png
+  artifactKey: Guid(5d797b23276a0de4f9c4c8f30891a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagdown.png using Guid(5d797b23276a0de4f9c4c8f30891a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28409c23fab35b67a16f29ee787539eb') in 0.012751 seconds
+  Import took 0.016332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_south.png
+  artifactKey: Guid(7d73b03e693333c41b9b33b09d17efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_south.png using Guid(7d73b03e693333c41b9b33b09d17efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462cafe2467981406f3a73c92aa1a57f') in 0.012868 seconds
+  Import took 0.016206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_south2.png
+  artifactKey: Guid(a733dd80185e00942a01976c6672d20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_south2.png using Guid(a733dd80185e00942a01976c6672d20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f27a3cbc8a6e945acfd5629f678b5b4b') in 0.012105 seconds
+  Import took 0.015029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Art/topdown_shooter/characters/2.png
+  artifactKey: Guid(6d7fa713ccd67774487c5d6b0a907dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/2.png using Guid(6d7fa713ccd67774487c5d6b0a907dd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf368e966ed6a030c3c9bc0f329033a0') in 0.013012 seconds
+  Import took 0.015940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/Art/topdown_shooter/characters/2_south.png
+  artifactKey: Guid(fb007633da34d734bb13ab1599bcb64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/2_south.png using Guid(fb007633da34d734bb13ab1599bcb64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0baa96b20d11ff8d2627fdf6bdb8abb') in 0.012425 seconds
+  Import took 0.015388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Art/topdown_shooter/characters/2_side.png
+  artifactKey: Guid(e30178d7dc6532949b5b2bba04ae88c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/2_side.png using Guid(e30178d7dc6532949b5b2bba04ae88c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f7e549dddad4fe7e003c7cc8950edc') in 0.013673 seconds
+  Import took 0.016373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Art/topdown_shooter/characters/2_north.png
+  artifactKey: Guid(f917bd7454fc5024bad2ca60a2e84fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/2_north.png using Guid(f917bd7454fc5024bad2ca60a2e84fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d3e3b5f38f7dce0c83a41870d14baa') in 0.010856 seconds
+  Import took 0.013808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Art/topdown_shooter/characters/2_south2.png
+  artifactKey: Guid(f65ae1e7a56d2564cba7a888b096c63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/2_south2.png using Guid(f65ae1e7a56d2564cba7a888b096c63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5a3cb2d1f513626b818fd1e199979d') in 0.012899 seconds
+  Import took 0.015555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Art/topdown_shooter/characters/3.png
+  artifactKey: Guid(49e4568f61ad7d549bbda6590c086fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/3.png using Guid(49e4568f61ad7d549bbda6590c086fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a8b4ef673b3b6ae6ba9d23123a21a1') in 0.027009 seconds
+  Import took 0.030101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Art/topdown_shooter/characters/3_diagdown.png
+  artifactKey: Guid(db0aad533e0da7647abbd596d1f1f1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/3_diagdown.png using Guid(db0aad533e0da7647abbd596d1f1f1b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251238d15e0eea9a68cc96b6ed465566') in 0.012859 seconds
+  Import took 0.015873 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Art/topdown_shooter/characters/2_diagup.png
+  artifactKey: Guid(d9d98846c227953438942fa393fb2b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/2_diagup.png using Guid(d9d98846c227953438942fa393fb2b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e283d51dbfec4de26d47b076a874c28') in 0.015018 seconds
+  Import took 0.018313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Art/topdown_shooter/characters/2_diagdown.png
+  artifactKey: Guid(4344ea732fbedb64bb7e97df87f46ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/2_diagdown.png using Guid(4344ea732fbedb64bb7e97df87f46ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e447598a942070130948d3a1947e4d06') in 0.015476 seconds
+  Import took 0.019440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Art/topdown_shooter/characters/3_north.png
+  artifactKey: Guid(b750471ae7dc1e0409fb53e62b98c65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/3_north.png using Guid(b750471ae7dc1e0409fb53e62b98c65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62b6700d4b1b9f12d0d518e33f58b1f') in 0.020229 seconds
+  Import took 0.023905 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagup.png
+  artifactKey: Guid(f435717b509c32d47a1f3c7b3afbf599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagup.png using Guid(f435717b509c32d47a1f3c7b3afbf599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c40de6485d5584946a17d22a8ad0464') in 0.013337 seconds
+  Import took 0.017399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.876615 seconds.
+  path: Assets/Art/topdown_shooter/other
+  artifactKey: Guid(abcbf78539e913e49a74d70e076caaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other using Guid(abcbf78539e913e49a74d70e076caaec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb1f71d9b4a64fe74b3324e6d02b582') in 0.007124 seconds
+  Import took 0.010111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076990 seconds.
+  path: Assets/Art/topdown_shooter/other/base.png
+  artifactKey: Guid(25e1e145552113449b50f2947894339f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/base.png using Guid(25e1e145552113449b50f2947894339f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9e224cfc666fe577c2b788595412fb') in 0.013279 seconds
+  Import took 0.016277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art/topdown_shooter/other/crystal1.png
+  artifactKey: Guid(c32500d0cb354b743b76b849954e6bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/crystal1.png using Guid(c32500d0cb354b743b76b849954e6bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bc6d6a9d78e2c74c3ff08a6b7928cc') in 0.014166 seconds
+  Import took 0.017226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Art/topdown_shooter/other/bulleta.png
+  artifactKey: Guid(d9939d9843299ea4bbf056810fead7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/bulleta.png using Guid(d9939d9843299ea4bbf056810fead7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adbff56e0c34d66fe78aae42c0f4711') in 0.015296 seconds
+  Import took 0.018264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Art/topdown_shooter/other/bulletb.png
+  artifactKey: Guid(e8418103e5afd9e419585858066354bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/bulletb.png using Guid(e8418103e5afd9e419585858066354bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b60b8f0274531a33829666576077700') in 0.013884 seconds
+  Import took 0.017420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Art/topdown_shooter/other/bulletc.png
+  artifactKey: Guid(ee6d1cda78f65fe4b86257599f1bcdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/bulletc.png using Guid(ee6d1cda78f65fe4b86257599f1bcdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae16d94e0149ea992da88a4d40ec31f4') in 0.014011 seconds
+  Import took 0.016933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Art/topdown_shooter/other/cannonball.png
+  artifactKey: Guid(266d33f0ca9dc3041a0cb3952bdc565a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/cannonball.png using Guid(266d33f0ca9dc3041a0cb3952bdc565a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527cdcb722520ca334d4eb7344d6ab03') in 0.014511 seconds
+  Import took 0.017539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Art/topdown_shooter/other/cat.png
+  artifactKey: Guid(f54fb10ad7cfd6645916958797f00ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/cat.png using Guid(f54fb10ad7cfd6645916958797f00ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd8c0741ea068aeca7f5d11c0277cb2d') in 0.014476 seconds
+  Import took 0.017993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Art/topdown_shooter/other/explode2.png
+  artifactKey: Guid(0b9bea350de9eb84d9ce367b1b1af2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/explode2.png using Guid(0b9bea350de9eb84d9ce367b1b1af2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80f91ef11f7a34adab259d391f0e41cc') in 0.012830 seconds
+  Import took 0.016052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Art/topdown_shooter/other/rocket.png
+  artifactKey: Guid(bea110483efa6614c8f0947787342ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/rocket.png using Guid(bea110483efa6614c8f0947787342ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63f67bd466f7818d41a25889f255fb02') in 0.014748 seconds
+  Import took 0.018493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Art/topdown_shooter/other/speedflames.png
+  artifactKey: Guid(9f8965b406b12754c823a8eda4666400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/speedflames.png using Guid(9f8965b406b12754c823a8eda4666400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ed4315a4a69e5378a768496ed339af') in 0.013610 seconds
+  Import took 0.017018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Art/topdown_shooter/other/mine1.png
+  artifactKey: Guid(9aba4f4631955ac48b4f82e5248ada71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/mine1.png using Guid(9aba4f4631955ac48b4f82e5248ada71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbeb3b23375452a8167dc99c3cfb34a8') in 0.014625 seconds
+  Import took 0.017624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Art/topdown_shooter/other/icon1.png
+  artifactKey: Guid(1b989a0383a15584fbb67f3cc076ae1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/icon1.png using Guid(1b989a0383a15584fbb67f3cc076ae1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa0b4aaaeafbf053b96b2292990b4b5') in 0.013228 seconds
+  Import took 0.016278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Art/topdown_shooter/other/mine2.png
+  artifactKey: Guid(fe19f62c62e70144485999d7e7866dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/mine2.png using Guid(fe19f62c62e70144485999d7e7866dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6f84dc756e945bff2acfa227f46346') in 0.015126 seconds
+  Import took 0.018637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Art/topdown_shooter/other/coin1.png
+  artifactKey: Guid(f9f7da26ae34c8b49abbce024fc622cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/coin1.png using Guid(f9f7da26ae34c8b49abbce024fc622cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9416630ffd83d928b8ece1618c4f0fe5') in 0.015956 seconds
+  Import took 0.020152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Art/topdown_shooter/other/shockwave.png
+  artifactKey: Guid(af4a639f113402148ae2e7e4af80a26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/shockwave.png using Guid(af4a639f113402148ae2e7e4af80a26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43ba6877c4101cc8b973437cabe81b7') in 0.017720 seconds
+  Import took 0.022189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Art/topdown_shooter/other/powerup.png
+  artifactKey: Guid(04899a70d6f5edb40a565a730d5f8a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/powerup.png using Guid(04899a70d6f5edb40a565a730d5f8a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb68de6196cb16dd74c935bc01e5c28e') in 0.018779 seconds
+  Import took 0.022729 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Art/topdown_shooter/other/microwave.png
+  artifactKey: Guid(b41db93078741d045ac104754a29193b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/microwave.png using Guid(b41db93078741d045ac104754a29193b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45dae28e92765cfa0f78c74e96b447ff') in 0.018656 seconds
+  Import took 0.022096 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Art/topdown_shooter/other/icon2.png
+  artifactKey: Guid(c5d90138d5789474ca30900b47137461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/icon2.png using Guid(c5d90138d5789474ca30900b47137461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dba1d781191626a5cd814604a51daaa') in 0.014573 seconds
+  Import took 0.018535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Art/topdown_shooter/other/icon3.png
+  artifactKey: Guid(a73b93c8d90d7e940b4fa48b9f8371bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/icon3.png using Guid(a73b93c8d90d7e940b4fa48b9f8371bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fea2c4456f75801f4ff4c592aec94b0') in 0.013386 seconds
+  Import took 0.016392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Art/topdown_shooter/other/cup.png
+  artifactKey: Guid(100d9b3831d2acc4d83d8abaa32bd860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/cup.png using Guid(100d9b3831d2acc4d83d8abaa32bd860) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9941224d8c5ae36e8cf005696480f777') in 0.014632 seconds
+  Import took 0.017941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Art/topdown_shooter/other/burning.png
+  artifactKey: Guid(b86f1c18ecfeddf4382f5f1970fc68b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/burning.png using Guid(b86f1c18ecfeddf4382f5f1970fc68b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1becbb5f6da317859ca9655ee90dacdd') in 0.014046 seconds
+  Import took 0.017329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Art/topdown_shooter/other/effect1.png
+  artifactKey: Guid(a162efe58e258154eab827e6d16ef3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/effect1.png using Guid(a162efe58e258154eab827e6d16ef3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a6894bdf83d81d8a2cca18d99a3db8e') in 0.014229 seconds
+  Import took 0.017550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Art/topdown_shooter/other/bullet_onion.png
+  artifactKey: Guid(a23224d8b7c2d1b438e9a2c8583e76ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/bullet_onion.png using Guid(a23224d8b7c2d1b438e9a2c8583e76ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c1c5c7021fc85d2a4ebc1a3aa116d04') in 0.016838 seconds
+  Import took 0.020936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Art/topdown_shooter/other/coin2.png
+  artifactKey: Guid(64ffb207bf8fb194c92fd32942a5d5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/coin2.png using Guid(64ffb207bf8fb194c92fd32942a5d5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a07f16a73ff983f79462f1992143887') in 0.018840 seconds
+  Import took 0.023517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Art/topdown_shooter/other/flamethrower_bullet.png
+  artifactKey: Guid(9b1aa95a43d76914890f743610c6ee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/flamethrower_bullet.png using Guid(9b1aa95a43d76914890f743610c6ee54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2342320ca4e140e1710c808f72a1a181') in 0.016097 seconds
+  Import took 0.019400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Art/topdown_shooter/other/explode1.png
+  artifactKey: Guid(3fef2c79a7f44d641acacee25d798785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/explode1.png using Guid(3fef2c79a7f44d641acacee25d798785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '102c29ebd5b8a2208342bb3b2bcc2e10') in 0.017551 seconds
+  Import took 0.021713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Art/topdown_shooter/other/mine_drop.png
+  artifactKey: Guid(0603576fb4707434d875e16f33206c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/mine_drop.png using Guid(0603576fb4707434d875e16f33206c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa6b2518ede3376a4ec52da83ccc404') in 0.018359 seconds
+  Import took 0.022101 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Art/topdown_shooter/other/effect2.png
+  artifactKey: Guid(d0f6a739c55dede439c283d295f46f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/effect2.png using Guid(d0f6a739c55dede439c283d295f46f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e380472be2b2cb6d92dfef15df3b6d55') in 0.015721 seconds
+  Import took 0.018764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Art/topdown_shooter/other/bullet_tomato.png
+  artifactKey: Guid(340071be3a3c8a7499cdcbb80094e5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/bullet_tomato.png using Guid(340071be3a3c8a7499cdcbb80094e5d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2f85342637ac920d9b48487d833ad2') in 0.015134 seconds
+  Import took 0.017878 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Art/topdown_shooter/other/catscratch.png
+  artifactKey: Guid(92f8a21308b1c6d46868e9bc018eadc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/catscratch.png using Guid(92f8a21308b1c6d46868e9bc018eadc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd221c558b5a437d4220b83fd78d476') in 0.014459 seconds
+  Import took 0.017589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Art/topdown_shooter/other/bulletd.png
+  artifactKey: Guid(16ef7577701a38047a0c7092d5d49ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/other/bulletd.png using Guid(16ef7577701a38047a0c7092d5d49ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e510862fcfb9b4a23d40300b692cc01') in 0.014388 seconds
+  Import took 0.017643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.923451 seconds.
+  path: Assets/Art/topdown_shooter/towers
+  artifactKey: Guid(372abb1727e4f914e95ceeb0e8411d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/towers using Guid(372abb1727e4f914e95ceeb0e8411d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9633aa0b16eb858d812e59dbf7e0986') in 0.007490 seconds
+  Import took 0.010413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.913227 seconds.
+  path: Assets/Art/topdown_shooter/guns
+  artifactKey: Guid(504ad6880f6a6ab4388c3ea37d3066d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns using Guid(504ad6880f6a6ab4388c3ea37d3066d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa435994eca6bb62560d5b74e9036da3') in 0.009399 seconds
+  Import took 0.012914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.357477 seconds.
+  path: Assets/Art/topdown_shooter/guns/flamthrower
+  artifactKey: Guid(4525514668739d24394b91669c62c2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/flamthrower using Guid(4525514668739d24394b91669c62c2f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b491cafa6a67a45a5fcf1520362ab57') in 0.008801 seconds
+  Import took 0.011857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082058 seconds.
+  path: Assets/Art/topdown_shooter/guns/flamthrower/flamethrower_diagdown.png
+  artifactKey: Guid(4388ee48a8ec5f9409f450afaf1f7cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/flamthrower/flamethrower_diagdown.png using Guid(4388ee48a8ec5f9409f450afaf1f7cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b99791afc198a36a454a698d61e4b1e') in 0.011286 seconds
+  Import took 0.014516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Art/topdown_shooter/guns/flamthrower/flamethrower_down.png
+  artifactKey: Guid(37634ff4148b9de48ab93ea3546d8c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/flamthrower/flamethrower_down.png using Guid(37634ff4148b9de48ab93ea3546d8c90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65293b4299b5d02fded6d3a35f3ee71') in 0.012719 seconds
+  Import took 0.015748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Art/topdown_shooter/guns/flamthrower/flamethrower_up.png
+  artifactKey: Guid(eaa4f967794e73848b3794edd8056054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/flamthrower/flamethrower_up.png using Guid(eaa4f967794e73848b3794edd8056054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfdca3b8165ad3dd9963834f64eab20') in 0.013365 seconds
+  Import took 0.016412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Art/topdown_shooter/guns/flamthrower/flamethrower_diagup.png
+  artifactKey: Guid(63ad343379d450c43bc93ff4ceae5a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/flamthrower/flamethrower_diagup.png using Guid(63ad343379d450c43bc93ff4ceae5a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd17474cb21a304c9df9e3ba0a3293ea') in 0.014401 seconds
+  Import took 0.017419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Art/topdown_shooter/guns/flamthrower/flamethrower_side.png
+  artifactKey: Guid(7765f080d06ac3242bc18e34aca17a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/flamthrower/flamethrower_side.png using Guid(7765f080d06ac3242bc18e34aca17a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28fceda916a16e3b12488b92490893e') in 0.015177 seconds
+  Import took 0.018317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.287234 seconds.
+  path: Assets/Art/topdown_shooter/guns/cannon
+  artifactKey: Guid(38fbbeb8503930543905a5977713b21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/cannon using Guid(38fbbeb8503930543905a5977713b21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996d38dd88c9e63d2473472194a5b7e1') in 0.006743 seconds
+  Import took 0.009690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061039 seconds.
+  path: Assets/Art/topdown_shooter/guns/cannon/cannon_diagdown.png
+  artifactKey: Guid(d3cd75ef777babc478bf190d008d871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/cannon/cannon_diagdown.png using Guid(d3cd75ef777babc478bf190d008d871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63658c3973a64d9f6c66575e22a8d0a6') in 0.400935 seconds
+  Import took 0.403936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Art/topdown_shooter/guns/cannon/cannon_diagup.png
+  artifactKey: Guid(1275ecbd0fc843341b363d00912d840c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/cannon/cannon_diagup.png using Guid(1275ecbd0fc843341b363d00912d840c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '221df4e2703252cf0aa5da0988a9479e') in 0.012770 seconds
+  Import took 0.015786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Art/topdown_shooter/guns/cannon/cannon_down.png
+  artifactKey: Guid(2ffcd90e33ed42744b8eaa951df6f885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/cannon/cannon_down.png using Guid(2ffcd90e33ed42744b8eaa951df6f885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a70e4ad2a8e6d5a28ad51ea1be668f94') in 0.014495 seconds
+  Import took 0.017448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Art/topdown_shooter/guns/cannon/cannon_up.png
+  artifactKey: Guid(d8d1afdb1ed7d6b4fafdb56222e11672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/cannon/cannon_up.png using Guid(d8d1afdb1ed7d6b4fafdb56222e11672) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a0fe88fb2ea22593e22cca9efc7cfa4') in 0.012243 seconds
+  Import took 0.016005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Art/topdown_shooter/guns/cannon/cannon_side.png
+  artifactKey: Guid(dae5123c7b9a70e4fb93554284921d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/cannon/cannon_side.png using Guid(dae5123c7b9a70e4fb93554284921d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a99c0afa25cfa9c5acdbaf19762342') in 0.012742 seconds
+  Import took 0.016182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.886414 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_north.png
+  artifactKey: Guid(81b573616a6d345489867280509b3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_north.png using Guid(81b573616a6d345489867280509b3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38acc73fcdbe1d93f05eecd4e459315') in 0.008664 seconds
+  Import took 0.011829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010671 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagdown.png
+  artifactKey: Guid(5d797b23276a0de4f9c4c8f30891a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagdown.png using Guid(5d797b23276a0de4f9c4c8f30891a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d40a72cf6b0f98b7df3913a5fc5aefe') in 0.007719 seconds
+  Import took 0.011255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_side.png
+  artifactKey: Guid(b40262fbde86dac4f819936624fd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_side.png using Guid(b40262fbde86dac4f819936624fd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c56bd414af1ed1d46b82c0ea9c294df9') in 0.010224 seconds
+  Import took 0.013568 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_south.png
+  artifactKey: Guid(7d73b03e693333c41b9b33b09d17efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_south.png using Guid(7d73b03e693333c41b9b33b09d17efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d598759f0e2894ca9e5cd3fae1371b0') in 0.009771 seconds
+  Import took 0.014377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_south2.png
+  artifactKey: Guid(a733dd80185e00942a01976c6672d20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_south2.png using Guid(a733dd80185e00942a01976c6672d20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db26f780b3c3aec0ab7853df928eb10') in 0.014012 seconds
+  Import took 0.017739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagup.png
+  artifactKey: Guid(f435717b509c32d47a1f3c7b3afbf599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagup.png using Guid(f435717b509c32d47a1f3c7b3afbf599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6393d64d515ba83bb163313f8a45f184') in 0.010361 seconds
+  Import took 0.015044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.212229 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagdown.png
+  artifactKey: Guid(5d797b23276a0de4f9c4c8f30891a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagdown.png using Guid(5d797b23276a0de4f9c4c8f30891a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ad5c83612ade7b3ed5b2799b03b6be') in 0.008516 seconds
+  Import took 0.011787 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029685 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagdown.png
+  artifactKey: Guid(5d797b23276a0de4f9c4c8f30891a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagdown.png using Guid(5d797b23276a0de4f9c4c8f30891a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0ad5c83612ade7b3ed5b2799b03b6be') in 0.006778 seconds
+  Import took 0.010561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.960737 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagdown.png
+  artifactKey: Guid(5d797b23276a0de4f9c4c8f30891a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagdown.png using Guid(5d797b23276a0de4f9c4c8f30891a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376b89d1bfc828d587e0152cc65b7260') in 0.017421 seconds
+  Import took 0.020621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025333 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagdown.png
+  artifactKey: Guid(5d797b23276a0de4f9c4c8f30891a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagdown.png using Guid(5d797b23276a0de4f9c4c8f30891a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376b89d1bfc828d587e0152cc65b7260') in 0.012476 seconds
+  Import took 0.015522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.964015 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagup.png
+  artifactKey: Guid(f435717b509c32d47a1f3c7b3afbf599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagup.png using Guid(f435717b509c32d47a1f3c7b3afbf599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dc223bf9331389e60425a50fe057e4f') in 0.011650 seconds
+  Import took 0.016030 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_north.png
+  artifactKey: Guid(81b573616a6d345489867280509b3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_north.png using Guid(81b573616a6d345489867280509b3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133d698ff496b557875c5e971e98afb9') in 0.009220 seconds
+  Import took 0.012726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_side.png
+  artifactKey: Guid(b40262fbde86dac4f819936624fd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_side.png using Guid(b40262fbde86dac4f819936624fd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4419f427588cfaeeaa51e1b3be196012') in 0.009139 seconds
+  Import took 0.012041 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_south.png
+  artifactKey: Guid(7d73b03e693333c41b9b33b09d17efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_south.png using Guid(7d73b03e693333c41b9b33b09d17efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0a61c19f08f5970c849c1548a017e6') in 0.009108 seconds
+  Import took 0.012467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_north.png
+  artifactKey: Guid(81b573616a6d345489867280509b3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_north.png using Guid(81b573616a6d345489867280509b3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133d698ff496b557875c5e971e98afb9') in 0.006109 seconds
+  Import took 0.009710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_south2.png
+  artifactKey: Guid(a733dd80185e00942a01976c6672d20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_south2.png using Guid(a733dd80185e00942a01976c6672d20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9060e712cef5cb5a511f420b8632fbf6') in 0.008908 seconds
+  Import took 0.011708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.995307 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagup.png
+  artifactKey: Guid(f435717b509c32d47a1f3c7b3afbf599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagup.png using Guid(f435717b509c32d47a1f3c7b3afbf599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534e599bd5d32f25e969948573661628') in 0.014989 seconds
+  Import took 0.018613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026105 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagup.png
+  artifactKey: Guid(f435717b509c32d47a1f3c7b3afbf599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagup.png using Guid(f435717b509c32d47a1f3c7b3afbf599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534e599bd5d32f25e969948573661628') in 0.013212 seconds
+  Import took 0.016274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.976253 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_north.png
+  artifactKey: Guid(81b573616a6d345489867280509b3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_north.png using Guid(81b573616a6d345489867280509b3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e443fdf725d523a0965172344c8271e7') in 0.016855 seconds
+  Import took 0.020081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027636 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_north.png
+  artifactKey: Guid(81b573616a6d345489867280509b3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_north.png using Guid(81b573616a6d345489867280509b3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e443fdf725d523a0965172344c8271e7') in 0.014613 seconds
+  Import took 0.017812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.879450 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_side.png
+  artifactKey: Guid(b40262fbde86dac4f819936624fd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_side.png using Guid(b40262fbde86dac4f819936624fd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600e9dede8d116dd9ea4e328f05b6cd1') in 0.016280 seconds
+  Import took 0.019476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023917 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_side.png
+  artifactKey: Guid(b40262fbde86dac4f819936624fd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_side.png using Guid(b40262fbde86dac4f819936624fd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600e9dede8d116dd9ea4e328f05b6cd1') in 0.014838 seconds
+  Import took 0.017942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.140121 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_south.png
+  artifactKey: Guid(7d73b03e693333c41b9b33b09d17efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_south.png using Guid(7d73b03e693333c41b9b33b09d17efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289fe6f92a69fec23c7bde316eb30a9d') in 0.014700 seconds
+  Import took 0.017809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025725 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_south.png
+  artifactKey: Guid(7d73b03e693333c41b9b33b09d17efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_south.png using Guid(7d73b03e693333c41b9b33b09d17efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289fe6f92a69fec23c7bde316eb30a9d') in 0.014108 seconds
+  Import took 0.017199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.878685 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_south2.png
+  artifactKey: Guid(a733dd80185e00942a01976c6672d20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_south2.png using Guid(a733dd80185e00942a01976c6672d20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc385fb82aea8ccd966416819aa5a08') in 0.014483 seconds
+  Import took 0.017615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025763 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_south2.png
+  artifactKey: Guid(a733dd80185e00942a01976c6672d20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_south2.png using Guid(a733dd80185e00942a01976c6672d20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cc385fb82aea8ccd966416819aa5a08') in 0.015255 seconds
+  Import took 0.019218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.850903 seconds.
+  path: Assets/Art/topdown_shooter/characters/1.png
+  artifactKey: Guid(9cfe73be38bcb334082939f7b09350b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1.png using Guid(9cfe73be38bcb334082939f7b09350b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825ac6e5514898a9c83e7b3b29c15f76') in 0.007248 seconds
+  Import took 0.010449 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030218 seconds.
+  path: Assets/Art/topdown_shooter/characters/1.png
+  artifactKey: Guid(9cfe73be38bcb334082939f7b09350b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1.png using Guid(9cfe73be38bcb334082939f7b09350b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '825ac6e5514898a9c83e7b3b29c15f76') in 0.007802 seconds
+  Import took 0.010875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.570397 seconds.
+  path: Assets/Animation/Player2/Player.controller
+  artifactKey: Guid(8f3068cb46a59b94d82e0cde0e462dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player2/Player.controller using Guid(8f3068cb46a59b94d82e0cde0e462dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73858586eef49b471e1e48d5381113ac') in 0.008571 seconds
+  Import took 0.011681 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.933 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2454.
+Total: 2.023800 ms (FindLiveObjects: 0.195500 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.764400 ms  DeleteObjects: 0.016800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001172 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2457.
+Total: 2.149700 ms (FindLiveObjects: 0.298100 ms CreateObjectMapping: 0.059400 ms MarkObjects: 1.774500 ms  DeleteObjects: 0.016600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 237.224951 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_north.png
+  artifactKey: Guid(81b573616a6d345489867280509b3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_north.png using Guid(81b573616a6d345489867280509b3e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acba5994ae15771ecae35448b6dd222c') in 0.064176 seconds
+  Import took 0.067572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_side.png
+  artifactKey: Guid(b40262fbde86dac4f819936624fd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_side.png using Guid(b40262fbde86dac4f819936624fd016d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7458a9650795a85d89c10c2893d52a') in 0.012123 seconds
+  Import took 0.015210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagdown.png
+  artifactKey: Guid(5d797b23276a0de4f9c4c8f30891a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagdown.png using Guid(5d797b23276a0de4f9c4c8f30891a2bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b69d4dc65cec5194afa48ab8aecb3c1') in 0.019611 seconds
+  Import took 0.022845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_south.png
+  artifactKey: Guid(7d73b03e693333c41b9b33b09d17efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_south.png using Guid(7d73b03e693333c41b9b33b09d17efa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ef93830d72a9f0a81998b9d978cb8b') in 0.012782 seconds
+  Import took 0.015852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Art/topdown_shooter/characters/1.png
+  artifactKey: Guid(9cfe73be38bcb334082939f7b09350b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1.png using Guid(9cfe73be38bcb334082939f7b09350b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824674cce122774c07f3141a3308d2eb') in 0.010779 seconds
+  Import took 0.014446 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_south2.png
+  artifactKey: Guid(a733dd80185e00942a01976c6672d20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_south2.png using Guid(a733dd80185e00942a01976c6672d20d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e77e0a8c99d44f54cec28aba2054bd99') in 0.015485 seconds
+  Import took 0.020778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000648 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagup.png
+  artifactKey: Guid(f435717b509c32d47a1f3c7b3afbf599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagup.png using Guid(f435717b509c32d47a1f3c7b3afbf599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9957abad9d1ab4cdb17d360ea6a1b138') in 0.015210 seconds
+  Import took 0.019740 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001439 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.966 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2461.
+Total: 2.006800 ms (FindLiveObjects: 0.196900 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.747100 ms  DeleteObjects: 0.016500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 379.992560 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagdownLeft.png
+  artifactKey: Guid(f67bc313862b47646b70c8287fb93eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagdownLeft.png using Guid(f67bc313862b47646b70c8287fb93eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5ced647aa76fb2d0175403ca40827b') in 0.059435 seconds
+  Import took 0.063090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_sideLeft.png
+  artifactKey: Guid(9d5f995e8453fd441992a0f62d2290f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_sideLeft.png using Guid(9d5f995e8453fd441992a0f62d2290f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd67dfb242a9f86cb170c71230de3f8') in 0.025384 seconds
+  Import took 0.028517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagupLeft.png
+  artifactKey: Guid(f2f014601987cb443b7d9b3061ec4d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagupLeft.png using Guid(f2f014601987cb443b7d9b3061ec4d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e039e2d718cfc9abd865cd17a329a624') in 0.012793 seconds
+  Import took 0.015841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.032199 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagdownLeft.png
+  artifactKey: Guid(f67bc313862b47646b70c8287fb93eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagdownLeft.png using Guid(f67bc313862b47646b70c8287fb93eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a97839ecf8a25077f2ab4dd0c156899') in 0.007013 seconds
+  Import took 0.010755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030052 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagdownLeft.png
+  artifactKey: Guid(f67bc313862b47646b70c8287fb93eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagdownLeft.png using Guid(f67bc313862b47646b70c8287fb93eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a97839ecf8a25077f2ab4dd0c156899') in 0.008133 seconds
+  Import took 0.011332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.614567 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagdownLeft.png
+  artifactKey: Guid(f67bc313862b47646b70c8287fb93eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagdownLeft.png using Guid(f67bc313862b47646b70c8287fb93eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf0d7c3204bebd8ce0b0c519dcd1c8d') in 0.008477 seconds
+  Import took 0.011640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028814 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagdownLeft.png
+  artifactKey: Guid(f67bc313862b47646b70c8287fb93eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagdownLeft.png using Guid(f67bc313862b47646b70c8287fb93eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf0d7c3204bebd8ce0b0c519dcd1c8d') in 0.005647 seconds
+  Import took 0.008597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.519169 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagdownLeft.png
+  artifactKey: Guid(f67bc313862b47646b70c8287fb93eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagdownLeft.png using Guid(f67bc313862b47646b70c8287fb93eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55786a217ce2c73dac1aaa86340e2262') in 0.018226 seconds
+  Import took 0.021935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022829 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagdownLeft.png
+  artifactKey: Guid(f67bc313862b47646b70c8287fb93eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagdownLeft.png using Guid(f67bc313862b47646b70c8287fb93eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55786a217ce2c73dac1aaa86340e2262') in 0.013442 seconds
+  Import took 0.016748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.205595 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagupLeft.png
+  artifactKey: Guid(f2f014601987cb443b7d9b3061ec4d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagupLeft.png using Guid(f2f014601987cb443b7d9b3061ec4d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5b814c76f08d2a98daa6e164e2403e') in 0.009030 seconds
+  Import took 0.012618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029300 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagupLeft.png
+  artifactKey: Guid(f2f014601987cb443b7d9b3061ec4d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagupLeft.png using Guid(f2f014601987cb443b7d9b3061ec4d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5b814c76f08d2a98daa6e164e2403e') in 0.005484 seconds
+  Import took 0.008541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.546337 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagupLeft.png
+  artifactKey: Guid(f2f014601987cb443b7d9b3061ec4d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagupLeft.png using Guid(f2f014601987cb443b7d9b3061ec4d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c571f36af03caa5962400f9b9af43dda') in 0.015182 seconds
+  Import took 0.018401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025598 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagupLeft.png
+  artifactKey: Guid(f2f014601987cb443b7d9b3061ec4d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagupLeft.png using Guid(f2f014601987cb443b7d9b3061ec4d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c571f36af03caa5962400f9b9af43dda') in 0.013160 seconds
+  Import took 0.016150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.902746 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_sideLeft.png
+  artifactKey: Guid(9d5f995e8453fd441992a0f62d2290f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_sideLeft.png using Guid(9d5f995e8453fd441992a0f62d2290f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296bad69989f4e69e3597cd4ba60d730') in 0.008682 seconds
+  Import took 0.011781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027784 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_sideLeft.png
+  artifactKey: Guid(9d5f995e8453fd441992a0f62d2290f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_sideLeft.png using Guid(9d5f995e8453fd441992a0f62d2290f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296bad69989f4e69e3597cd4ba60d730') in 0.005552 seconds
+  Import took 0.008569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.101781 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_sideLeft.png
+  artifactKey: Guid(9d5f995e8453fd441992a0f62d2290f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_sideLeft.png using Guid(9d5f995e8453fd441992a0f62d2290f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552e7c6fefcc4804570a907a3189e0b2') in 0.015113 seconds
+  Import took 0.018762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.031233 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_sideLeft.png
+  artifactKey: Guid(9d5f995e8453fd441992a0f62d2290f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_sideLeft.png using Guid(9d5f995e8453fd441992a0f62d2290f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552e7c6fefcc4804570a907a3189e0b2') in 0.014537 seconds
+  Import took 0.017553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 253.454874 seconds.
+  path: Assets/Art/topdown_shooter/guns/mg
+  artifactKey: Guid(d60e3968223593646baa8a779e7b5bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/mg using Guid(d60e3968223593646baa8a779e7b5bbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb54b6163d87d2333763bb2a689a219') in 0.007428 seconds
+  Import took 0.010552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075099 seconds.
+  path: Assets/Art/topdown_shooter/guns/mg/mg_diagdown.png
+  artifactKey: Guid(0a9046058aa73d54188f922ae7076ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/mg/mg_diagdown.png using Guid(0a9046058aa73d54188f922ae7076ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab1423a8a6ab0cc4f9015a6165c33b57') in 0.012410 seconds
+  Import took 0.015394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Art/topdown_shooter/guns/mg/mg_up.png
+  artifactKey: Guid(c759af7082ae36e46b5a413d078a18df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/mg/mg_up.png using Guid(c759af7082ae36e46b5a413d078a18df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37c43dd7092b66699ae8a8a23482639') in 0.013194 seconds
+  Import took 0.016084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Art/topdown_shooter/guns/mg/mg_down.png
+  artifactKey: Guid(198a4f67c329df544968d7b3c29d10fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/mg/mg_down.png using Guid(198a4f67c329df544968d7b3c29d10fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4444a041091907c6ba7a8c0f2a754e5') in 0.013800 seconds
+  Import took 0.016842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Art/topdown_shooter/guns/mg/mg_diagup.png
+  artifactKey: Guid(4b69a114bc0b62043b4c0ee8fcc3d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/mg/mg_diagup.png using Guid(4b69a114bc0b62043b4c0ee8fcc3d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32da487ade4d70bd0b85f08ff36f39b3') in 0.014419 seconds
+  Import took 0.017374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Art/topdown_shooter/guns/mg/mg_side.png
+  artifactKey: Guid(d626be3b5d199224fad37cd69af26972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/mg/mg_side.png using Guid(d626be3b5d199224fad37cd69af26972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6687f649b89cca4154a2fdce29a38731') in 0.013514 seconds
+  Import took 0.017069 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001694 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2471.
+Total: 2.263400 ms (FindLiveObjects: 0.203100 ms CreateObjectMapping: 0.061200 ms MarkObjects: 1.977700 ms  DeleteObjects: 0.020000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.009844 seconds.
+  path: Assets/Art/topdown_shooter/guns/spazer
+  artifactKey: Guid(2a02c2f554c42724e85743ad2ec21315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/spazer using Guid(2a02c2f554c42724e85743ad2ec21315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8603e40eabd3fe7eeecd992d2028543') in 0.010126 seconds
+  Import took 0.013153 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.082110 seconds.
+  path: Assets/Art/topdown_shooter/guns/spazer/spazer_diagdown.png
+  artifactKey: Guid(a08ecf381aa52f74a846a31c309b8645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/spazer/spazer_diagdown.png using Guid(a08ecf381aa52f74a846a31c309b8645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053a8278421f532da20d882a55775dd5') in 0.051480 seconds
+  Import took 0.054442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/topdown_shooter/guns/spazer/spazer_up.png
+  artifactKey: Guid(9ed1857aaa7fe1142a98349419c05276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/spazer/spazer_up.png using Guid(9ed1857aaa7fe1142a98349419c05276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13509d4bdd4c01db5e7cb56c2ccc71f1') in 0.028269 seconds
+  Import took 0.030976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Art/topdown_shooter/guns/spazer/spazer_diagup.png
+  artifactKey: Guid(7263faec87bd3d142ae14c48e093e24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/spazer/spazer_diagup.png using Guid(7263faec87bd3d142ae14c48e093e24c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547339eadd214b315a54e67c1e8d9c8d') in 0.012810 seconds
+  Import took 0.015798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Art/topdown_shooter/guns/spazer/spazer_down.png
+  artifactKey: Guid(0632b796787d3df4dae95bdf3880e321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/spazer/spazer_down.png using Guid(0632b796787d3df4dae95bdf3880e321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16990941f9d857d191ec0f509a9f38c9') in 0.017219 seconds
+  Import took 0.020293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Art/topdown_shooter/guns/spazer/spazer_side.png
+  artifactKey: Guid(be686b8173ce82941b5f32cd91ca2bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/spazer/spazer_side.png using Guid(be686b8173ce82941b5f32cd91ca2bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0318b4e8c1ba9f1ef8ac100574e999f') in 0.011428 seconds
+  Import took 0.014466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.605326 seconds.
+  path: Assets/Art/topdown_shooter/guns/readme.txt
+  artifactKey: Guid(e68973e16873bf3408b65c348abef648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/readme.txt using Guid(e68973e16873bf3408b65c348abef648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fa687da56f34991d2f106e99c591ea') in 0.011153 seconds
+  Import took 0.014069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.218178 seconds.
+  path: Assets/Art/topdown_shooter/guns/readme.txt
+  artifactKey: Guid(e68973e16873bf3408b65c348abef648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/readme.txt using Guid(e68973e16873bf3408b65c348abef648) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fa687da56f34991d2f106e99c591ea') in 0.002606 seconds
+  Import took 0.005710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.054279 seconds.
+  path: Assets/Art/topdown_shooter/guns/shotgun
+  artifactKey: Guid(3c8d7a4c981ee44408fe092b8c1e91cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/shotgun using Guid(3c8d7a4c981ee44408fe092b8c1e91cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b23e7bd7e205e5a7842bcb81f8b96a8') in 0.006682 seconds
+  Import took 0.009629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.115631 seconds.
+  path: Assets/Art/topdown_shooter/guns/shotgun/shot_diagdown.png
+  artifactKey: Guid(5cb58301095c2d84c8671908bfb97326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/shotgun/shot_diagdown.png using Guid(5cb58301095c2d84c8671908bfb97326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba44f38f4ea46cabb943f22d63defc25') in 0.010686 seconds
+  Import took 0.013613 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Art/topdown_shooter/guns/shotgun/shot_diagup.png
+  artifactKey: Guid(5f12ca56f27c55a4c9aefa1f6ea2cdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/shotgun/shot_diagup.png using Guid(5f12ca56f27c55a4c9aefa1f6ea2cdf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da405baee230287c765cac897e005378') in 0.011808 seconds
+  Import took 0.014553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Art/topdown_shooter/guns/shotgun/shot_down.png
+  artifactKey: Guid(db01fb33d37738c4e9454ba8ad00db6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/shotgun/shot_down.png using Guid(db01fb33d37738c4e9454ba8ad00db6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97abf399e865284f92e7a5ef3915a6a9') in 0.014530 seconds
+  Import took 0.017732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Art/topdown_shooter/guns/shotgun/shot_up.png
+  artifactKey: Guid(5a3019e909e792a4e983c2b90b3e87d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/shotgun/shot_up.png using Guid(5a3019e909e792a4e983c2b90b3e87d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93fc77d3e61feea09630912e6b9c7c0') in 0.011722 seconds
+  Import took 0.014633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art/topdown_shooter/guns/shotgun/shot_side.png
+  artifactKey: Guid(e7e3792a2d289ad4bae9d74fdd233fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/shotgun/shot_side.png using Guid(e7e3792a2d289ad4bae9d74fdd233fd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f68be2318ce13c5d1ffe48f1e5f56697') in 0.011077 seconds
+  Import took 0.014058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.786887 seconds.
+  path: Assets/Art/topdown_shooter/guns/laser
+  artifactKey: Guid(ba6ecb252fd1cc747adca1d464a51f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/laser using Guid(ba6ecb252fd1cc747adca1d464a51f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8647c0ca92b6d4377888643452e0b7d') in 0.006690 seconds
+  Import took 0.009923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120975 seconds.
+  path: Assets/Art/topdown_shooter/guns/laser/laser_diagdown.png
+  artifactKey: Guid(1874df3fb79535f40b5809bb72b1ddf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/laser/laser_diagdown.png using Guid(1874df3fb79535f40b5809bb72b1ddf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eec9469438bcc7bba925b44afb76d6d') in 0.011728 seconds
+  Import took 0.014703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Art/topdown_shooter/guns/laser/laser_diagup.png
+  artifactKey: Guid(3b41d7adedc077846beaf6308b1d8c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/laser/laser_diagup.png using Guid(3b41d7adedc077846beaf6308b1d8c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee1c9028be73f854b4154eb566e5a703') in 0.013349 seconds
+  Import took 0.016433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Art/topdown_shooter/guns/laser/laser_down.png
+  artifactKey: Guid(6b7e23c951905ec42b04ea284231d6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/laser/laser_down.png using Guid(6b7e23c951905ec42b04ea284231d6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc07b20ac5ed4e022197cbd81724de6c') in 0.012539 seconds
+  Import took 0.015783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art/topdown_shooter/guns/laser/laser_side.png
+  artifactKey: Guid(a0762da2d2053f243862eb2555b8dc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/laser/laser_side.png using Guid(a0762da2d2053f243862eb2555b8dc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1099bb5e9aa6cdde9d918ca0e3450769') in 0.013061 seconds
+  Import took 0.015986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art/topdown_shooter/guns/laser/laser_up.png
+  artifactKey: Guid(a47dc5e8471a4f3408ced1f4c9635fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/laser/laser_up.png using Guid(a47dc5e8471a4f3408ced1f4c9635fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225bb34f104c6c7ea6cf736dbd5aee93') in 0.011760 seconds
+  Import took 0.014793 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.222883 seconds.
+  path: Assets/Art/topdown_shooter/guns/laser/laser_diagdown.png
+  artifactKey: Guid(1874df3fb79535f40b5809bb72b1ddf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/laser/laser_diagdown.png using Guid(1874df3fb79535f40b5809bb72b1ddf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e989c7867a1ade71d43254ddf711f91') in 0.007658 seconds
+  Import took 0.011523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018871 seconds.
+  path: Assets/Art/topdown_shooter/guns/laser/laser_diagdown.png
+  artifactKey: Guid(1874df3fb79535f40b5809bb72b1ddf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/laser/laser_diagdown.png using Guid(1874df3fb79535f40b5809bb72b1ddf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e989c7867a1ade71d43254ddf711f91') in 0.007468 seconds
+  Import took 0.010538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Art/topdown_shooter/guns/laser/laser_diagup.png
+  artifactKey: Guid(3b41d7adedc077846beaf6308b1d8c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/laser/laser_diagup.png using Guid(3b41d7adedc077846beaf6308b1d8c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980cadac977a6285050da42d5d618611') in 0.007121 seconds
+  Import took 0.010203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Art/topdown_shooter/guns/laser/laser_down.png
+  artifactKey: Guid(6b7e23c951905ec42b04ea284231d6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/laser/laser_down.png using Guid(6b7e23c951905ec42b04ea284231d6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7448a51e94669f55ca2603982ba7d9f') in 0.007308 seconds
+  Import took 0.010177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Art/topdown_shooter/guns/laser/laser_side.png
+  artifactKey: Guid(a0762da2d2053f243862eb2555b8dc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/laser/laser_side.png using Guid(a0762da2d2053f243862eb2555b8dc95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d59e473714ad23129e0bd5ff9566e06') in 0.006692 seconds
+  Import took 0.009680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Art/topdown_shooter/guns/laser/laser_up.png
+  artifactKey: Guid(a47dc5e8471a4f3408ced1f4c9635fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/guns/laser/laser_up.png using Guid(a47dc5e8471a4f3408ced1f4c9635fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28221e30e227ad2d3099107095473fe3') in 0.008700 seconds
+  Import took 0.012423 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001174 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.954 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.5 MB.
+System memory in use after: 88.6 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2485.
+Total: 1.941600 ms (FindLiveObjects: 0.225600 ms CreateObjectMapping: 0.047500 ms MarkObjects: 1.652000 ms  DeleteObjects: 0.015500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 327.043975 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_sideLeftGun.png
+  artifactKey: Guid(3737cb3abc4e1664d948af23846ea056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_sideLeftGun.png using Guid(3737cb3abc4e1664d948af23846ea056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f861e40279702ddfa7dbc49ef1e78620') in 0.056110 seconds
+  Import took 0.059385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.816143 seconds.
+  path: Assets/Art/topdown_shooter/cursors/1crosshair.png
+  artifactKey: Guid(14b1ad3c103313d439a7d2db83fea9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/1crosshair.png using Guid(14b1ad3c103313d439a7d2db83fea9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f569b1feaee96f846db5999f082aad8b') in 0.864016 seconds
+  Import took 0.867114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Art/topdown_shooter/cursors/2crosshair2.png
+  artifactKey: Guid(a98767b29ac345a4d98062e5fc5a68f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/2crosshair2.png using Guid(a98767b29ac345a4d98062e5fc5a68f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d613d4f7b7cf41593e1010a0cd11db3') in 0.012992 seconds
+  Import took 0.016299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Art/topdown_shooter/cursors/6crosshair2.png
+  artifactKey: Guid(63d9db17d22a3f34ea0b35cdcfd03897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/6crosshair2.png using Guid(63d9db17d22a3f34ea0b35cdcfd03897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f42e0472e2256fc29c3a8f13dd20776') in 0.021607 seconds
+  Import took 0.025405 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Art/topdown_shooter/cursors/7crosshair.png
+  artifactKey: Guid(8859c87d088a4774c939565a0f1991fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/7crosshair.png using Guid(8859c87d088a4774c939565a0f1991fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0144486203c1d6b635e29e5cb9f9720e') in 0.014430 seconds
+  Import took 0.017562 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Art/topdown_shooter/cursors/8crosshair.png
+  artifactKey: Guid(03f35761d56f8304ba26688b54c5d7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/8crosshair.png using Guid(03f35761d56f8304ba26688b54c5d7d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6987d29dcd0726c0189ab88333b12e3') in 0.015879 seconds
+  Import took 0.018629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Art/topdown_shooter/cursors/8crosshair2.png
+  artifactKey: Guid(c2b83829f947b294288a10479f32fb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/8crosshair2.png using Guid(c2b83829f947b294288a10479f32fb0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842889263f1c2bde6db75ddda43d7ba8') in 0.012193 seconds
+  Import took 0.015304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Art/topdown_shooter/cursors/5crosshair2.png
+  artifactKey: Guid(4f13135168535a044a92efb453ca7576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/5crosshair2.png using Guid(4f13135168535a044a92efb453ca7576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f5eb7ef87983d03770d3bc0fb3c007d') in 0.012261 seconds
+  Import took 0.015402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/Art/topdown_shooter/cursors/3crosshair2.png
+  artifactKey: Guid(c5f1318cd4cdc4a46b985e1e67c60754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/3crosshair2.png using Guid(c5f1318cd4cdc4a46b985e1e67c60754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc4c6aa210816c42f3c03d71353ab98') in 0.012798 seconds
+  Import took 0.016188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Art/topdown_shooter/cursors/mouse_pointer.png
+  artifactKey: Guid(c075dcac3be58e44cadd7357497410d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/mouse_pointer.png using Guid(c075dcac3be58e44cadd7357497410d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884a6cd3bc886a2526ff0a58eb0f83ad') in 0.013538 seconds
+  Import took 0.016695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Art/topdown_shooter/cursors/9crosshair.png
+  artifactKey: Guid(02cd92b79ee2bbd4ca5c73dd42e605d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/9crosshair.png using Guid(02cd92b79ee2bbd4ca5c73dd42e605d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e10fc0fa08d93ae5bca560179be355') in 0.015207 seconds
+  Import took 0.018695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Art/topdown_shooter/cursors/2crosshair.png
+  artifactKey: Guid(aa386c75ed29db24888cc41628a98a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/2crosshair.png using Guid(aa386c75ed29db24888cc41628a98a50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f43eaf81cf2b980e23d8c585c1ad311') in 0.012670 seconds
+  Import took 0.015492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Art/topdown_shooter/cursors/4crosshair2.png
+  artifactKey: Guid(cb8f7a754512d0942a0733f6cb9c320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/4crosshair2.png using Guid(cb8f7a754512d0942a0733f6cb9c320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaeb748d345cefe2ffeec71774daf629') in 0.016738 seconds
+  Import took 0.019546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Art/topdown_shooter/cursors/7crosshair2.png
+  artifactKey: Guid(85f6cb204a51fb545b79f05bbdfe47d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/7crosshair2.png using Guid(85f6cb204a51fb545b79f05bbdfe47d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d2b5e0e0a39e9cffa5e7a83ae9fc16') in 0.011812 seconds
+  Import took 0.014669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Art/topdown_shooter/cursors/9crosshair2.png
+  artifactKey: Guid(e8d526da4e7ea4d46a9f3910ff0894a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/9crosshair2.png using Guid(e8d526da4e7ea4d46a9f3910ff0894a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0787aedc4a5090caef1bb2b4557a62c9') in 0.015856 seconds
+  Import took 0.019019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Art/topdown_shooter/cursors/6crosshair.png
+  artifactKey: Guid(539c2420acdfc0a43a3623ece55bcc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/6crosshair.png using Guid(539c2420acdfc0a43a3623ece55bcc91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53a1e65c000cacde0cd0851e5091106') in 0.016902 seconds
+  Import took 0.019909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Art/topdown_shooter/cursors/1crosshair2.png
+  artifactKey: Guid(c1eb8899718544e42b57032996c729a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/1crosshair2.png using Guid(c1eb8899718544e42b57032996c729a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397cbd6c72a3a2170e057877465db455') in 0.018239 seconds
+  Import took 0.021775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Art/topdown_shooter/cursors/5crosshair.png
+  artifactKey: Guid(2a8dd1ed0cecf2848b9676778cf4df26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/5crosshair.png using Guid(2a8dd1ed0cecf2848b9676778cf4df26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c36dafd9829d24c0376faadbf2d6be4') in 0.023297 seconds
+  Import took 0.027116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Art/topdown_shooter/cursors/3crosshair.png
+  artifactKey: Guid(f3f9a772aa3094342b528770c59c7ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/3crosshair.png using Guid(f3f9a772aa3094342b528770c59c7ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '058bb89206b959ebc930a35494b51023') in 0.015424 seconds
+  Import took 0.019201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Art/topdown_shooter/cursors/4crosshair.png
+  artifactKey: Guid(3c6cd183be34aea40bef93aa2da9230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/cursors/4crosshair.png using Guid(3c6cd183be34aea40bef93aa2da9230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6378aa0f809ec581084936c2bbaa36') in 0.018634 seconds
+  Import took 0.021789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.621146 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_sideLeftGun.png
+  artifactKey: Guid(3737cb3abc4e1664d948af23846ea056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_sideLeftGun.png using Guid(3737cb3abc4e1664d948af23846ea056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afec13e9bfa9d7cd437c2e5e8cf4603') in 0.008503 seconds
+  Import took 0.011577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.655064 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_sideLeftGun.png
+  artifactKey: Guid(3737cb3abc4e1664d948af23846ea056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_sideLeftGun.png using Guid(3737cb3abc4e1664d948af23846ea056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3a2b4f166464a13cab694f7f2723d5') in 0.016507 seconds
+  Import took 0.019851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000818 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_sideLeftGun.png
+  artifactKey: Guid(3737cb3abc4e1664d948af23846ea056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_sideLeftGun.png using Guid(3737cb3abc4e1664d948af23846ea056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a3a2b4f166464a13cab694f7f2723d5') in 0.011943 seconds
+  Import took 0.015199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 137.343969 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagupLeftGun.png
+  artifactKey: Guid(0d6f51d84ad2df74f873cb493a86a1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagupLeftGun.png using Guid(0d6f51d84ad2df74f873cb493a86a1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f6b507eb12dbb805d1e1b97c2e1df1') in 0.012125 seconds
+  Import took 0.015300 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.023449 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagupLeftGun.png
+  artifactKey: Guid(0d6f51d84ad2df74f873cb493a86a1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagupLeftGun.png using Guid(0d6f51d84ad2df74f873cb493a86a1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f53d135861060d9f331c5d58cee68619') in 0.009053 seconds
+  Import took 0.012474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 141.510429 seconds.
+  path: Assets/Art/topdown_shooter/characters/1_diagupLeftGun.png
+  artifactKey: Guid(0d6f51d84ad2df74f873cb493a86a1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/topdown_shooter/characters/1_diagupLeftGun.png using Guid(0d6f51d84ad2df74f873cb493a86a1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f5872013b3d482a31571112c9f6fc1') in 0.015661 seconds
+  Import took 0.019189 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001108 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.956 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2523.
+Total: 2.012500 ms (FindLiveObjects: 0.208900 ms CreateObjectMapping: 0.046400 ms MarkObjects: 1.738000 ms  DeleteObjects: 0.018100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001160 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2526.
+Total: 2.111600 ms (FindLiveObjects: 0.211700 ms CreateObjectMapping: 0.046300 ms MarkObjects: 1.834600 ms  DeleteObjects: 0.017800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001382 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.992 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2529.
+Total: 2.161800 ms (FindLiveObjects: 0.244300 ms CreateObjectMapping: 0.046700 ms MarkObjects: 1.851900 ms  DeleteObjects: 0.017700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

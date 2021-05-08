@@ -1,0 +1,1311 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.928; Version 2009; 64bit' Language: 'es' Physical Memory: 32716 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49720
+Successfully changed project path to: D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
+D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 48.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.14501.28009
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56852
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001438 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 46.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.565 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001061 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 49.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.018 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 84.8 MB.
+System memory in use after: 84.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2254.
+Total: 1.966600 ms (FindLiveObjects: 0.183700 ms CreateObjectMapping: 0.045900 ms MarkObjects: 1.677600 ms  DeleteObjects: 0.058400 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Art/Rogue Lite Asset Pack/UI/Icon/iso weapon icon.png
+  artifactKey: Guid(b050361b36935b5449c190ec31468c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/UI/Icon/iso weapon icon.png using Guid(b050361b36935b5449c190ec31468c4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1614a7085801bbbdd03b465df2b07b') in 0.189919 seconds
+  Import took 0.198194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/UI/Hearts
+  artifactKey: Guid(da3638bad3588a24c9903e5fa42a30f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/UI/Hearts using Guid(da3638bad3588a24c9903e5fa42a30f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b765ded58831e9040f82be8ad7a1509e') in 0.006206 seconds
+  Import took 0.008786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/UI/Icon
+  artifactKey: Guid(1deb83fdf8a7d654e998f41d2776dcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/UI/Icon using Guid(1deb83fdf8a7d654e998f41d2776dcc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '588fccc0d56e71f32b7d0069a2a1637d') in 0.006201 seconds
+  Import took 0.008766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/UI/Hearts/hearts_hearts_0.png
+  artifactKey: Guid(27657caf82b9c5c4fbcc54f965c880b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/UI/Hearts/hearts_hearts_0.png using Guid(27657caf82b9c5c4fbcc54f965c880b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73059ef1ede07d5b0a30ec068a04170') in 0.030640 seconds
+  Import took 0.039368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/UI/Hearts/hearts_hearts_1.png
+  artifactKey: Guid(6231671b82a5d7642b214f652fb33a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/UI/Hearts/hearts_hearts_1.png using Guid(6231671b82a5d7642b214f652fb33a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a97ff94f93dd438e4512a593a61a8e4') in 0.023787 seconds
+  Import took 0.026364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139885 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/UI/Numbers
+  artifactKey: Guid(8640ae7267cd9a042a049c609af1eadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/UI/Numbers using Guid(8640ae7267cd9a042a049c609af1eadb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251cdcbbca08ada919a195b2f38539c9') in 0.005961 seconds
+  Import took 0.008755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.053142 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/UI/Numbers/iso numbers.png
+  artifactKey: Guid(d9cdca0d4935d1447b8c16f3fe6eb98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/UI/Numbers/iso numbers.png using Guid(d9cdca0d4935d1447b8c16f3fe6eb98a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8648da6f8115d07e7f15bbc0f447cc44') in 0.029612 seconds
+  Import took 0.032469 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.707653 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Idle
+  artifactKey: Guid(a61043857de91f54e96cc43c6e3b788b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Idle using Guid(a61043857de91f54e96cc43c6e3b788b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4169246e620e14aa72fb83242209cbf8') in 0.024174 seconds
+  Import took 0.026984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.050565 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Idle/idle_idle_0.png
+  artifactKey: Guid(55a65cefc4fcbb645bef0de68dc970c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Idle/idle_idle_0.png using Guid(55a65cefc4fcbb645bef0de68dc970c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c91baf29a480a93daceb202e8906756c') in 0.031424 seconds
+  Import took 0.034309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Idle/idle_idle_3.png
+  artifactKey: Guid(6eee8e2e6fd538c448247e3afd2f98f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Idle/idle_idle_3.png using Guid(6eee8e2e6fd538c448247e3afd2f98f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf55cac9af05461298ec63c8b84bcde') in 0.033829 seconds
+  Import took 0.036462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Idle/idle_idle_4.png
+  artifactKey: Guid(2e46ba6171cda1548b5ffca950077f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Idle/idle_idle_4.png using Guid(2e46ba6171cda1548b5ffca950077f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652605abc9304db48ce09b8b0ce411a9') in 0.035776 seconds
+  Import took 0.038373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Idle/idle_idle_1.png
+  artifactKey: Guid(2d964b38e21eaf9408c0503b1b194207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Idle/idle_idle_1.png using Guid(2d964b38e21eaf9408c0503b1b194207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d704bfbf1fa9664ac1b84c794473b5') in 0.041563 seconds
+  Import took 0.044139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Idle/idle_idle_2.png
+  artifactKey: Guid(729d43e13a2cf1e498dc7d8eafef2d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Idle/idle_idle_2.png using Guid(729d43e13a2cf1e498dc7d8eafef2d82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efdf25bbe262e10b8b0663b160ca1c49') in 0.017164 seconds
+  Import took 0.019790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 146.907748 seconds.
+  path: Assets/Prefabs/Portal.prefab
+  artifactKey: Guid(74ab4a4c485b74e4f9ba7efc1d4a674f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Portal.prefab using Guid(74ab4a4c485b74e4f9ba7efc1d4a674f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a20a184b463ef687f9fcb2755e03be7') in 0.115432 seconds
+  Import took 0.118602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003132 seconds.
+  path: Assets/Prefabs/Portal.prefab
+  artifactKey: Guid(74ab4a4c485b74e4f9ba7efc1d4a674f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Portal.prefab using Guid(74ab4a4c485b74e4f9ba7efc1d4a674f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a20a184b463ef687f9fcb2755e03be7') in 0.033809 seconds
+  Import took 0.036637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.224701 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_0.png
+  artifactKey: Guid(d3645017bb745a141add6aca033447a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_0.png using Guid(d3645017bb745a141add6aca033447a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad16ac1b1e22305453a232aa69346861') in 0.013393 seconds
+  Import took 0.016299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_1.png
+  artifactKey: Guid(2e3cf4ed7e3fa6543b4cecd0a0f0982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_1.png using Guid(2e3cf4ed7e3fa6543b4cecd0a0f0982b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9a27e7de8e2aba331bd85b0680e69d') in 0.012140 seconds
+  Import took 0.014869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_5.png
+  artifactKey: Guid(4bab020e228a8a94582bbd7cee5ca851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_5.png using Guid(4bab020e228a8a94582bbd7cee5ca851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0cf51e5a21bed600e697e318f958f8d') in 0.010231 seconds
+  Import took 0.026604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_6.png
+  artifactKey: Guid(920b0c41342f68a4b8e253bb3658fac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_6.png using Guid(920b0c41342f68a4b8e253bb3658fac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cb16bd940a0e01c6f74b08f9b1d36c0') in 0.010610 seconds
+  Import took 0.013181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_3.png
+  artifactKey: Guid(cc45209b18fa1af448ca8eb2b3f8fe6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_3.png using Guid(cc45209b18fa1af448ca8eb2b3f8fe6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea8d4daf37b3da444fcca0940088708') in 0.010274 seconds
+  Import took 0.012923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_2.png
+  artifactKey: Guid(529a615a866e8e948bf439f1df9a54c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_2.png using Guid(529a615a866e8e948bf439f1df9a54c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4140e2764d15c9aaaead84a046f75d11') in 0.013505 seconds
+  Import took 0.016168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_4.png
+  artifactKey: Guid(d95b04080789d0247a43302626ada11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_4.png using Guid(d95b04080789d0247a43302626ada11a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c65641e065b81170f1ccb06efe263c07') in 0.028423 seconds
+  Import took 0.031060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_7.png
+  artifactKey: Guid(cdce5aa6bc0a76840a0c47aee6485b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Run/run_run_7.png using Guid(cdce5aa6bc0a76840a0c47aee6485b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce4af543cbacafc844083da5eab681b') in 0.010797 seconds
+  Import took 0.013489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1583.575045 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1
+  artifactKey: Guid(041513499fa18be488efb5386c41b051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1 using Guid(041513499fa18be488efb5386c41b051) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c6e904f06fb6cc962cd1013fd1d980') in 0.006484 seconds
+  Import took 0.009516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.324884 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_00.png
+  artifactKey: Guid(5b55bb01b65685f43a4088cb030895f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_00.png using Guid(5b55bb01b65685f43a4088cb030895f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d5a70c68f1298880ef3af934606b16') in 0.057137 seconds
+  Import took 0.060023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_06.png
+  artifactKey: Guid(6183b37de478b9a44b70d816019142a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_06.png using Guid(6183b37de478b9a44b70d816019142a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896456c2d402709c9097cbe220f54a93') in 0.049102 seconds
+  Import took 0.051705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_09.png
+  artifactKey: Guid(aaddcf6405d1c73408aaada96c00800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_09.png using Guid(aaddcf6405d1c73408aaada96c00800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06376cab9f1baa213906b58afabdf41d') in 0.035570 seconds
+  Import took 0.038115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_03.png
+  artifactKey: Guid(044d279e9ca2d564d870784da4b947e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_03.png using Guid(044d279e9ca2d564d870784da4b947e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a43e60b28c57d6bd774d49e250abbad') in 0.029832 seconds
+  Import took 0.032459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_02.png
+  artifactKey: Guid(3eb6cc8eefefafb40beb20bc7712caac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_02.png using Guid(3eb6cc8eefefafb40beb20bc7712caac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8107c6818ab9e2265be2dd65edb54cea') in 0.024283 seconds
+  Import took 0.026920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_07.png
+  artifactKey: Guid(a3dadb6f825c4e0428e1df8899a40b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_07.png using Guid(a3dadb6f825c4e0428e1df8899a40b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f008d2d5ea070c7bf2baf9db02bb86c') in 0.029705 seconds
+  Import took 0.032321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_11.png
+  artifactKey: Guid(59074822434838241af08d871e4218a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_11.png using Guid(59074822434838241af08d871e4218a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f050c4e52c3651f4a99c6b0a9be096d4') in 0.028148 seconds
+  Import took 0.030746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_01.png
+  artifactKey: Guid(f1f75e1e90a3a16438a3f8772ca422ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_01.png using Guid(f1f75e1e90a3a16438a3f8772ca422ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb9b988e4311977ae884f561fc79017') in 0.018167 seconds
+  Import took 0.032290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_04.png
+  artifactKey: Guid(b787c641beb6fd1468850087e3a2a090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_04.png using Guid(b787c641beb6fd1468850087e3a2a090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988a216a3e6b60e86dcc3ab3696f57b8') in 0.030826 seconds
+  Import took 0.033471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_08.png
+  artifactKey: Guid(c3e0f91e337b4a149a97ff1aa7f16c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_08.png using Guid(c3e0f91e337b4a149a97ff1aa7f16c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '980d89a68c7a9d9a1c9f1e7b5f9e1ec0') in 0.027210 seconds
+  Import took 0.029860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_10.png
+  artifactKey: Guid(88244422ea32ae04cbab0f5dabe6f0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_10.png using Guid(88244422ea32ae04cbab0f5dabe6f0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a555ec653d41b78d317b4439f6c81c2') in 0.030859 seconds
+  Import took 0.033480 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_05.png
+  artifactKey: Guid(bdc944161877a81449ab580c7274ceac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_05.png using Guid(bdc944161877a81449ab580c7274ceac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca36ae06fe413b658ff7e9dbc003c1d') in 0.037936 seconds
+  Import took 0.040528 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.876629 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2
+  artifactKey: Guid(15654e3ad3067744fbf352275eb040fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2 using Guid(15654e3ad3067744fbf352275eb040fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24d041c9eae3affa46ffd4e6b3e550aa') in 0.006633 seconds
+  Import took 0.009490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.089168 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_00.png
+  artifactKey: Guid(949542ea7ca35814fbad17530cb88b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_00.png using Guid(949542ea7ca35814fbad17530cb88b19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3ace5e44675316a25b8456035f99930') in 0.019306 seconds
+  Import took 0.022262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_06.png
+  artifactKey: Guid(6961ff338110ebe45b522973e3d2447e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_06.png using Guid(6961ff338110ebe45b522973e3d2447e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7459d93b5a66b02cc5221c3f1f9fdc3') in 0.047347 seconds
+  Import took 0.049939 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_02.png
+  artifactKey: Guid(cdcc1015381ad20499d16047d77a672e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_02.png using Guid(cdcc1015381ad20499d16047d77a672e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5ce4fe551d57db801fdf1264e0b8b1') in 0.027249 seconds
+  Import took 0.029870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_05.png
+  artifactKey: Guid(4841631acaf6eb940bab2fe70e21e3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_05.png using Guid(4841631acaf6eb940bab2fe70e21e3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443c9136fce614604025a4c0f5194218') in 0.041192 seconds
+  Import took 0.043776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_08.png
+  artifactKey: Guid(83577a0c0b882ca48b914a08153264b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_08.png using Guid(83577a0c0b882ca48b914a08153264b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c98f594b2448a55b1e23c4b7264533c2') in 0.036122 seconds
+  Import took 0.038735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_09.png
+  artifactKey: Guid(900829e50805ccd4191a283ed130176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_09.png using Guid(900829e50805ccd4191a283ed130176a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc99a9f6afb652ea6570b2f18327881') in 0.038260 seconds
+  Import took 0.040855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_01.png
+  artifactKey: Guid(b309fcc5e150fd743ab1fe5c738b7cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_01.png using Guid(b309fcc5e150fd743ab1fe5c738b7cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d64e419775ba41a7988da0fe18e54e6') in 0.015722 seconds
+  Import took 0.018337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_03.png
+  artifactKey: Guid(46d33883e97183f40b1299c369c23a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_03.png using Guid(46d33883e97183f40b1299c369c23a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844eb71565ac17028d45db8498eed628') in 0.031148 seconds
+  Import took 0.033739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_10.png
+  artifactKey: Guid(f0d97abe9fc834547aa92dc98c093992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_10.png using Guid(f0d97abe9fc834547aa92dc98c093992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd74db545ab280d7713f0e90474adb549') in 0.040684 seconds
+  Import took 0.043539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_04.png
+  artifactKey: Guid(c00807b40c8635142942d36c33a3cdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_04.png using Guid(c00807b40c8635142942d36c33a3cdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ec71f5c7eee383a788db4a6d0109c8') in 0.029193 seconds
+  Import took 0.031837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_07.png
+  artifactKey: Guid(1d9b2b10a9576894298ab1e9780f4d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 2/style 2_player death 1_07.png using Guid(1d9b2b10a9576894298ab1e9780f4d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b074f52b45ede4fcaca39a854e3b783') in 0.037329 seconds
+  Import took 0.039871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.026818 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_00.png
+  artifactKey: Guid(5b55bb01b65685f43a4088cb030895f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_00.png using Guid(5b55bb01b65685f43a4088cb030895f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1bebc2fb8e349d2b0b08b1bbd840c50') in 0.015175 seconds
+  Import took 0.026933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_06.png
+  artifactKey: Guid(6183b37de478b9a44b70d816019142a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_06.png using Guid(6183b37de478b9a44b70d816019142a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4853b28eb87727e10f0ec2f75755312') in 0.010119 seconds
+  Import took 0.013108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_09.png
+  artifactKey: Guid(aaddcf6405d1c73408aaada96c00800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_09.png using Guid(aaddcf6405d1c73408aaada96c00800c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad84ea5dde049f6e7bc6db7934d70874') in 0.007971 seconds
+  Import took 0.010851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_03.png
+  artifactKey: Guid(044d279e9ca2d564d870784da4b947e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_03.png using Guid(044d279e9ca2d564d870784da4b947e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d56045864dce23558bb485a68c2fec6') in 0.011063 seconds
+  Import took 0.013790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_02.png
+  artifactKey: Guid(3eb6cc8eefefafb40beb20bc7712caac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_02.png using Guid(3eb6cc8eefefafb40beb20bc7712caac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8c7acc8f6692c4ad10a71a7462c4d6') in 0.006768 seconds
+  Import took 0.009507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_07.png
+  artifactKey: Guid(a3dadb6f825c4e0428e1df8899a40b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_07.png using Guid(a3dadb6f825c4e0428e1df8899a40b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5b8cb97c3618a76a0c11575571a545') in 0.012831 seconds
+  Import took 0.015650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_11.png
+  artifactKey: Guid(59074822434838241af08d871e4218a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_11.png using Guid(59074822434838241af08d871e4218a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92cfaa40dd76eaa7c858c1f156330f4') in 0.007622 seconds
+  Import took 0.010624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_01.png
+  artifactKey: Guid(f1f75e1e90a3a16438a3f8772ca422ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_01.png using Guid(f1f75e1e90a3a16438a3f8772ca422ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75665fe43ae7ff5bdeabb3968209ce1f') in 0.009835 seconds
+  Import took 0.012789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_04.png
+  artifactKey: Guid(b787c641beb6fd1468850087e3a2a090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_04.png using Guid(b787c641beb6fd1468850087e3a2a090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0466dddd66a9ba0e595d72dc4180b0ca') in 0.013419 seconds
+  Import took 0.016329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_08.png
+  artifactKey: Guid(c3e0f91e337b4a149a97ff1aa7f16c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_08.png using Guid(c3e0f91e337b4a149a97ff1aa7f16c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dab5429247768446579071ea6f9163ab') in 0.010711 seconds
+  Import took 0.013652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_10.png
+  artifactKey: Guid(88244422ea32ae04cbab0f5dabe6f0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_10.png using Guid(88244422ea32ae04cbab0f5dabe6f0b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5c8a5874300c5ac73e37e27ec16f66') in 0.006701 seconds
+  Import took 0.018701 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_05.png
+  artifactKey: Guid(bdc944161877a81449ab580c7274ceac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Player Character/Death/style 1/style 1_player death_05.png using Guid(bdc944161877a81449ab580c7274ceac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48dcffa6196c8a57a5be265b54a44302') in 0.011520 seconds
+  Import took 0.014521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 903.791652 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2
+  artifactKey: Guid(b356c72efd423f84da1d75655d46a8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2 using Guid(b356c72efd423f84da1d75655d46a8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62de6d0c7fb3c19cf8c911b6873bdf5a') in 0.021371 seconds
+  Import took 0.024459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.257117 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap
+  artifactKey: Guid(15e34123793f07e44a8c620169e72e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap using Guid(15e34123793f07e44a8c620169e72e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e54ffb3e6eb38ebafc960a11835aca7') in 0.007689 seconds
+  Import took 0.010555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.372363 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap/NPC Animation
+  artifactKey: Guid(0b5d98c35235db040acb672fa1405e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap/NPC Animation using Guid(0b5d98c35235db040acb672fa1405e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc454369a3ad56522c5614bb407924d') in 0.006409 seconds
+  Import took 0.009348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073066 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap/NPC Animation/Gun Smith Npc_Animation 1_0.png
+  artifactKey: Guid(4bacd81a77037bb48bb05f291d9c10c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap/NPC Animation/Gun Smith Npc_Animation 1_0.png using Guid(4bacd81a77037bb48bb05f291d9c10c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f654c191e571acfa2fb098f9aa1787c6') in 0.073249 seconds
+  Import took 0.076299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap/NPC Animation/Gun Smith Npc_Animation 1_3.png
+  artifactKey: Guid(d55d014b056262140b33414bb4c6a5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap/NPC Animation/Gun Smith Npc_Animation 1_3.png using Guid(d55d014b056262140b33414bb4c6a5af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88394522048ff806ff88d6a816ffba2') in 0.029030 seconds
+  Import took 0.031969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap/NPC Animation/Gun Smith Npc_Animation 1_2.png
+  artifactKey: Guid(a2afded097d07da44b1ba3b49bcca987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap/NPC Animation/Gun Smith Npc_Animation 1_2.png using Guid(a2afded097d07da44b1ba3b49bcca987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6cbc8e37df7342ae39d95d4e1de659') in 0.028140 seconds
+  Import took 0.041908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap/NPC Animation/Gun Smith Npc_Animation 1_5.png
+  artifactKey: Guid(fdd8484148dce324883c3402e0f73048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap/NPC Animation/Gun Smith Npc_Animation 1_5.png using Guid(fdd8484148dce324883c3402e0f73048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2848b201ec72d6b7ea85f6aecb548c22') in 0.033278 seconds
+  Import took 0.036097 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap/NPC Animation/Gun Smith Npc_Animation 1_1.png
+  artifactKey: Guid(b9a742ec33b7af04d95c8e5432887145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap/NPC Animation/Gun Smith Npc_Animation 1_1.png using Guid(b9a742ec33b7af04d95c8e5432887145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abba7ca4dc022254b5fa483e57dfa421') in 0.065581 seconds
+  Import took 0.068585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap/NPC Animation/Gun Smith Npc_Animation 1_4.png
+  artifactKey: Guid(42d5758da0f91694b93db9aa3c9f9107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Gun Smith Tilemap/NPC Animation/Gun Smith Npc_Animation 1_4.png using Guid(42d5758da0f91694b93db9aa3c9f9107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ce325a9cd099ae41dfce61b664d3f2') in 0.036321 seconds
+  Import took 0.038981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.684828 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack
+  artifactKey: Guid(9955bb5a7ba6f9f4ab2431fcf5d56d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack using Guid(9955bb5a7ba6f9f4ab2431fcf5d56d78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c528bc70d0e7982b427cb53bb5a6a368') in 0.019502 seconds
+  Import took 0.037489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.350391 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog
+  artifactKey: Guid(4a7660b4036c8f441b747a8b78272507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog using Guid(4a7660b4036c8f441b747a8b78272507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea02ee2cc353b09b19756d2e8539bdbc') in 0.006251 seconds
+  Import took 0.009092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.479298 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog
+  artifactKey: Guid(269baba233a4efd46865f80682a4fd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog using Guid(269baba233a4efd46865f80682a4fd2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a71d2477c03862a60d321b402433a5e') in 0.006512 seconds
+  Import took 0.009352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.500417 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death
+  artifactKey: Guid(e77850ab8de8dc645acba35442b9539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death using Guid(e77850ab8de8dc645acba35442b9539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4779e45da36cbf26414891f548959923') in 0.022779 seconds
+  Import took 0.025687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066792 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_00.png
+  artifactKey: Guid(a6aab2c48b46c7f4fa324ba4e4d0144a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_00.png using Guid(a6aab2c48b46c7f4fa324ba4e4d0144a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7fde122c4e97f6ba51419aa44f8ccd') in 0.044012 seconds
+  Import took 0.047164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_02.png
+  artifactKey: Guid(e65d92358ee798c4f8ef6727f7140ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_02.png using Guid(e65d92358ee798c4f8ef6727f7140ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1255132d090434c8a91c94f144af791') in 0.038784 seconds
+  Import took 0.041704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_09.png
+  artifactKey: Guid(b9aa8ac05c435724fb27f49a65241bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_09.png using Guid(b9aa8ac05c435724fb27f49a65241bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b668e0e43c38fe40a8e9087bacbaa114') in 0.035967 seconds
+  Import took 0.038832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_11.png
+  artifactKey: Guid(36c975767b993e345bc1014dbaee657a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_11.png using Guid(36c975767b993e345bc1014dbaee657a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2dfd48d7caf85632da629f713d5d538') in 0.038159 seconds
+  Import took 0.052493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_01.png
+  artifactKey: Guid(aa592081fefa41943ba7a7299c44626a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_01.png using Guid(aa592081fefa41943ba7a7299c44626a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a74163cde0a2569e5b62a3d79e88f2') in 0.028277 seconds
+  Import took 0.031286 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_08.png
+  artifactKey: Guid(6934f1c0af80e1341b6f75077b7a44cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_08.png using Guid(6934f1c0af80e1341b6f75077b7a44cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9ca763c025e94dc5a35a89f04edd13') in 0.041773 seconds
+  Import took 0.044715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_07.png
+  artifactKey: Guid(38ba6b1f575781847b3516c38f369cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_07.png using Guid(38ba6b1f575781847b3516c38f369cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3bba934e173b0de804810e4aebf78ec') in 0.053029 seconds
+  Import took 0.055638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_06.png
+  artifactKey: Guid(673c2ed3c31f8cc4c9f69d411cdcb22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_06.png using Guid(673c2ed3c31f8cc4c9f69d411cdcb22d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b899f3868b0cfc6760978f02e98271aa') in 0.016541 seconds
+  Import took 0.020047 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_05.png
+  artifactKey: Guid(b9468c6736ee58641afdb545527a2301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_05.png using Guid(b9468c6736ee58641afdb545527a2301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33db831a600494905e24064527147a30') in 0.038890 seconds
+  Import took 0.041817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_03.png
+  artifactKey: Guid(a9e2fc1ae49b3f54b9924f47d8ab5c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_03.png using Guid(a9e2fc1ae49b3f54b9924f47d8ab5c13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1856edffaf8439afc5b1f0007ded8702') in 0.025502 seconds
+  Import took 0.028218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_10.png
+  artifactKey: Guid(4a0802bc8ed5e204c9e49a4a29ac17dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_10.png using Guid(4a0802bc8ed5e204c9e49a4a29ac17dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc1c221deb049138323323b4f786fb1') in 0.054013 seconds
+  Import took 0.056688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_04.png
+  artifactKey: Guid(af40be4fd8eb6c54b96c54d6006202e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Death/Death_Death Red_04.png using Guid(af40be4fd8eb6c54b96c54d6006202e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f982c6d9144b8e348f727c450697f05') in 0.038939 seconds
+  Import took 0.059900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.007931 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3
+  artifactKey: Guid(4977b33d5013ca942b6492bb2869858b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3 using Guid(4977b33d5013ca942b6492bb2869858b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf9a8bba232fce28f5eb070c74e97b8') in 0.006535 seconds
+  Import took 0.009362 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.332862 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime
+  artifactKey: Guid(08a4ed02d741a3f43901c5febe61935e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime using Guid(08a4ed02d741a3f43901c5febe61935e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c6e090235effb54d202e67af421a88') in 0.007018 seconds
+  Import took 0.010003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.392643 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.4
+  artifactKey: Guid(f05de1bd231d0d54bb29b5aa901a5f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.4 using Guid(f05de1bd231d0d54bb29b5aa901a5f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a4b9d63c247cc902e4560cafa3dff1') in 0.022094 seconds
+  Import took 0.024970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.978437 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.4/Destructible Items
+  artifactKey: Guid(61f79266aee9a754f99f02aac5fcf2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.4/Destructible Items using Guid(61f79266aee9a754f99f02aac5fcf2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb32f4a5f3bc698216eb0a85962e5dc') in 0.009850 seconds
+  Import took 0.012731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.321318 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5
+  artifactKey: Guid(323a5384c9686d840b7d333e865ae602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5 using Guid(323a5384c9686d840b7d333e865ae602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ce857a19145343a8a12a391b39a018') in 0.006670 seconds
+  Import took 0.009576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.981239 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character
+  artifactKey: Guid(653479a4f82571e4495adff829f1701c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character using Guid(653479a4f82571e4495adff829f1701c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d37ed5777b96e13ead056749601725f') in 0.006259 seconds
+  Import took 0.009150 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.467931 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Gun
+  artifactKey: Guid(de46bd4682bcccd4b89b4f44c937596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Gun using Guid(de46bd4682bcccd4b89b4f44c937596c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9fe0366f52882bc0edbda9c0afbdfe') in 0.006366 seconds
+  Import took 0.009264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.102012 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Gun/gun_Gun_0.png
+  artifactKey: Guid(82b61e488dc6afe46a3dd9a6681731b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Gun/gun_Gun_0.png using Guid(82b61e488dc6afe46a3dd9a6681731b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8290ea1c5df98d4cb530b7b5af0e54fa') in 0.028913 seconds
+  Import took 0.038831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.410476 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Idle
+  artifactKey: Guid(fa1aab411faa7d84e9e913c15407e3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Idle using Guid(fa1aab411faa7d84e9e913c15407e3d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447f54edcd3d867f3b74e668c58b7be0') in 0.005668 seconds
+  Import took 0.008594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.070350 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Idle/Astro_Astrounaut Idle_0.png
+  artifactKey: Guid(f2bb30f1cad5555449f665412fcae424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Idle/Astro_Astrounaut Idle_0.png using Guid(f2bb30f1cad5555449f665412fcae424) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acc2d7f3dda09fb61c8048484eaef0df') in 0.045246 seconds
+  Import took 0.060160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Idle/Astro_Astrounaut Idle_4.png
+  artifactKey: Guid(58045598865dae64ba7829ca9f179661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Idle/Astro_Astrounaut Idle_4.png using Guid(58045598865dae64ba7829ca9f179661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c695b3074a9d81fd6765248baac045') in 0.027200 seconds
+  Import took 0.029791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Idle/Astro_Astrounaut Idle_1.png
+  artifactKey: Guid(2e1e7f977d965804aa57426349ca2298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Idle/Astro_Astrounaut Idle_1.png using Guid(2e1e7f977d965804aa57426349ca2298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a372871c136ef42eb43207cd415e403f') in 0.040227 seconds
+  Import took 0.042974 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Idle/Astro_Astrounaut Idle_3.png
+  artifactKey: Guid(a13fdbf9c1c429b459619aa96ecce6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Idle/Astro_Astrounaut Idle_3.png using Guid(a13fdbf9c1c429b459619aa96ecce6b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40127777f20125145f4fb71dcb4f641a') in 0.027563 seconds
+  Import took 0.030176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Idle/Astro_Astrounaut Idle_2.png
+  artifactKey: Guid(21518bb6596253c49b70a898a289d482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Idle/Astro_Astrounaut Idle_2.png using Guid(21518bb6596253c49b70a898a289d482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ade707d53e6847babb7a84b5208c0f') in 0.016893 seconds
+  Import took 0.019556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.305933 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death
+  artifactKey: Guid(0fa48ac8b00ee8749ae6fe60216e41a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death using Guid(0fa48ac8b00ee8749ae6fe60216e41a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba67cebcd5432d084b4abbe1c5280b49') in 0.006367 seconds
+  Import took 0.009241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097837 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_00.png
+  artifactKey: Guid(45d28674dad9ac042938e8647285e864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_00.png using Guid(45d28674dad9ac042938e8647285e864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b9e14072fa78fa58d249aef23fad99') in 0.022825 seconds
+  Import took 0.025816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_07.png
+  artifactKey: Guid(bca7505ec7e4e774b91eae6fcb3d19a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_07.png using Guid(bca7505ec7e4e774b91eae6fcb3d19a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84095d3b9179de0fc6aa931ca4a88732') in 0.048944 seconds
+  Import took 0.051663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_04.png
+  artifactKey: Guid(b29c3ab099a53ae488afa197bd736d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_04.png using Guid(b29c3ab099a53ae488afa197bd736d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac19632dcad66968a3b1b390f1bfdc7') in 0.064707 seconds
+  Import took 0.067296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_02.png
+  artifactKey: Guid(ee1db02d495f0e244aba3e959561a878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_02.png using Guid(ee1db02d495f0e244aba3e959561a878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee9a90f3f0fd2b347e0c264c600a6bb') in 0.037980 seconds
+  Import took 0.040688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_06.png
+  artifactKey: Guid(cc7d125be0481184f9d7c3d4e3b32ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_06.png using Guid(cc7d125be0481184f9d7c3d4e3b32ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fcdac53f8f395a68e68bea2ac180c09') in 0.038760 seconds
+  Import took 0.041456 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_11.png
+  artifactKey: Guid(a2e445a30cabf3f4a89550f517407d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_11.png using Guid(a2e445a30cabf3f4a89550f517407d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9f783d71fea9c064f80c28c53dd8c1') in 0.033342 seconds
+  Import took 0.035961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_01.png
+  artifactKey: Guid(4bf82a5673272974a8fd6579c18c070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_01.png using Guid(4bf82a5673272974a8fd6579c18c070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35aa8e79546a05d9b357a64f6fbac8f') in 0.032253 seconds
+  Import took 0.035026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_03.png
+  artifactKey: Guid(0b856ad4f59275d4fac3cfe08c373917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_03.png using Guid(0b856ad4f59275d4fac3cfe08c373917) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22de952b2de9e3c0a0999671ea3ade66') in 0.038426 seconds
+  Import took 0.041126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_08.png
+  artifactKey: Guid(061f000ceb8587a4081a68d43446149c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_08.png using Guid(061f000ceb8587a4081a68d43446149c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31efffc4b73316f4722f8df25ac83a8') in 0.041592 seconds
+  Import took 0.044256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_05.png
+  artifactKey: Guid(a7dfc9d07d61c4848aef57d6316f63d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_05.png using Guid(a7dfc9d07d61c4848aef57d6316f63d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644aab802f7e01d288fd428016b889fe') in 0.026181 seconds
+  Import took 0.028895 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_09.png
+  artifactKey: Guid(3dfc72a55a374574096f2928440c82fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_09.png using Guid(3dfc72a55a374574096f2928440c82fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6150ca43b58e0d58c21049cd9578fac') in 0.028171 seconds
+  Import took 0.030872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_10.png
+  artifactKey: Guid(29f526dfb1e26f24ab04d790919e3315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.5/Character/Death/Astro_Astrounaut Death_10.png using Guid(29f526dfb1e26f24ab04d790919e3315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8cfeaece7c85447fffa68c03b4ec36e') in 0.025874 seconds
+  Import took 0.028540 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.652369 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6
+  artifactKey: Guid(f43ec238be4ef464f8eb2f2b476adee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6 using Guid(f43ec238be4ef464f8eb2f2b476adee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea4e39d9e6dc6088b94a89b86c28d4b') in 0.006460 seconds
+  Import took 0.009342 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.152256 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims
+  artifactKey: Guid(79aa112c8172a1644b615ead2abb1f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims using Guid(79aa112c8172a1644b615ead2abb1f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '581c9bbfc030f75438dd3209217824de') in 0.007014 seconds
+  Import took 0.009859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.811293 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle
+  artifactKey: Guid(fdc773ca8ac45b24ea86aec5906a7a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle using Guid(fdc773ca8ac45b24ea86aec5906a7a84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a0e8efd10e1fe3ce4b6260651a2bc6') in 0.006671 seconds
+  Import took 0.009511 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094063 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_0.6 character anims.png
+  artifactKey: Guid(79832279b5541a24c8ba7354eb8a16c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_0.6 character anims.png using Guid(79832279b5541a24c8ba7354eb8a16c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0b207672f47fa24c6e4900a1119438') in 0.025030 seconds
+  Import took 0.027997 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_4.6 character anims.png
+  artifactKey: Guid(26e50d518199da14f9c353e1d386f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_4.6 character anims.png using Guid(26e50d518199da14f9c353e1d386f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bf633b8fb9778d7b6d3e1e02441079') in 0.041172 seconds
+  Import took 0.043823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_2.6 character anims.png
+  artifactKey: Guid(1251013968e76b049972e2f9f40c2685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_2.6 character anims.png using Guid(1251013968e76b049972e2f9f40c2685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '364b1be16ade0d49bb16da113373aa33') in 0.030616 seconds
+  Import took 0.033268 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_3.6 character anims.png
+  artifactKey: Guid(3616f207070a8c3418e2dc725738859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_3.6 character anims.png using Guid(3616f207070a8c3418e2dc725738859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c93935dab0bd2da426139d3eaa06c691') in 0.038628 seconds
+  Import took 0.041399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_1.6 character anims.png
+  artifactKey: Guid(99f053727e9d78e44855bc2ed54ed464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_1.6 character anims.png using Guid(99f053727e9d78e44855bc2ed54ed464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ecf04a30c46c6116d9bd6dcbd8750a4') in 0.018834 seconds
+  Import took 0.036549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.654183 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/take hit
+  artifactKey: Guid(88d82c0d119f30446a8af8b01065508a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/take hit using Guid(88d82c0d119f30446a8af8b01065508a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c06e4cdfaddda9c1e953d397d95cc8d') in 0.006683 seconds
+  Import took 0.009593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.206221 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/take hit/update 1.6 character anims_take hit_0.6 character anims.png
+  artifactKey: Guid(06fa55cce557cdc49ba10288b2ddd358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/take hit/update 1.6 character anims_take hit_0.6 character anims.png using Guid(06fa55cce557cdc49ba10288b2ddd358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12577bb5869ae805ffecb0bf474f1183') in 0.049194 seconds
+  Import took 0.052178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/take hit/update 1.6 character anims_take hit_1.6 character anims.png
+  artifactKey: Guid(ce22af1a3aec4c941bf8b67bb830ef48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/take hit/update 1.6 character anims_take hit_1.6 character anims.png using Guid(ce22af1a3aec4c941bf8b67bb830ef48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b5497700a9e7aaf2929acf22e1ee507') in 0.036393 seconds
+  Import took 0.039070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.342537 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death
+  artifactKey: Guid(99dbe9c4272986741a07f04026efb166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death using Guid(99dbe9c4272986741a07f04026efb166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22802ffb7ffb7310827b468b1affc28e') in 0.035976 seconds
+  Import took 0.038858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080420 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_00.6 character anims.png
+  artifactKey: Guid(242673cd1e5a8894d9dc73eb79584899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_00.6 character anims.png using Guid(242673cd1e5a8894d9dc73eb79584899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ece69738e977de6dd5662fb7034ce21') in 0.038666 seconds
+  Import took 0.041602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_08.6 character anims.png
+  artifactKey: Guid(372be52dbce031a4fbfc2e1b26122a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_08.6 character anims.png using Guid(372be52dbce031a4fbfc2e1b26122a18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1931ec260265c5bf348e2a8c5550bd2') in 0.029525 seconds
+  Import took 0.032210 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_09.6 character anims.png
+  artifactKey: Guid(e747c4d4bc9eb78499d10c7acaa91e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_09.6 character anims.png using Guid(e747c4d4bc9eb78499d10c7acaa91e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28e51551250e9a530b20fcbe9a12aeef') in 0.027427 seconds
+  Import took 0.030133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_02.6 character anims.png
+  artifactKey: Guid(e3687a5aac53b764188031870641f607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_02.6 character anims.png using Guid(e3687a5aac53b764188031870641f607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7300d0eaf6386f19a7ec023c36f53b48') in 0.017330 seconds
+  Import took 0.019995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_01.6 character anims.png
+  artifactKey: Guid(1eabf5351b108bd4a80e2f6539717381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_01.6 character anims.png using Guid(1eabf5351b108bd4a80e2f6539717381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95b1f50591311ac4223cbee557bd771') in 0.017116 seconds
+  Import took 0.019756 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_03.6 character anims.png
+  artifactKey: Guid(83fdda26d0db5894588e1f5fd24f915f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_03.6 character anims.png using Guid(83fdda26d0db5894588e1f5fd24f915f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fb21013c8ae7bf6e7f298f7c2b4667') in 0.032376 seconds
+  Import took 0.035042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_05.6 character anims.png
+  artifactKey: Guid(3017cdc7d6799c44b8dab901db5883d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_05.6 character anims.png using Guid(3017cdc7d6799c44b8dab901db5883d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42e566bb96a55774153110452b589ed6') in 0.035539 seconds
+  Import took 0.038145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_11.6 character anims.png
+  artifactKey: Guid(ca6e2d81ff6394e449304f7f15c6ef63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_11.6 character anims.png using Guid(ca6e2d81ff6394e449304f7f15c6ef63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4570f742de8524cad2bcf6c37a8685') in 0.034942 seconds
+  Import took 0.037594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_06.6 character anims.png
+  artifactKey: Guid(b7c108356d14d804f8c687a991f7c9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_06.6 character anims.png using Guid(b7c108356d14d804f8c687a991f7c9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6e131f06081c746ac619a031da1375e') in 0.017056 seconds
+  Import took 0.019712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_04.6 character anims.png
+  artifactKey: Guid(31ea3d3a92e74a241a225822bbd338dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_04.6 character anims.png using Guid(31ea3d3a92e74a241a225822bbd338dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16ad0030f3c2fbf6a40e7d9cddf184d') in 0.039043 seconds
+  Import took 0.041822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_07.6 character anims.png
+  artifactKey: Guid(735112e77f537a3408ede7b235339cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_07.6 character anims.png using Guid(735112e77f537a3408ede7b235339cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd100c0d1f0a4a3fa60b2891a4c27c898') in 0.082055 seconds
+  Import took 0.084768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_10.6 character anims.png
+  artifactKey: Guid(76f135dc8873aa24b9e667ec9bc7a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/death/update 1.6 character anims_death_10.6 character anims.png using Guid(76f135dc8873aa24b9e667ec9bc7a876) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fa50a868ec8e3e203169c1b1a6a035') in 0.046059 seconds
+  Import took 0.048896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.267863 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f174627e90cc8a942a8ec56f3ad21287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f174627e90cc8a942a8ec56f3ad21287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c26134f0c79ed1489f0dee4b4d72bb3') in 0.006568 seconds
+  Import took 0.009593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001192 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(f174627e90cc8a942a8ec56f3ad21287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(f174627e90cc8a942a8ec56f3ad21287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c26134f0c79ed1489f0dee4b4d72bb3') in 0.002312 seconds
+  Import took 0.005159 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.244722 seconds.
+  path: Assets/Scripts/Player
+  artifactKey: Guid(e852c6fd9a2a86a44bdfd5701ef4a2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player using Guid(e852c6fd9a2a86a44bdfd5701ef4a2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa76c9c455ccb29b53c2e1a45ef36b1d') in 0.006044 seconds
+  Import took 0.008907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003482 seconds.
+  path: Assets/Scripts/Player
+  artifactKey: Guid(e852c6fd9a2a86a44bdfd5701ef4a2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player using Guid(e852c6fd9a2a86a44bdfd5701ef4a2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa76c9c455ccb29b53c2e1a45ef36b1d') in 0.001968 seconds
+  Import took 0.004710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.767273 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(4ea02df7d53b4a04cb1a51b606f2988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(4ea02df7d53b4a04cb1a51b606f2988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568f552e284f5732e15104a959be5490') in 0.010567 seconds
+  Import took 0.013439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(4ea02df7d53b4a04cb1a51b606f2988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(4ea02df7d53b4a04cb1a51b606f2988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568f552e284f5732e15104a959be5490') in 0.002080 seconds
+  Import took 0.004673 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001082 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.922 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 2.027500 ms (FindLiveObjects: 0.187800 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.775800 ms  DeleteObjects: 0.018500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001129 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 1.860300 ms (FindLiveObjects: 0.188400 ms CreateObjectMapping: 0.044900 ms MarkObjects: 1.608400 ms  DeleteObjects: 0.017600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.478709 seconds.
+  path: Assets/Scripts/Player/PlayerMovement.cs
+  artifactKey: Guid(4ea02df7d53b4a04cb1a51b606f2988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerMovement.cs using Guid(4ea02df7d53b4a04cb1a51b606f2988c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6a88d4750398a3011628b8cce092ff') in 0.004651 seconds
+  Import took 0.007572 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.044660 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.910 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 2.036400 ms (FindLiveObjects: 0.208200 ms CreateObjectMapping: 0.046900 ms MarkObjects: 1.762700 ms  DeleteObjects: 0.017100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001152 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1798 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.0 MB.
+System memory in use after: 88.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 1.904100 ms (FindLiveObjects: 0.192300 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.651500 ms  DeleteObjects: 0.014800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
