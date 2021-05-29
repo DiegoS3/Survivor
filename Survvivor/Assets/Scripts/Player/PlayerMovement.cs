@@ -4,14 +4,19 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    [SerializeField]
+    private float moveSpeed = 5f;
 
-    public Rigidbody2D rb;
-    public Animator animator;
-    public Camera cam;
+    [SerializeField]
+    private Rigidbody2D rb;
+
+    [SerializeField]
+    private Animator animator;
+
+    [SerializeField]
+    private GameObject firePoint;
 
     Vector2 movement;
-    Vector2 mousePos;
 
     // Update is called once per frame
     void Update()
@@ -24,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Vertical", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
-        //mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
+        MoveCrossHair();
 
     }
 
@@ -33,8 +38,19 @@ public class PlayerMovement : MonoBehaviour
         // Movement
         rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
 
-        //Vector2 lookDir = mousePos - rb.position;
-        //float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-        //rb.rotation = angle;
+        //firePoint.transform.position = movement;
+
+    }
+
+    private void MoveCrossHair()
+    {
+        Vector3 aim = new Vector3(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), 0);
+
+        if (aim.magnitude > 0.0f)
+        {
+            aim.Normalize();
+            aim *= 0.4f;
+            firePoint.transform.localPosition = aim;
+        }
     }
 }
