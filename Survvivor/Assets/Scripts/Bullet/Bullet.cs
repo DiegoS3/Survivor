@@ -34,7 +34,6 @@ public class Bullet : MonoBehaviour
     private void Destroy()
     {
         gameObject.SetActive(false);
-        Destroy(gameObject, 1f);
     }
 
     private void OnDisable()

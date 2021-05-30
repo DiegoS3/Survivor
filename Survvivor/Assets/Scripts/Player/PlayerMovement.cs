@@ -31,6 +31,15 @@ public class PlayerMovement : MonoBehaviour
 
         MoveCrossHair();
 
+        if (movement.sqrMagnitude == 0)
+        {
+            FireBullets.fireBulletInstance.idle = true;
+        }
+        else
+        {
+            FireBullets.fireBulletInstance.idle = false;
+        }
+
     }
 
     void FixedUpdate()

@@ -14670,7 +14670,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1179600712}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.3, y: -1.01, z: 0}
+  m_LocalPosition: {x: 0.03, y: -0.32, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1544335094}
@@ -16435,6 +16435,49 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1367596243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1367596244}
+  - component: {fileID: 1367596245}
+  m_Layer: 0
+  m_Name: AimOrigin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1367596244
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367596243}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1544335094}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1367596245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367596243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c98ffa0d77199954bbab48847e0c4068, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1479568506
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16702,7 +16745,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 9cfe73be38bcb334082939f7b09350b4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16727,6 +16770,7 @@ Transform:
   m_Children:
   - {fileID: 519420032}
   - {fileID: 1179600713}
+  - {fileID: 1367596244}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -16758,12 +16802,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ee6af5ba18109341bf4161b0281aa01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletsAmount: 10
-  startAngle: 0
-  endAngle: 360
   firePoint: {fileID: 1179600713}
+  AimOrigin: {fileID: 1367596244}
+  single: 0
+  shotgun: 1
+  coolDown: 0
+  attackSpeed: 0.5
+  projectileSpread: 0
   bulletPrefab: {fileID: 2057178868707099641, guid: ddb72648392c2ab4ea08006808eb0d2f,
     type: 3}
+  idle: 0
 --- !u!1001 &2086300287
 PrefabInstance:
   m_ObjectHideFlags: 0
