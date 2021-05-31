@@ -39,6 +39,7 @@ public class BattleSystem : MonoBehaviour
         for (int i = 0; i < spawns.Length; i++)
         {
             anim[i] = spawns[i].GetComponent<Animator>();
+      
             //anim[i].SetBool("Play", true);
         }
     }
