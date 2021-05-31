@@ -5,12 +5,14 @@ using UnityEngine;
 
 public class EnemyAI : MonoBehaviour
 {
+    [SerializeField]
+    private float checkRadius, attackRadius, speed, attackSpeed = .2f;
 
-    public float checkRadius;
-    public float attackRadius;
-    public float speed;
+    [SerializeField]
+    private LayerMask whatIsPlayer;
 
     private Transform target;
+    private Animator anim;
     private Rigidbody2D rb;
     private Vector3 dir;
     private Vector2 movement;
@@ -18,13 +20,16 @@ public class EnemyAI : MonoBehaviour
     private bool isInChaseRange;
     private bool isInAttackRange;
 
-    public LayerMask whatIsPlayer;
+    private int attack;
+    private float canAttack;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         target = GameObject.FindWithTag("Player").transform;
+        anim = GetComponent<Animator>();
+        attack = 1;
     }
 
     // Update is called once per frame
@@ -34,25 +39,36 @@ public class EnemyAI : MonoBehaviour
         isInAttackRange = Physics2D.OverlapCircle(transform.position, attackRadius, whatIsPlayer);
 
         dir = target.position - transform.position;
-        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
         dir.Normalize();
         movement = dir;
+
+        Debug.Log("SpeedAttack " + attackSpeed);
+        Debug.Log("CanAttack " + canAttack);
+
     }
 
     private void FixedUpdate()
     {
         if (isInChaseRange && !isInAttackRange)
         {
+            anim.SetBool("Attack", false);
             MoveCharacter(movement);
         }
         if (isInAttackRange)
         {
             rb.velocity = Vector2.zero;
+            Attack();
         }
     }
 
     private void MoveCharacter(Vector2 movement)
     {
         rb.MovePosition((Vector2)transform.position + (movement * speed * Time.fixedDeltaTime));
+    }
+
+    private void Attack()
+    {
+        anim.SetBool("Attack", true);
+        target.GetComponent<PlayerHealth>().UpdateHealth(-attack);       
     }
 }
