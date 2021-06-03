@@ -1,0 +1,86 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Shooting : MonoBehaviour
+{
+    public GameObject bulletPrefab;
+
+    public Transform firePoint, AimOrigin;
+
+    public float bulletForce = 20f;
+
+    public float fireRate = 0.4f;
+
+    private float timeUntilNextShoot;
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetButtonDown("Fire1") && timeUntilNextShoot < Time.time)
+        {
+
+            ShotGun(360f, 9);
+            timeUntilNextShoot = Time.time + fireRate;
+        }
+    }
+
+    private void Shoot()
+    {
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = 5.23f;
+
+        Vector3 currentPos = Camera.main.WorldToScreenPoint(firePoint.position);
+        mousePos.x = mousePos.x - currentPos.x;
+        mousePos.y = mousePos.y - currentPos.y;
+
+        float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
+        Quaternion rotation =  Quaternion.Euler(new Vector3(0f, 0f, angle));
+
+        Instantiate(bulletPrefab, firePoint.position, rotation);
+    }
+
+    private void ShotGun(float spreadAngle, int bulletsAmount)
+    {
+        Vector3 mousePos = Input.mousePosition;
+        mousePos.z = 5.23f;
+
+        Vector3 currentPos = Camera.main.WorldToScreenPoint(firePoint.position);
+        mousePos.x = mousePos.x - currentPos.x;
+        mousePos.y = mousePos.y - currentPos.y;
+
+        float angleStep = spreadAngle / bulletsAmount;
+        float aimingAngle = AimOrigin.rotation.eulerAngles.z;
+        float centeringOffset = (spreadAngle / 2) - (angleStep / 2); //offsets every projectile so the spread is    
+
+
+        for (int i = 0; i < bulletsAmount; i++)
+        {
+            float currentBulletAngle = angleStep * i;
+
+            Quaternion rotation = Quaternion.Euler(new Vector3(0, 0, aimingAngle + currentBulletAngle - centeringOffset));
+            GameObject bullet;
+            Rigidbody2D rb;
+
+            //Para disparar hacia la izquierda recto
+            if (mousePos.x == -1 && mousePos.y == 0)
+            {
+                var shotRotDeg = -180;
+                var offsetX = -0.55f;
+                var offsetY = 0.12f;
+                Vector3 offset = new Vector3(offsetX, offsetY, 0);
+                bullet = Instantiate(bulletPrefab, firePoint.transform.position + offset, rotation);
+                bullet.transform.Rotate(0, 0, shotRotDeg);
+            }
+            else //Disparar en cualquier otra direccion
+            {
+                bullet = Instantiate(bulletPrefab, firePoint.position, rotation);
+            }
+
+            rb = bullet.GetComponent<Rigidbody2D>();
+            rb.AddForce(bullet.transform.right * 20f, ForceMode2D.Impulse);
+
+        }
+        //coolDown = Time.time + attackSpeed;
+    }
+}
