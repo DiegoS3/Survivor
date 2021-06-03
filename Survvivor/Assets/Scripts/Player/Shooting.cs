@@ -20,8 +20,10 @@ public class Shooting : MonoBehaviour
         if (Input.GetButtonDown("Fire1") && timeUntilNextShoot < Time.time)
         {
 
+            //Shoot();
             ShotGun(360f, 9);
             timeUntilNextShoot = Time.time + fireRate;
+            GetComponent<ShellEmpty>().EjectShell();
         }
     }
 
@@ -38,6 +40,7 @@ public class Shooting : MonoBehaviour
         Quaternion rotation =  Quaternion.Euler(new Vector3(0f, 0f, angle));
 
         Instantiate(bulletPrefab, firePoint.position, rotation);
+
     }
 
     private void ShotGun(float spreadAngle, int bulletsAmount)

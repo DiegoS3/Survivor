@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1447540349921453789}
   - component: {fileID: 3407406782017212554}
   - component: {fileID: 2216221453952466592}
-  - component: {fileID: 4190102066947012402}
+  - component: {fileID: 4572520849730834767}
   m_Layer: 0
   m_Name: Portal_Spawn
   m_TagString: Untagged
@@ -104,7 +104,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &4190102066947012402
+--- !u!114 &4572520849730834767
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -113,9 +113,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 5192809996372961979}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed0ea4f804b29bb41a192ecb209d98e8, type: 3}
+  m_Script: {fileID: 11500000, guid: 271916724d4bbdb429e34393f3b9b8fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemy: {fileID: 4593386811455185026, guid: 19efd736ce1787f4983d8cc9f68ed831, type: 3}
+  spawnPoint: {fileID: 1467103807718226757}
+  numEnemiesSpawn: 0
+  timeNewSpawn: 0
+  minRespawnTime: 2
+  maxRespawnTime: 5
+  timeEndAnimSpawn: 0.2
+  time: 0
+  spawnTime: 0
+  spawn: 0
+  newSpawn: 0
+  waitTime: 2.5
+  waveCount: 0
+  enemies:
+  - {fileID: 4593386811455185026, guid: 19efd736ce1787f4983d8cc9f68ed831, type: 3}
+  - {fileID: 7386039270639460076, guid: 048eb0b66d70d6c4680da44c1e20d7ef, type: 3}
+  enemyContainer: {fileID: 0}
 --- !u!1 &7024881034919692745
 GameObject:
   m_ObjectHideFlags: 0

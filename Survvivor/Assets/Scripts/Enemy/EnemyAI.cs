@@ -41,10 +41,6 @@ public class EnemyAI : MonoBehaviour
         dir = target.position - transform.position;
         dir.Normalize();
         movement = dir;
-
-        Debug.Log("SpeedAttack " + attackSpeed);
-        Debug.Log("CanAttack " + canAttack);
-
     }
 
     private void FixedUpdate()
@@ -63,7 +59,10 @@ public class EnemyAI : MonoBehaviour
 
     private void MoveCharacter(Vector2 movement)
     {
-        rb.MovePosition((Vector2)transform.position + (movement * speed * Time.fixedDeltaTime));
+        if (gameObject.GetComponent<EnemyHealth>().GetHealth() > 0f)
+        {
+            rb.MovePosition((Vector2)transform.position + (movement * speed * Time.fixedDeltaTime));
+        }
     }
 
     private void Attack()
