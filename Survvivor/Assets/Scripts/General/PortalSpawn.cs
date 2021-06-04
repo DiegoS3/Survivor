@@ -85,7 +85,7 @@ public class PortalSpawn : MonoBehaviour
 
         //anim.Play(stateName, 1);
 
-        anim.enabled = !anim.enabled;
+        //anim.enabled = !anim.enabled;
         anim.SetBool("Play", true);
         timeEndAnimSpawn = anim.GetCurrentAnimatorStateInfo(0).normalizedTime;
         //Wait until we enter the current state

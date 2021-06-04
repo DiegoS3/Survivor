@@ -59,14 +59,17 @@
     <Compile Include="Assets\Scripts\Bullet\BulletControl.cs" />
     <Compile Include="Assets\Scripts\Player\Movement.cs" />
     <Compile Include="Assets\Scripts\Player\Shooting.cs" />
+    <Compile Include="Assets\Scripts\General\BattleSystem.cs" />
+    <Compile Include="Assets\Scripts\General\PortalSpawn.cs" />
+    <Compile Include="Assets\Scripts\General\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\Player\AimLook.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealth.cs" />
-    <Compile Include="Assets\Scripts\General\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\General\BattleSystem.cs" />
-    <Compile Include="Assets\Scripts\General\PortalSpawn.cs" />
     <Compile Include="Assets\Scripts\Player\ShellEmpty.cs" />
+    <Compile Include="Assets\Scripts\DestroyableObjects\ObjectDestroyable.cs" />
+    <Compile Include="Assets\Scripts\General\ItemDrop.cs" />
+    <Compile Include="Assets\Scripts\General\ItemDestroy.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Art\topdown_shooter\towers\readme.txt" />

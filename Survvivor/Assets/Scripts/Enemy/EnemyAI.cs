@@ -6,7 +6,7 @@ using UnityEngine;
 public class EnemyAI : MonoBehaviour
 {
     [SerializeField]
-    private float checkRadius, attackRadius, speed, attackSpeed = .2f;
+    private float checkRadius, attackRadius, speed;
 
     [SerializeField]
     private LayerMask whatIsPlayer;

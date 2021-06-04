@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4593386811455185085}
   - component: {fileID: 4398312444708056181}
   - component: {fileID: 1752138152850008757}
+  - component: {fileID: 553181543152814786}
   - component: {fileID: 2471882962721034289}
   - component: {fileID: 1220595236108844716}
   m_Layer: 0
@@ -121,7 +122,6 @@ MonoBehaviour:
   checkRadius: 18
   attackRadius: 0.4
   speed: 2
-  attackSpeed: 1
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
@@ -138,6 +138,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 1
+--- !u!114 &553181543152814786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4593386811455185026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43eb5e71a825d1e40a5b7d00a3c8b3fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemList:
+  - {fileID: 2381525718280214803, guid: 1ff18481035d7ed4db6aa8ed527dd0d4, type: 3}
+  - {fileID: 3309819878684507981, guid: 72399fda1a4c7934b986397bb605f54f, type: 3}
+  - {fileID: 4882347779711402553, guid: 04ee001c8df1ec445bb284672a9d32ba, type: 3}
+  - {fileID: 2530748454226719022, guid: 432dc0a083db73940b0cdc5479602117, type: 3}
+  - {fileID: 3958230568792695925, guid: ecea7d971fd9ed548b3efb5902a3c567, type: 3}
 --- !u!58 &2471882962721034289
 CircleCollider2D:
   m_ObjectHideFlags: 0

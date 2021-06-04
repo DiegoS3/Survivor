@@ -10,11 +10,13 @@ public class EnemyHealth : MonoBehaviour
     private float maxHealth = 3f;
 
     private Animator anim;
+    private ItemDrop getItem;
 
     private void Start()
     {
         health = maxHealth;
         anim = GetComponent<Animator>();
+        getItem = GetComponent<ItemDrop>();
     }
 
     public float GetHealth()
@@ -29,11 +31,12 @@ public class EnemyHealth : MonoBehaviour
          if (health <= 0)
         {
             anim.SetBool("Dead", true);
-
-            Destroy(gameObject, anim.GetCurrentAnimatorStateInfo(0).length);
-            if (anim.GetCurrentAnimatorStateInfo(0).IsTag("Death")) 
+            if (getItem != null)
             {
+                getItem.DropItem();
             }
+            Destroy(gameObject, anim.GetCurrentAnimatorStateInfo(0).length);
+
         }
     }
 }
