@@ -1,0 +1,853 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.0f1 (c7b5465681fb) revision 13088070'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.985; Version 2009; 64bit' Language: 'es' Physical Memory: 32716 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity\Editor\2020.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61381
+Successfully changed project path to: D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
+D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.0f1 (c7b5465681fb)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.21003.1028
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56492
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001383 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 52.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.651 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001167 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 55.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.3 MB.
+System memory in use after: 85.4 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2274.
+Total: 2.344600 ms (FindLiveObjects: 0.225400 ms CreateObjectMapping: 0.054300 ms MarkObjects: 1.991400 ms  DeleteObjects: 0.072300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/General/Inventory.cs
+  artifactKey: Guid(7f0ec5fd7ef63f642b3d0e7b19dc77b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/General/Inventory.cs using Guid(7f0ec5fd7ef63f642b3d0e7b19dc77b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b721b2b8ccf4553984fb7b7fd44ef3f') in 0.043767 seconds
+  Import took 0.046671 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.785445 seconds.
+  path: Assets/Scripts/General/ItemDestroy.cs
+  artifactKey: Guid(4929add7a84abe049ac42b556888d88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/General/ItemDestroy.cs using Guid(4929add7a84abe049ac42b556888d88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1805d5082f9040d9dba7a5ae75278c16') in 0.007268 seconds
+  Import took 0.010434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Scripts/General/ItemDestroy.cs
+  artifactKey: Guid(4929add7a84abe049ac42b556888d88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/General/ItemDestroy.cs using Guid(4929add7a84abe049ac42b556888d88c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1805d5082f9040d9dba7a5ae75278c16') in 0.002168 seconds
+  Import took 0.004896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.375124 seconds.
+  path: Assets/Scripts/General/ItemDrop.cs
+  artifactKey: Guid(43eb5e71a825d1e40a5b7d00a3c8b3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/General/ItemDrop.cs using Guid(43eb5e71a825d1e40a5b7d00a3c8b3fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c412653f84d835ebc6548e4ebb6f7e3') in 0.007003 seconds
+  Import took 0.010010 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001121 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.977 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.0 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 2.122400 ms (FindLiveObjects: 0.189900 ms CreateObjectMapping: 0.045100 ms MarkObjects: 1.860100 ms  DeleteObjects: 0.025600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001123 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 1.900700 ms (FindLiveObjects: 0.214400 ms CreateObjectMapping: 0.046000 ms MarkObjects: 1.620000 ms  DeleteObjects: 0.019300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.808988 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Skeleton Sprite/Idle/idle (3).png
+  artifactKey: Guid(c3d747fad5fcd7444b7ab03e36ac3612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Skeleton Sprite/Idle/idle (3).png using Guid(c3d747fad5fcd7444b7ab03e36ac3612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ea48d1afa468362284a7de620e1eb1') in 0.110240 seconds
+  Import took 0.113390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Skeleton Sprite/Idle/idle (4).png
+  artifactKey: Guid(2840753959e1eca42885b5afeb563cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Skeleton Sprite/Idle/idle (4).png using Guid(2840753959e1eca42885b5afeb563cd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70cd81bf6a1a1a1532a3efd4d093e8c1') in 0.011633 seconds
+  Import took 0.014462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Skeleton Sprite/Idle/idle (2).png
+  artifactKey: Guid(4db7dd85d22b9a348b4cb1a55360d2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Skeleton Sprite/Idle/idle (2).png using Guid(4db7dd85d22b9a348b4cb1a55360d2dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d36fa45785364b954195bd1154653f') in 0.014049 seconds
+  Import took 0.017649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Skeleton Sprite/Idle/idle (1).png
+  artifactKey: Guid(bbba11349944c7b4fa3adef0139f0bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Skeleton Sprite/Idle/idle (1).png using Guid(bbba11349944c7b4fa3adef0139f0bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86174f5abe989c9bf216ca4e23f017bf') in 0.013300 seconds
+  Import took 0.017538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Skeleton Sprite/Idle/idle (5).png
+  artifactKey: Guid(60123924f382b1a468fff9674142c2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Skeleton Sprite/Idle/idle (5).png using Guid(60123924f382b1a468fff9674142c2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eab8fd21e00fc40474559d3727e60c30') in 0.011648 seconds
+  Import took 0.014463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.966885 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Skeleton Sprite/Weapon/Bullet
+  artifactKey: Guid(b452739f33914544dad76db1c44ddf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Skeleton Sprite/Weapon/Bullet using Guid(b452739f33914544dad76db1c44ddf43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a717a1f928991945cde1ff19ef01c3e') in 0.021910 seconds
+  Import took 0.024958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 30.987640 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat
+  artifactKey: Guid(6a2d6dca467f7004c957b7aa91fe5918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat using Guid(6a2d6dca467f7004c957b7aa91fe5918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963d8272629e60eb8ade5a271d574d41') in 0.008442 seconds
+  Import took 0.011339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.812486 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue
+  artifactKey: Guid(c43d918073cf46042a2abcc6707b4db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue using Guid(c43d918073cf46042a2abcc6707b4db4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050122e8041e1c961aecb11abe6c04e3') in 0.008792 seconds
+  Import took 0.011754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.907300 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue/Attack
+  artifactKey: Guid(f05311d9d7df6d44f99f976bf9d5184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue/Attack using Guid(f05311d9d7df6d44f99f976bf9d5184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf6d6e8e21c422002f9413ae31c1a1f') in 0.013466 seconds
+  Import took 0.017629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.683183 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue/TakeHit
+  artifactKey: Guid(7c16056104b7f434791c0900814a4199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue/TakeHit using Guid(7c16056104b7f434791c0900814a4199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0302e2b5cc8a4a95468c4081e24e31') in 0.008002 seconds
+  Import took 0.011083 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.520471 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue/Idle
+  artifactKey: Guid(a1b5dfe726d4d224c9ec6fdc20950ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue/Idle using Guid(a1b5dfe726d4d224c9ec6fdc20950ecb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f99e2acf97529d51b2f46937ef6b3d') in 0.008311 seconds
+  Import took 0.011307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081000 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue/Idle/bat idle_Bat Idle Blue_0.png
+  artifactKey: Guid(f839cf034ff23e545a1e6b839acd6b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue/Idle/bat idle_Bat Idle Blue_0.png using Guid(f839cf034ff23e545a1e6b839acd6b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b502561c7af8f33cb4e2f4d5d598a5bc') in 0.143376 seconds
+  Import took 0.146476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue/Idle/bat idle_Bat Idle Blue_2.png
+  artifactKey: Guid(904aaa3ac906d054cb21388d1317160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue/Idle/bat idle_Bat Idle Blue_2.png using Guid(904aaa3ac906d054cb21388d1317160d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7dac323363589f7d34a747fb03041e4') in 0.181426 seconds
+  Import took 0.184396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue/Idle/bat idle_Bat Idle Blue_1.png
+  artifactKey: Guid(9b74d0b2fb51de84f8d5d1f2fc2de50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue/Idle/bat idle_Bat Idle Blue_1.png using Guid(9b74d0b2fb51de84f8d5d1f2fc2de50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b284a6cc9ac45ae19963f1f6beab146') in 0.019127 seconds
+  Import took 0.022130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.417249 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue/Death
+  artifactKey: Guid(d0d3e0d6bcc62014fb44018609d99fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Blue/Death using Guid(d0d3e0d6bcc62014fb44018609d99fe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b5e1bc9b18b78209bf5fa99c4d6d72') in 0.007874 seconds
+  Import took 0.010909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.077997 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Spit
+  artifactKey: Guid(f7bb762d9c15c7341960f7836261539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Spit using Guid(f7bb762d9c15c7341960f7836261539a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb8276bcda9cbcfc688c4a4b3f90497') in 0.007588 seconds
+  Import took 0.010946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.968877 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Jump
+  artifactKey: Guid(9c8332c4aede78442ac1d4a19fa13858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Jump using Guid(9c8332c4aede78442ac1d4a19fa13858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a6d5164ed02136dd0b98f277398d881') in 0.008560 seconds
+  Import took 0.011541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.309952 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Attack
+  artifactKey: Guid(cfba945b93dc98148b7f649a894f380f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Attack using Guid(cfba945b93dc98148b7f649a894f380f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e830ae64501c677edf87b00422b50874') in 0.004451 seconds
+  Import took 0.007641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Attack
+  artifactKey: Guid(cfba945b93dc98148b7f649a894f380f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Attack using Guid(cfba945b93dc98148b7f649a894f380f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e830ae64501c677edf87b00422b50874') in 0.002419 seconds
+  Import took 0.005920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.342717 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Idle
+  artifactKey: Guid(555310ca9bef03f4fba8924fe7c5efff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/Idle using Guid(555310ca9bef03f4fba8924fe7c5efff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a6900486e0677a99b6b8d149adf14c') in 0.002234 seconds
+  Import took 0.005213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.039937 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/OnHit
+  artifactKey: Guid(e8fc8397739d7dc4eb5d2b5a56e14380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Frog/Red Frog/OnHit using Guid(e8fc8397739d7dc4eb5d2b5a56e14380) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cde49763d7450f70aef4dd66b00882f') in 0.008614 seconds
+  Import took 0.011587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.521747 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel
+  artifactKey: Guid(affb0cd82a47be34baa6505edbf5080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel using Guid(affb0cd82a47be34baa6505edbf5080d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d767cb7c4fbd77fceeba004d066fb69') in 0.429098 seconds
+  Import took 0.431995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.589826 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Grey
+  artifactKey: Guid(5cc5c724a26646d43b910bf78a21af86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Grey using Guid(5cc5c724a26646d43b910bf78a21af86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33f059898d60a4aad41528a28f115ab') in 0.007327 seconds
+  Import took 0.010254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.492531 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Red
+  artifactKey: Guid(18f00c3323d53da44b48db97a2c7355e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Red using Guid(18f00c3323d53da44b48db97a2c7355e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd617a631ab216c03ea7b818778eca90d') in 0.021797 seconds
+  Import took 0.024697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.085283 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Red/Run
+  artifactKey: Guid(b4a5ef56b9b33ed479851e87b45b41c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Red/Run using Guid(b4a5ef56b9b33ed479851e87b45b41c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f586eb965773eb2d89d78e3ec3383b7') in 0.007449 seconds
+  Import took 0.010414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.135584 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Green/Move or Idle
+  artifactKey: Guid(ab24172ba1f41db4aab83ae099696acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Green/Move or Idle using Guid(ab24172ba1f41db4aab83ae099696acb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f35d3a5839eabef633f4f5e1f8d512') in 0.006955 seconds
+  Import took 0.010135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.253040 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/gun
+  artifactKey: Guid(691c2ee442ce7fe418a3432a955c4826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/gun using Guid(691c2ee442ce7fe418a3432a955c4826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '279b393e211cbb1edd756cb3b2ba2c17') in 0.029458 seconds
+  Import took 0.032500 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.105350 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_0.6 character anims.png
+  artifactKey: Guid(79832279b5541a24c8ba7354eb8a16c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_0.6 character anims.png using Guid(79832279b5541a24c8ba7354eb8a16c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f5318c6127383028fbb5a6b1f5cbf1d') in 0.016566 seconds
+  Import took 0.019742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_4.6 character anims.png
+  artifactKey: Guid(26e50d518199da14f9c353e1d386f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_4.6 character anims.png using Guid(26e50d518199da14f9c353e1d386f38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a91ff3ec39c419d61c68aaa75f1838c') in 0.013438 seconds
+  Import took 0.016260 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_2.6 character anims.png
+  artifactKey: Guid(1251013968e76b049972e2f9f40c2685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_2.6 character anims.png using Guid(1251013968e76b049972e2f9f40c2685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd849a4eaf20b54c0b16fba0a34626a37') in 0.014999 seconds
+  Import took 0.017728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_3.6 character anims.png
+  artifactKey: Guid(3616f207070a8c3418e2dc725738859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_3.6 character anims.png using Guid(3616f207070a8c3418e2dc725738859c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26cc39c0cdf5ed1083572d00983c36da') in 0.013103 seconds
+  Import took 0.015858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_1.6 character anims.png
+  artifactKey: Guid(99f053727e9d78e44855bc2ed54ed464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/update 1.6/character anims/idle/update 1.6 character anims_idle_1.6 character anims.png using Guid(99f053727e9d78e44855bc2ed54ed464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17da32cb61661caa1c03369f009b016c') in 0.017210 seconds
+  Import took 0.020109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.171964 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Take Hit
+  artifactKey: Guid(c46c8de9f7e9cc84c9fca57f540653c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Take Hit using Guid(c46c8de9f7e9cc84c9fca57f540653c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96752f2d17d19f317d59e6791c719d50') in 0.007927 seconds
+  Import took 0.011033 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058878 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Take Hit/Take Hit_Take Hit Purple_0.png
+  artifactKey: Guid(d3409489898ff764d977d330e1dc0fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Take Hit/Take Hit_Take Hit Purple_0.png using Guid(d3409489898ff764d977d330e1dc0fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd6ffea5234395c72a4b174bbad5b780') in 0.029952 seconds
+  Import took 0.033401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Take Hit/Take Hit_Take Hit Purple_1.png
+  artifactKey: Guid(2c0f21f51176698449dfe2e7e91bef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Take Hit/Take Hit_Take Hit Purple_1.png using Guid(2c0f21f51176698449dfe2e7e91bef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76b32842d68887f15584e9454b26c75') in 0.044540 seconds
+  Import took 0.047554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Take Hit/Take Hit_Take Hit Purple_2.png
+  artifactKey: Guid(587c07831e9a8ce46a06c3ba1b1e1ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Take Hit/Take Hit_Take Hit Purple_2.png using Guid(587c07831e9a8ce46a06c3ba1b1e1ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92b8d802a2ea63552f73e1781188f04c') in 0.037608 seconds
+  Import took 0.040334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.557699 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_0.png
+  artifactKey: Guid(aaa28271b9e12d0439fdb507fa55cb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_0.png using Guid(aaa28271b9e12d0439fdb507fa55cb1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2888e64076a7fdb9ebb77fc14de61d') in 0.013143 seconds
+  Import took 0.016145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_5.png
+  artifactKey: Guid(2d0c4335291d8f9498b4804850bcba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_5.png using Guid(2d0c4335291d8f9498b4804850bcba2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1cb71fcf98b09b0153c3ab94197e17f') in 0.015081 seconds
+  Import took 0.017951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_7.png
+  artifactKey: Guid(3ff934fe4e858a5439595101928f5c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_7.png using Guid(3ff934fe4e858a5439595101928f5c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '367b77426bf29fd6b555fa1e451a29e1') in 0.010867 seconds
+  Import took 0.013920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_6.png
+  artifactKey: Guid(a8abadb79254b7a44a7422a7553e1eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_6.png using Guid(a8abadb79254b7a44a7422a7553e1eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d7f60532c241382f6c1c4862a0e172') in 0.010825 seconds
+  Import took 0.013470 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_1.png
+  artifactKey: Guid(0ff5dc8f300d5f14fac1e9e9b1977064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_1.png using Guid(0ff5dc8f300d5f14fac1e9e9b1977064) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdae17dd85a521722085b1b90bff6f30') in 0.011836 seconds
+  Import took 0.014741 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_2.png
+  artifactKey: Guid(d0128dbd200531e42982f3a555da69eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_2.png using Guid(d0128dbd200531e42982f3a555da69eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a90f80b469301a0e47658c7ba666cd3') in 0.010560 seconds
+  Import took 0.013309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_3.png
+  artifactKey: Guid(bc4db6c96f80a63499525516783c9b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_3.png using Guid(bc4db6c96f80a63499525516783c9b3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf64c85b70930b896ba2f3dd9d753267') in 0.012369 seconds
+  Import took 0.015139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_4.png
+  artifactKey: Guid(e9cb259903bd6624a842e6f0b705fb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Move or Idle/Move_Move and Idle Purple_4.png using Guid(e9cb259903bd6624a842e6f0b705fb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc93a151e480a0daf520ad1cac09c391') in 0.013496 seconds
+  Import took 0.016255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 110.239973 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_0.png
+  artifactKey: Guid(6acfcd85060d5274390f4171f9a4a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_0.png using Guid(6acfcd85060d5274390f4171f9a4a17d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b664daf06b3f14b3331bea8b03b7cac') in 0.011243 seconds
+  Import took 0.014544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_6.png
+  artifactKey: Guid(6de2a00366b9e804eb23c6845e26dfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_6.png using Guid(6de2a00366b9e804eb23c6845e26dfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2079df813ef10db8b02a9b401e94da52') in 0.016579 seconds
+  Import took 0.019956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_1.png
+  artifactKey: Guid(7b4b1cdc6ccbc7e4997e0c2a996d1f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_1.png using Guid(7b4b1cdc6ccbc7e4997e0c2a996d1f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c88901738523ece7b53d547908cc3ed') in 0.012197 seconds
+  Import took 0.015204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_2.png
+  artifactKey: Guid(25c84b8607d43414a9e2c348863fa534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_2.png using Guid(25c84b8607d43414a9e2c348863fa534) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bb6bd8032ca51f1b5dde6f35deff76') in 0.011246 seconds
+  Import took 0.014290 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_4.png
+  artifactKey: Guid(1d1216d9079a59a409836628ecd6fcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_4.png using Guid(1d1216d9079a59a409836628ecd6fcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '738fa66304b2eb3045305c308f8504f3') in 0.011638 seconds
+  Import took 0.014414 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_7.png
+  artifactKey: Guid(91176b8ce0af4d744b5b290a45b7a406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_7.png using Guid(91176b8ce0af4d744b5b290a45b7a406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c26970d395ae218bdb354b8efdd4026') in 0.012398 seconds
+  Import took 0.015452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_5.png
+  artifactKey: Guid(809486eed8e896c4bbb623ced6bfb1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_5.png using Guid(809486eed8e896c4bbb623ced6bfb1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cb3fe0a6ac2ae2c4fd1cd66c7232566') in 0.014623 seconds
+  Import took 0.017675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_3.png
+  artifactKey: Guid(68bbc65fc03206a4ba4b611ecdacfbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Death/Death_Death Purple_3.png using Guid(68bbc65fc03206a4ba4b611ecdacfbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd563fafadac24859606dfb4b000ea60') in 0.027710 seconds
+  Import took 0.031050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.857367 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Take Hit/Take Hit_Take Hit Purple_0.png
+  artifactKey: Guid(d3409489898ff764d977d330e1dc0fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Take Hit/Take Hit_Take Hit Purple_0.png using Guid(d3409489898ff764d977d330e1dc0fad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1059ed466ee2a76ec4e11552788790') in 0.007487 seconds
+  Import took 0.010600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Take Hit/Take Hit_Take Hit Purple_1.png
+  artifactKey: Guid(2c0f21f51176698449dfe2e7e91bef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Take Hit/Take Hit_Take Hit Purple_1.png using Guid(2c0f21f51176698449dfe2e7e91bef44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11548a62ff9d0f808691bab490a74a57') in 0.007735 seconds
+  Import took 0.010733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Take Hit/Take Hit_Take Hit Purple_2.png
+  artifactKey: Guid(587c07831e9a8ce46a06c3ba1b1e1ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Purple/Take Hit/Take Hit_Take Hit Purple_2.png using Guid(587c07831e9a8ce46a06c3ba1b1e1ac8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13c1e725c5ed613ad20c5a3b293de2d') in 0.007250 seconds
+  Import took 0.010108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.330155 seconds.
+  path: Assets/Prefabs/Enemies/SlimePurple.prefab
+  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '9bf0b8133a341f380fb9080483064edd') in 0.045499 seconds
+  Import took 0.048781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.152316 seconds.
+  path: Assets/Animation/Enemies/SlimePurple/SlimePurple.controller
+  artifactKey: Guid(ccf4dc63631c27242a1644d8fcd7ae32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/SlimePurple/SlimePurple.controller using Guid(ccf4dc63631c27242a1644d8fcd7ae32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc5952c81c230d1f826f8fd9bb451c3') in 0.004020 seconds
+  Import took 0.007054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011459 seconds.
+  path: Assets/Animation/Enemies/SlimePurple/SlimePurple.controller
+  artifactKey: Guid(ccf4dc63631c27242a1644d8fcd7ae32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/SlimePurple/SlimePurple.controller using Guid(ccf4dc63631c27242a1644d8fcd7ae32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc5952c81c230d1f826f8fd9bb451c3') in 0.003256 seconds
+  Import took 0.006523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.590803 seconds.
+  path: Assets/Animation/Enemies/SlimePurple/Slime_Move.anim
+  artifactKey: Guid(e9c3914c2ba30174681907866e60545c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/SlimePurple/Slime_Move.anim using Guid(e9c3914c2ba30174681907866e60545c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d979c6a335659e5185f42e0abddb04') in 0.008844 seconds
+  Import took 0.011924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009581 seconds.
+  path: Assets/Animation/Enemies/SlimePurple/Slime_Move.anim
+  artifactKey: Guid(e9c3914c2ba30174681907866e60545c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/SlimePurple/Slime_Move.anim using Guid(e9c3914c2ba30174681907866e60545c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d979c6a335659e5185f42e0abddb04') in 0.002788 seconds
+  Import took 0.005885 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 81.449685 seconds.
+  path: Assets/Animation/Enemies/Slime
+  artifactKey: Guid(281ab283b164a5a44bbd70f1f94a3af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Enemies/Slime using Guid(281ab283b164a5a44bbd70f1f94a3af6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba01cc008d95075a02338229d43e6c4d') in 1.073792 seconds
+  Import took 1.076771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.409646 seconds.
+  path: Assets/Prefabs/Enemies/SlimePurple.prefab
+  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '28060a1ff7cd7c88639c41f29fc8399d') in 0.012655 seconds
+  Import took 0.015815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.389660 seconds.
+  path: Assets/Prefabs/Enemies/SlimePurple.prefab
+  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '1ebc74d3e51abd5a7c9bf05e635de01b') in 0.010144 seconds
+  Import took 0.013642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.728525 seconds.
+  path: Assets/Prefabs/Enemies/SlimePurple.prefab
+  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '2d3e058bfd2db4245a2767007ede2609') in 0.009579 seconds
+  Import took 0.012916 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.589217 seconds.
+  path: Assets/Prefabs/Enemies/SlimePurple.prefab
+  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '29b96d60a8d7786630e11d1d0670850a') in 0.010005 seconds
+  Import took 0.013134 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001160 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.965 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2299.
+Total: 1.966600 ms (FindLiveObjects: 0.192100 ms CreateObjectMapping: 0.045700 ms MarkObjects: 1.710600 ms  DeleteObjects: 0.017300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.235841 seconds.
+  path: Assets/Prefabs/Enemies/SlimePurple.prefab
+  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'b2a6e7bd22c95eb514e68b000bfb9368') in 0.056254 seconds
+  Import took 0.059531 seconds .
+

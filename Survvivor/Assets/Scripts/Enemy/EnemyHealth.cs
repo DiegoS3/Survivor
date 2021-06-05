@@ -28,9 +28,10 @@ public class EnemyHealth : MonoBehaviour
     {
         health -= cant;
 
-         if (health <= 0)
+         if (health == 0)
         {
             anim.SetBool("Dead", true);
+            gameObject.GetComponent<CircleCollider2D>().enabled = false;
             if (getItem != null)
             {
                 getItem.DropItem();

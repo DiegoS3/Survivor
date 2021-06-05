@@ -54,11 +54,6 @@ public class PortalSpawn : MonoBehaviour
         StartCoroutine(PhaseManagmentRoutine());
     }
 
-    private void Update()
-    {
-
-    }
-
     private void FixedUpdate()
     {
         //Counts up
@@ -125,7 +120,6 @@ public class PortalSpawn : MonoBehaviour
 
     private IEnumerator SpawnWaveRoutine()
     {
-        anim.enabled = !anim.enabled;
         waveCount++;
         AssignProbability();
         for (int i = 0; i < waveCount; i++)
@@ -169,16 +163,64 @@ public class PortalSpawn : MonoBehaviour
         switch (waveCount)
         {
             case 1:
-                enemySpawnProb[0] = 75;
-                enemySpawnProb[1] = 25;
+            case 2:
+            case 3:
+            case 4:
+                enemySpawnProb[0] = 65;
+                enemySpawnProb[1] = 35;
+                enemySpawnProb[2] = 10;
+                enemySpawnProb[3] = 0;
                 break;
 
-            case 3:
-                enemySpawnProb[0] = 25;
-                enemySpawnProb[1] = 75;
+            case 5:
+            case 6:
+            case 7:
+            case 8:
+            case 9:
+                enemySpawnProb[0] = 45;
+                enemySpawnProb[1] = 35;
+                enemySpawnProb[2] = 20;
+                enemySpawnProb[3] = 0;
+                break;
+
+            case 10:
+            case 11:
+            case 12:
+            case 13:
+            case 14:
+                enemySpawnProb[0] = 35;
+                enemySpawnProb[1] = 35;
+                enemySpawnProb[2] = 25;
+                enemySpawnProb[3] = 5;
+                break;
+
+            case 15:
+            case 16:
+            case 17:
+            case 18:
+            case 19:
+                enemySpawnProb[0] = 15;
+                enemySpawnProb[1] = 15;
+                enemySpawnProb[2] = 45;
+                enemySpawnProb[3] = 25;
+                break;
+            
+            case 20:
+            case 21:
+            case 22:
+            case 23:
+            case 24:
+                enemySpawnProb[0] = 10;
+                enemySpawnProb[1] = 10;
+                enemySpawnProb[2] = 45;
+                enemySpawnProb[3] = 35;
                 break;
 
             default:
+                enemySpawnProb[0] = 5;
+                enemySpawnProb[1] = 5;
+                enemySpawnProb[2] = 35;
+                enemySpawnProb[3] = 55;
                 break;
         }
     }
