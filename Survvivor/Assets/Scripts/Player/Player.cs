@@ -38,7 +38,6 @@ public class Player : MonoBehaviour
         if (usingItem)
         {
             timeItem -= Time.deltaTime;
-            Debug.Log(timeItem);
             if (timeItem <= 0)
             {
                 abilityType = AbilityType.Simple;
@@ -86,26 +85,28 @@ public class Player : MonoBehaviour
         {
             case "Coin":
                 Destroy(collision.gameObject);
+                gameObject.GetComponent<PlayerStats>().UpdateCoins();
                 break;
 
             case "Heart":
                 Destroy(collision.gameObject);
+                gameObject.GetComponent<PlayerStats>().UpdateHealth(1);
                 break;
 
             case "Shotgun":
-                Item shotgun = new Item(Item.ItemType.Shotgun, 5.00f);                
+                Item shotgun = new Item(Item.ItemType.Shotgun, 8.00f);                
                 inventory.AddItem(shotgun);
                 Destroy(collision.gameObject);
                 break;
 
             case "MoreRate":
-                Item moreRate = new Item(Item.ItemType.MoreRate, 7.00f);
+                Item moreRate = new Item(Item.ItemType.MoreRate, 10.00f);
                 inventory.AddItem(moreRate);
                 Destroy(collision.gameObject);
                 break;
 
             case "MultiFire":
-                Item multiFire = new Item(Item.ItemType.MultiFire, 3.00f);
+                Item multiFire = new Item(Item.ItemType.MultiFire, 5.00f);
                 inventory.AddItem(multiFire);
                 Destroy(collision.gameObject);
                 break;

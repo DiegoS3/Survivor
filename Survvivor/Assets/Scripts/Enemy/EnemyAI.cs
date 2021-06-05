@@ -19,9 +19,9 @@ public class EnemyAI : MonoBehaviour
 
     private bool isInChaseRange;
     private bool isInAttackRange;
-
+    public float coolDownAttack = 1f;
+    private float timeUntilNextShoot;
     private int attack;
-    private float canAttack;
 
     // Start is called before the first frame update
     void Start()
@@ -50,10 +50,11 @@ public class EnemyAI : MonoBehaviour
             anim.SetBool("Attack", false);
             MoveCharacter(movement);
         }
-        if (isInAttackRange)
+        if (isInAttackRange && timeUntilNextShoot < Time.time)
         {
             rb.velocity = Vector2.zero;
             Attack();
+            timeUntilNextShoot = Time.time + coolDownAttack;
         }
     }
 
@@ -68,6 +69,6 @@ public class EnemyAI : MonoBehaviour
     private void Attack()
     {
         anim.SetBool("Attack", true);
-        target.GetComponent<PlayerHealth>().UpdateHealth(-attack);       
+        target.GetComponent<PlayerStats>().UpdateHealth(-attack);       
     }
 }

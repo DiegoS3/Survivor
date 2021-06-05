@@ -138,6 +138,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 3
+  player: {fileID: 466980995933381375, guid: 63c13d4d67df61b459fc41bc563395db, type: 3}
 --- !u!114 &793604898603206884
 MonoBehaviour:
   m_ObjectHideFlags: 0

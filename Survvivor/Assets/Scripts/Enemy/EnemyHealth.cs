@@ -4,17 +4,25 @@ using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
 {
-    private float health = 0f;
+    private float health;
+    private int score;
 
     [SerializeField]
-    private float maxHealth = 3f;
+    private float maxHealth;
+
+    [SerializeField]
+    private GameObject player;
 
     private Animator anim;
     private ItemDrop getItem;
 
+
     private void Start()
     {
         health = maxHealth;
+        Debug.Log(maxHealth);
+        score = (int)maxHealth;
+        Debug.Log(score);
         anim = GetComponent<Animator>();
         getItem = GetComponent<ItemDrop>();
     }
@@ -32,12 +40,15 @@ public class EnemyHealth : MonoBehaviour
         {
             anim.SetBool("Dead", true);
             gameObject.GetComponent<CircleCollider2D>().enabled = false;
+            if (gameObject != null)
+            {
+                player.GetComponent<PlayerStats>().UpdateEnemies(score);
+            }
             if (getItem != null)
             {
                 getItem.DropItem();
             }
             Destroy(gameObject, anim.GetCurrentAnimatorStateInfo(0).length);
-
         }
     }
 }
