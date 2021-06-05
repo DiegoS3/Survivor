@@ -7,15 +7,8 @@ using UnityEngine.UI;
 public class UI_Inventory : MonoBehaviour
 {
     private Inventory inventory;
-    private Transform itemSlotContainer;
     [SerializeField]
     private Transform[] itemSlotTemplate;
-
-    private void Awake()
-    {
-        //itemSlotContainer = transform.Find("itemSlotContainer");
-        //itemSlotTemplate = itemSlotContainer.Find("itemSlotTemplate");
-    }
 
     public void SetInventory(Inventory inventory)
     {
@@ -40,9 +33,9 @@ public class UI_Inventory : MonoBehaviour
             Image image = itemSlotTemplate[slot].Find("image").GetComponent<Image>();
             image.gameObject.SetActive(true);
             image.sprite = item.GetSprite();
+            itemSlotTemplate[slot].GetComponent<Button>().onClick.AddListener(() => inventory.UseItem(item));
             slot++;
 
         }
     }
-
 }

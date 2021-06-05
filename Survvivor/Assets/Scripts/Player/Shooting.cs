@@ -5,23 +5,42 @@ using UnityEngine;
 public class Shooting : MonoBehaviour
 {
     public GameObject bulletPrefab;
-
     public Transform firePoint, AimOrigin;
 
     public float bulletForce = 20f;
-
     public float fireRate = 0.4f;
-
     private float timeUntilNextShoot;
 
-    // Update is called once per frame
-    void Update()
+    private Player.AbilityType abilityType;
+
+    private void Start()
+    {
+        abilityType = Player.Instance.GetAbilityType();
+    }
+
+    private void Update()
     {
         if (Input.GetButtonDown("Fire1") && timeUntilNextShoot < Time.time)
         {
-
-            //Shoot();
-            ShotGun(20f, 3);
+            abilityType = Player.Instance.GetAbilityType();
+            switch (abilityType)
+            {
+                case Player.AbilityType.Shotgun:
+                    ShotGun(20f, 3);
+                    break;
+                case Player.AbilityType.MultiFire:
+                    ShotGun(360f, 9);
+                    break;
+                case Player.AbilityType.Simple:
+                    Shoot();
+                    break;
+                case Player.AbilityType.MoreRate:
+                    fireRate = 0.2f;
+                    Shoot();
+                    break;
+                default:
+                    break;
+            }            
             timeUntilNextShoot = Time.time + fireRate;
             GetComponent<ShellEmpty>().EjectShell();
         }
@@ -40,7 +59,6 @@ public class Shooting : MonoBehaviour
         Quaternion rotation =  Quaternion.Euler(new Vector3(0f, 0f, angle));
 
         Instantiate(bulletPrefab, firePoint.position, rotation);
-
     }
 
     private void ShotGun(float spreadAngle, int bulletsAmount)
@@ -84,6 +102,5 @@ public class Shooting : MonoBehaviour
             rb.AddForce(bullet.transform.right * 20f, ForceMode2D.Impulse);
 
         }
-        //coolDown = Time.time + attackSpeed;
     }
 }

@@ -11,7 +11,7 @@ public class Item
         MultiFire
     }
 
-    private ItemType itemType;
+    public ItemType itemType;
     //public int amount;
 
     public Item (ItemType itemType)

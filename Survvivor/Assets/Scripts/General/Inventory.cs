@@ -8,44 +8,51 @@ public class Inventory
     public event EventHandler OnItemListChanged;
 
     private List<Item> itemList;
-    private bool add = false;
+    private Action<Item> useItemAction;
+    private int maxNumber = 3;
 
-    public Inventory()
+    public Inventory(Action<Item> useItemAction)
     {
         itemList = new List<Item>();
-
-        //AddItem(new Item { itemType = Item.ItemType.MoreRate, amount = 1 });
-        //AddItem(new Item { itemType = Item.ItemType.Shotgun, amount = 1 });
-        //AddItem(new Item { itemType = Item.ItemType.MultiFire, amount = 1 });
-
-        Debug.Log("Inventory");
+        this.useItemAction = useItemAction;
     }
 
     public void AddItem(Item item)
     {
-        if (itemList.Count > 0)
+        if (itemList.Count < maxNumber)
         {
-            for (int i = 0; i < itemList.Count; i++)
+            bool itemAlreadyInInventory = false;
+            foreach (Item inventoryItem in itemList)
             {
-                if (!itemList[i].Equals(item))
+                if (inventoryItem.itemType == item.itemType)
                 {
-                    itemList.Add(item);
-                    add = true;
+                    itemAlreadyInInventory = true;
                 }
             }
-        }
-        else
-        {
-            itemList.Add(item);
-            add = true;
-        }
-
-        if (add)
-        {
-
+            if (!itemAlreadyInInventory)
+            {
+                itemList.Add(item);
+            }
             OnItemListChanged?.Invoke(this, EventArgs.Empty);
         }
-        
+       
+    }
+
+    public void RemoveItem(Item item)
+    {
+        Item itemInInvetory = null;
+        foreach (Item inventoryItem in itemList)
+        {
+            if (inventoryItem.itemType == item.itemType)
+            {
+                itemInInvetory = inventoryItem;
+            }
+        }
+        if (itemInInvetory != null)
+        {
+            itemList.Remove(itemInInvetory);
+        }
+        OnItemListChanged?.Invoke(this, EventArgs.Empty);
     }
 
     public List<Item> GetItemList()
@@ -53,4 +60,9 @@ public class Inventory
         return itemList;
     }
 
+    public void UseItem(Item item)
+    {
+        useItemAction(item);
+
+    }
 }
