@@ -20,27 +20,27 @@ public class ItemDrop : MonoBehaviour
     {
         randNum = Random.Range(0, 101); 
 
-        if (randNum >= 95) //Drop multifire
+        if (randNum >= 96) //Drop multifire 4%
         {
             itemNum = 4;
             Instantiate(itemList[itemNum], Epos.position, Quaternion.identity);
         }
-        else if (randNum > 90 && randNum < 95) //Drop life
+        else if (randNum > 88 && randNum < 96) //Drop life 8%
         {
             itemNum = 3;
             Instantiate(itemList[itemNum], Epos.position, Quaternion.identity);
         }
-        else if (randNum > 75 && randNum <= 90)//Drop shotgun
+        else if (randNum > 76 && randNum <= 88)//Drop shotgun 12%
         {
             itemNum = 2;
             Instantiate(itemList[itemNum], Epos.position, Quaternion.identity);
         }
-        else if (randNum > 60 && randNum <= 75)//Drop increment rate shoot
+        else if (randNum > 60 && randNum <= 76)//Drop increment rate shoot 16%
         {
             itemNum = 1;
             Instantiate(itemList[itemNum], Epos.position, Quaternion.identity);
         }
-        else if (randNum > 45 && randNum <= 60)//Drop coin
+        else if (randNum > 40 && randNum <= 60)//Drop coin 20%
         {
             itemNum = 0;
             Instantiate(itemList[itemNum], Epos.position, Quaternion.identity);

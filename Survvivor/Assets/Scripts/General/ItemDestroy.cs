@@ -13,7 +13,7 @@ public class ItemDestroy : MonoBehaviour
     private void Start()
     {
         sr = GetComponent<SpriteRenderer>();
-        randTime = Random.Range(2f, 4f);
+        randTime = Random.Range(3f, 5f);
         currentTime = Time.time;
         StartCoroutine(SelfDestruct());
     }
@@ -27,6 +27,10 @@ public class ItemDestroy : MonoBehaviour
     IEnumerator SelfDestruct()
     {
         yield return new WaitForSeconds(randTime);
-        Destroy(gameObject);
+        if (gameObject != null)
+        {
+            Destroy(gameObject);
+        }
     }
+
 }

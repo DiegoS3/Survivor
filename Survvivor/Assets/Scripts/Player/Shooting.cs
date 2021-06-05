@@ -21,7 +21,7 @@ public class Shooting : MonoBehaviour
         {
 
             //Shoot();
-            ShotGun(360f, 9);
+            ShotGun(20f, 3);
             timeUntilNextShoot = Time.time + fireRate;
             GetComponent<ShellEmpty>().EjectShell();
         }
