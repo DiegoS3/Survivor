@@ -12,11 +12,13 @@ public class Item
     }
 
     public ItemType itemType;
+    public float timeItem;
     //public int amount;
 
-    public Item (ItemType itemType)
+    public Item (ItemType itemType, float timeItem)
     {
         this.itemType = itemType;
+        this.timeItem = timeItem;
     }
 
     public Sprite GetSprite()

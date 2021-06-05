@@ -13,7 +13,6 @@ public class UI_Inventory : MonoBehaviour
     public void SetInventory(Inventory inventory)
     {
         this.inventory = inventory;
-
         inventory.OnItemListChanged += Invetory_OnItemListChanged;
         RefreshInventoryItems();
     }
@@ -21,6 +20,7 @@ public class UI_Inventory : MonoBehaviour
     private void Invetory_OnItemListChanged(object sender, EventArgs e)
     {
         RefreshInventoryItems();
+
     }
 
     private void RefreshInventoryItems()
@@ -34,8 +34,24 @@ public class UI_Inventory : MonoBehaviour
             image.gameObject.SetActive(true);
             image.sprite = item.GetSprite();
             itemSlotTemplate[slot].GetComponent<Button>().onClick.AddListener(() => inventory.UseItem(item));
-            slot++;
-
+            slot++;            
         }
+    }
+
+    public void CleanSlot(Item itemInInventory)
+    {
+        int pos = 0;
+        foreach (Item item in inventory.GetItemList())
+        {
+            if (item.itemType == itemInInventory.itemType)
+            {
+                Debug.Log("Limpiar");
+                itemSlotTemplate[pos].GetComponent<RectTransform>();
+                Image image = itemSlotTemplate[pos].Find("image").GetComponent<Image>();
+                image.gameObject.SetActive(false);
+            }
+            pos++;
+        }
+        
     }
 }

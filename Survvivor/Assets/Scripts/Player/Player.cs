@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public event EventHandler OnItemListChanged;
-
     public static Player Instance { get; private set; }
 
     private Inventory inventory;
@@ -15,6 +13,9 @@ public class Player : MonoBehaviour
     private UI_Inventory uiInventory;
 
     private AbilityType abilityType;
+
+    private float timeItem;
+    private bool usingItem;
 
     public enum AbilityType
     {
@@ -32,6 +33,21 @@ public class Player : MonoBehaviour
         abilityType = AbilityType.Simple;
     }
 
+    private void Update()
+    {
+        if (usingItem)
+        {
+            timeItem -= Time.deltaTime;
+            Debug.Log(timeItem);
+            if (timeItem <= 0)
+            {
+                abilityType = AbilityType.Simple;
+                usingItem = false;
+            }
+        }
+        
+    }
+
     public AbilityType GetAbilityType()
     {
         return abilityType;
@@ -39,11 +55,14 @@ public class Player : MonoBehaviour
 
     private void UseItem(Item item)
     {
+        uiInventory.CleanSlot(item);
+        timeItem = item.timeItem;
+        usingItem = true;
         switch (item.itemType)
         {
             case Item.ItemType.Shotgun:
                 Debug.Log("Usada escopeta");
-                abilityType = AbilityType.Shotgun;
+                abilityType = AbilityType.Shotgun;                
                 inventory.RemoveItem(item);
                 break;
             case Item.ItemType.MoreRate:
@@ -74,19 +93,19 @@ public class Player : MonoBehaviour
                 break;
 
             case "Shotgun":
-                Item shotgun = new Item(Item.ItemType.Shotgun);                
+                Item shotgun = new Item(Item.ItemType.Shotgun, 5.00f);                
                 inventory.AddItem(shotgun);
                 Destroy(collision.gameObject);
                 break;
 
             case "MoreRate":
-                Item moreRate = new Item(Item.ItemType.MoreRate);
+                Item moreRate = new Item(Item.ItemType.MoreRate, 7.00f);
                 inventory.AddItem(moreRate);
                 Destroy(collision.gameObject);
                 break;
 
             case "MultiFire":
-                Item multiFire = new Item(Item.ItemType.MultiFire);
+                Item multiFire = new Item(Item.ItemType.MultiFire, 3.00f);
                 inventory.AddItem(multiFire);
                 Destroy(collision.gameObject);
                 break;

@@ -46,6 +46,7 @@ public class Inventory
             if (inventoryItem.itemType == item.itemType)
             {
                 itemInInvetory = inventoryItem;
+
             }
         }
         if (itemInInvetory != null)
@@ -63,6 +64,5 @@ public class Inventory
     public void UseItem(Item item)
     {
         useItemAction(item);
-
     }
 }
