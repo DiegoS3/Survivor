@@ -7,8 +7,8 @@ public class CameraFollow : MonoBehaviour
     [SerializeField]
     private Transform player;
 
-    [SerializeField]
-    private float cameraDistance = 100f;
+    //[SerializeField]
+    //private float cameraDistance = 100f;
 
     private void Awake()
     {

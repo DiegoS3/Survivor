@@ -85,6 +85,9 @@
     <Compile Include="Assets\Scripts\Inventory\Item.cs" />
     <Compile Include="Assets\Scripts\General\CoinPickup.cs" />
     <Compile Include="Assets\Scripts\Joystick\MovementJoystick.cs" />
+    <Compile Include="Assets\Scripts\General\SplashSequence.cs" />
+    <Compile Include="Assets\Scripts\General\Loader.cs" />
+    <Compile Include="Assets\Scripts\MenuOptions\SettingsMenu.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Art\topdown_shooter\towers\readme.txt" />
