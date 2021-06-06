@@ -6,6 +6,7 @@ public class Shooting : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform firePoint, AimOrigin;
+    public Joystick joystick;
 
     public float bulletForce = 20f;
     public float fireRate = 0.4f;
@@ -20,7 +21,9 @@ public class Shooting : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetButtonDown("Fire1") && timeUntilNextShoot < Time.time)
+        Vector2 dir = new Vector2(joystick.Horizontal, joystick.Vertical);
+        //if (Input.GetButtonDown("Fire1") && timeUntilNextShoot < Time.time)
+        if (dir != Vector2.zero && timeUntilNextShoot < Time.time)
         {
             abilityType = Player.Instance.GetAbilityType();
             switch (abilityType)
@@ -38,9 +41,7 @@ public class Shooting : MonoBehaviour
                     fireRate = 0.2f;
                     Shoot();
                     break;
-                default:
-                    break;
-            }            
+            }
             timeUntilNextShoot = Time.time + fireRate;
             GetComponent<ShellEmpty>().EjectShell();
         }
@@ -48,27 +49,36 @@ public class Shooting : MonoBehaviour
 
     private void Shoot()
     {
-        Vector3 mousePos = Input.mousePosition;
-        mousePos.z = 5.23f;
+        //PC
+        //Vector3 mousePos = Input.mousePosition;
+        //mousePos.z = 5.23f;
 
-        Vector3 currentPos = Camera.main.WorldToScreenPoint(firePoint.position);
-        mousePos.x = mousePos.x - currentPos.x;
-        mousePos.y = mousePos.y - currentPos.y;
+        //Vector3 currentPos = Camera.main.WorldToScreenPoint(firePoint.position);
+        //mousePos.x = mousePos.x - currentPos.x;
+        //mousePos.y = mousePos.y - currentPos.y;
 
-        float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
-        Quaternion rotation =  Quaternion.Euler(new Vector3(0f, 0f, angle));
+        //float angle = Mathf.Atan2(mousePos.y, mousePos.x) * Mathf.Rad2Deg;
+        //Quaternion rotation =  Quaternion.Euler(new Vector3(0f, 0f, angle));
+
+        float Haxis = joystick.Horizontal;
+        float Vaxis = joystick.Vertical;
+        float Zangle = Mathf.Atan2(Haxis, Vaxis) * Mathf.Rad2Deg - 90f;
+        Quaternion rotation = Quaternion.Euler(new Vector3(0f, 0f, -Zangle));
 
         Instantiate(bulletPrefab, firePoint.position, rotation);
     }
 
     private void ShotGun(float spreadAngle, int bulletsAmount)
     {
-        Vector3 mousePos = Input.mousePosition;
-        mousePos.z = 5.23f;
+        //Vector3 mousePos = Input.mousePosition;
+        //mousePos.z = 5.23f;
 
-        Vector3 currentPos = Camera.main.WorldToScreenPoint(firePoint.position);
-        mousePos.x = mousePos.x - currentPos.x;
-        mousePos.y = mousePos.y - currentPos.y;
+        //Vector3 currentPos = Camera.main.WorldToScreenPoint(firePoint.position);
+        //mousePos.x = mousePos.x - currentPos.x;
+        //mousePos.y = mousePos.y - currentPos.y;
+
+        float Haxis = joystick.Horizontal;
+        float Vaxis = joystick.Vertical;
 
         float angleStep = spreadAngle / bulletsAmount;
         float aimingAngle = AimOrigin.rotation.eulerAngles.z;
@@ -84,7 +94,8 @@ public class Shooting : MonoBehaviour
             Rigidbody2D rb;
 
             //Para disparar hacia la izquierda recto
-            if (mousePos.x == -1 && mousePos.y == 0)
+            //if (mousePos.x == -1 && mousePos.y == 0)
+            if (Haxis == -1 && Vaxis == 0)
             {
                 var shotRotDeg = -180;
                 var offsetX = -0.55f;
