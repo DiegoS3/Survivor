@@ -26,6 +26,7 @@ public class Shooting : MonoBehaviour
         if (dir != Vector2.zero && timeUntilNextShoot < Time.time)
         {
             abilityType = Player.Instance.GetAbilityType();
+            fireRate = 0.4f;
             switch (abilityType)
             {
                 case Player.AbilityType.Shotgun:

@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 1037
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 663}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 1037
-  m_MinSize: {x: 875, y: 663}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -119,10 +119,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 987
-  m_MinSize: {x: 918, y: 613}
-  m_MaxSize: {x: 16003, y: 18063}
+  m_MinSize: {x: 921, y: 613}
+  m_MaxSize: {x: 16006, y: 18063}
   vertical: 0
-  controlID: 632
+  controlID: 61
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,10 +145,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 987
-  m_MinSize: {x: 643, y: 613}
-  m_MaxSize: {x: 12003, y: 18063}
+  m_MinSize: {x: 645, y: 613}
+  m_MaxSize: {x: 12005, y: 18063}
   vertical: 1
-  controlID: 633
+  controlID: 62
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,10 +171,10 @@ MonoBehaviour:
     y: 0
     width: 1531
     height: 422
-  m_MinSize: {x: 643, y: 221}
-  m_MaxSize: {x: 12003, y: 4021}
+  m_MinSize: {x: 645, y: 221}
+  m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 634
+  controlID: 63
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -194,8 +194,8 @@ MonoBehaviour:
     y: 0
     width: 203
     height: 422
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -220,14 +220,14 @@ MonoBehaviour:
     y: 0
     width: 791
     height: 422
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
-  m_ActualView: {fileID: 14}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
   - {fileID: 14}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -247,8 +247,8 @@ MonoBehaviour:
     y: 0
     width: 537
     height: 422
-  m_MinSize: {x: 240, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 242, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -327,8 +327,8 @@ MonoBehaviour:
     y: 0
     width: 389
     height: 987
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 22}
@@ -453,9 +453,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6a970000
-      m_LastClickedID: 38762
-      m_ExpandedIDs: 9aa4ffffd2a4ffff9aa5ffffdad5ffff14d6ffffdad6ffff40fbffff
+      m_SelectedIDs: 80700000
+      m_LastClickedID: 28800
+      m_ExpandedIDs: f6daffff28dbffff48dbffff30e0ffffbee0ffff02e1ffff24e2ffff50e2ffffb6e2fffff8e3ffffa8e6ffffcce6ffff34eeffff54eeffff94f7ffffacf7ffff34fbffffe46a0000b66d0000066e0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -516,9 +516,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 899.2934, y: 507.5544, z: 93.51548}
+    m_Target: {x: 0, y: 0, z: 90}
     speed: 2
-    m_Value: {x: 899.2934, y: 507.5544, z: 93.51548}
+    m_Value: {x: 0.00011444092, y: 0.000064373016, z: 89.99999}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -569,9 +569,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 122.916336
+    m_Target: 203.97289
     speed: 2
-    m_Value: 122.916336
+    m_Value: 203.97299
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -913,22 +913,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts/General
+    - Assets/Scenes/Menus
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 89
   m_LastFolders:
-  - Assets/Scripts/General
+  - Assets/Scenes/Menus
   m_LastFoldersGridSize: 89
   m_LastProjectPath: D:\Users\diego\Desktop\REPOSITORIOS\TFG\Survivor\Survvivor
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 698}
-    m_SelectedIDs: e0460000
-    m_LastClickedID: 18144
-    m_ExpandedIDs: 000000005c4600005e46000060460000624600006446000066460000684600006a460000d246000000ca9a3b
+    scrollPos: {x: 0, y: 586}
+    m_SelectedIDs: 505b0000
+    m_LastClickedID: 23376
+    m_ExpandedIDs: 000000005e46000060460000624600006446000066460000684600006a4600006c460000d646000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -956,7 +956,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005c4600005e46000060460000624600006446000066460000684600006a46000000ca9a3b
+    m_ExpandedIDs: 000000005e46000060460000624600006446000066460000684600006a4600006c460000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
