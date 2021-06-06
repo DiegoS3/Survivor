@@ -69,6 +69,6 @@ public class EnemyAI : MonoBehaviour
     private void Attack()
     {
         anim.SetBool("Attack", true);
-        target.GetComponent<PlayerStats>().UpdateHealth(-attack);       
+        PlayerStats.Instance.UpdateHealth(-attack);    
     }
 }

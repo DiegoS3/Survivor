@@ -147,7 +147,6 @@ GameObject:
   - component: {fileID: 466980995933381360}
   - component: {fileID: 466980995933381367}
   - component: {fileID: 466980995933381365}
-  - component: {fileID: 466980995933381366}
   - component: {fileID: 466980995933381372}
   - component: {fileID: 466980995933381361}
   m_Layer: 6
@@ -290,23 +289,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiInventory: {fileID: 0}
---- !u!114 &466980995933381366
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 466980995933381375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 411ac05ddf6cfd74ab212cd1a0a04587, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  crono: {fileID: 0}
-  coinCounter: {fileID: 0}
-  enemyCounter: {fileID: 0}
-  heartCounter: {fileID: 0}
-  initHealth: 3
 --- !u!50 &466980995933381372
 Rigidbody2D:
   serializedVersion: 4

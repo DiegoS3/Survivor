@@ -6,17 +6,26 @@ using UnityEngine.UI;
 
 public class PlayerStats : MonoBehaviour
 {
+
+    public static PlayerStats Instance { get; private set; }
+
     private float health = 0f;
     private int coins;
     private int enemies;
     private float time;
     private TimeSpan timeCrono;
+    private bool muerto;
 
     [SerializeField]
     private Text crono, coinCounter, enemyCounter, heartCounter;
 
     [SerializeField]
     private float initHealth = 3f;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     private void Start()
     {
@@ -25,6 +34,7 @@ public class PlayerStats : MonoBehaviour
         enemies = 0;
         time = 0f;
         crono.text = "00:00";
+        muerto = false;
         coinCounter.text = coins.ToString();
         enemyCounter.text = enemies.ToString();
         heartCounter.text = health.ToString();
@@ -45,6 +55,7 @@ public class PlayerStats : MonoBehaviour
         if(health <= 0)
         {
             health = 0f;
+            muerto = true;
             StopCoroutine(LifeTimePlayer());
             Debug.Log("Player death");
         }
@@ -57,20 +68,17 @@ public class PlayerStats : MonoBehaviour
 
     public void UpdateEnemies(int cant)
     {
-
-        Debug.Log("Actu ");
         enemies += cant;
-        Debug.Log("Cantidad " + cant);
-        Debug.Log("Muertes " + enemies);
     }
 
     private IEnumerator LifeTimePlayer()
     {
-        while(health > 0)
+        while(!muerto)
         {
             time += Time.deltaTime;
             timeCrono = TimeSpan.FromSeconds(time);
-            string timeCronoStr = timeCrono.ToString(@"mm\:ss");
+            string timeCronoStr = "" + timeCrono.ToString(@"mm\:ss");
+            crono.text = timeCronoStr;
             yield return null;
         }
     }

@@ -15,11 +15,11 @@ D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57809
+63638
 Successfully changed project path to: D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
 D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 56.02 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 53.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,423 +35,63 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56372
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001401 seconds.
+Registered in 0.001408 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 55.14 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 52.79 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.690 seconds
+- Completed reload, in  2.654 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001223 seconds.
+Registered in 0.001098 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.38 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 58.08 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.079 seconds
+- Completed reload, in  1.039 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.3 MB.
 System memory in use after: 85.4 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2274.
-Total: 1.976400 ms (FindLiveObjects: 0.197600 ms CreateObjectMapping: 0.055900 ms MarkObjects: 1.657700 ms  DeleteObjects: 0.064200 ms)
+Total: 1.996400 ms (FindLiveObjects: 0.207400 ms CreateObjectMapping: 0.060700 ms MarkObjects: 1.663900 ms  DeleteObjects: 0.063400 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '122f928842f94434bd644084ca60c112') in 0.107028 seconds
-  Import took 0.110217 seconds .
+  path: Assets/Scripts/Player/PlayerHealth.cs
+  artifactKey: Guid(411ac05ddf6cfd74ab212cd1a0a04587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerHealth.cs using Guid(411ac05ddf6cfd74ab212cd1a0a04587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e239407eda5af790971abb0333d06aa2') in 0.029238 seconds
+  Import took 0.032243 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.770751 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '0626db279ad7e382dbdbdc00b1ded119') in 0.010100 seconds
-  Import took 0.013328 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.341102 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '97e1214a4fb793b7e10cdbbcb9667252') in 0.010127 seconds
-  Import took 0.013463 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.618394 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'cb39978dda763d3053737a26d20afb81') in 0.009047 seconds
-  Import took 0.012303 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.636410 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'e972112c56be244fd0f1e0c76da74355') in 0.009828 seconds
-  Import took 0.013659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.830651 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '7324e0253bed82a7cecad8d20639790e') in 0.010675 seconds
-  Import took 0.014397 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.619258 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '6921832516effdb6e5421e406cb9e9a7') in 0.011771 seconds
-  Import took 0.015185 seconds .
+  Time since last request: 4.436124 seconds.
+  path: Assets/Scripts/Player/PlayerStats.cs
+  artifactKey: Guid(411ac05ddf6cfd74ab212cd1a0a04587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerStats.cs using Guid(411ac05ddf6cfd74ab212cd1a0a04587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c45f95195658aa5db4b9959462c7a9') in 0.007636 seconds
+  Import took 0.010589 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001222 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.958 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.3 MB.
-System memory in use after: 88.4 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2284.
-Total: 1.946800 ms (FindLiveObjects: 0.182300 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.703400 ms  DeleteObjects: 0.016200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.137044 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '6ea0f5013bad12a3f4a50010fb7619cb') in 0.057743 seconds
-  Import took 0.060685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.291871 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7ff31d0f7245b24779cdf912f0ad27') in 0.008909 seconds
-  Import took 0.012054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.355816 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e735d62c60418846fdddaeef014fd4ce') in 0.008501 seconds
-  Import took 0.011620 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.250045 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'd9a4b1cb819c3368225bbbc884409d56') in 0.008843 seconds
-  Import took 0.012013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.023722 seconds.
-  path: Assets/Animation/Enemies/SlimePurple/Slime_Hit.anim
-  artifactKey: Guid(841c82b224fcbb741a6a51d29c14bf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/SlimePurple/Slime_Hit.anim using Guid(841c82b224fcbb741a6a51d29c14bf40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e28e30795247c06d602cc461395fb6') in 0.010195 seconds
-  Import took 0.013211 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.807839 seconds.
-  path: Assets/Animation/Enemies/SlimePurple/Slime_Death.anim
-  artifactKey: Guid(cd1f26d7ad9b50c46b2a7cc61ffe7977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/SlimePurple/Slime_Death.anim using Guid(cd1f26d7ad9b50c46b2a7cc61ffe7977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dff29ce82f75d7c6e9abbd6c0975545') in 0.008740 seconds
-  Import took 0.011838 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000886 seconds.
-  path: Assets/Animation/Enemies/SlimePurple/Slime_Death.anim
-  artifactKey: Guid(cd1f26d7ad9b50c46b2a7cc61ffe7977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/SlimePurple/Slime_Death.anim using Guid(cd1f26d7ad9b50c46b2a7cc61ffe7977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dff29ce82f75d7c6e9abbd6c0975545') in 0.002769 seconds
-  Import took 0.005659 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.865594 seconds.
-  path: Assets/Animation/Enemies/SlimePurple
-  artifactKey: Guid(196783ac9d7ee804d9d5e2a2cd9ae1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/SlimePurple using Guid(196783ac9d7ee804d9d5e2a2cd9ae1a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23780a756c3f4e3fdf1b9118173c5aca') in 0.002301 seconds
-  Import took 0.005401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 148.194836 seconds.
-  path: Assets/Animation/Enemies/SlimePurple/SlimePurple.controller
-  artifactKey: Guid(ccf4dc63631c27242a1644d8fcd7ae32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/SlimePurple/SlimePurple.controller using Guid(ccf4dc63631c27242a1644d8fcd7ae32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '626936469aaeb345f29146c7e70d433d') in 0.005472 seconds
-  Import took 0.008516 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001330 seconds.
+Registered in 0.001158 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
@@ -460,70 +100,21 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.948 seconds
+- Completed reload, in  0.945 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.3 MB.
-System memory in use after: 88.5 MB.
+System memory in use before: 85.0 MB.
+System memory in use after: 85.1 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2288.
-Total: 2.159100 ms (FindLiveObjects: 0.271800 ms CreateObjectMapping: 0.088400 ms MarkObjects: 1.778700 ms  DeleteObjects: 0.019300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 111.339587 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8a8302257e4875689c8abf1e0a4d647') in 0.068572 seconds
-  Import took 0.071780 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.898632 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (SlimePurple) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '0cc0162775c753ead48d2fc4f7f05abd') in 0.010383 seconds
-  Import took 0.013409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 233.887836 seconds.
-  path: Assets/Animation/Enemies/SlimePurple/SlimePurple.controller
-  artifactKey: Guid(ccf4dc63631c27242a1644d8fcd7ae32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/SlimePurple/SlimePurple.controller using Guid(ccf4dc63631c27242a1644d8fcd7ae32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231c29a43d6dae889675dba137adf93b') in 0.004591 seconds
-  Import took 0.008324 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 2.112500 ms (FindLiveObjects: 0.179900 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.870000 ms  DeleteObjects: 0.017400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001581 seconds.
+Registered in 0.001277 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
@@ -532,21 +123,121 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
+- Completed reload, in  0.940 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 2.024700 ms (FindLiveObjects: 0.208000 ms CreateObjectMapping: 0.048100 ms MarkObjects: 1.750900 ms  DeleteObjects: 0.015900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.080884 seconds.
+  path: Assets/Scripts/Player/PlayerStats.cs
+  artifactKey: Guid(411ac05ddf6cfd74ab212cd1a0a04587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Player/PlayerStats.cs using Guid(411ac05ddf6cfd74ab212cd1a0a04587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234e4d8c84aff1ec43fdd74d90d2c31b') in 0.004919 seconds
+  Import took 0.007794 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001272 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.968 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 2.626400 ms (FindLiveObjects: 0.232800 ms CreateObjectMapping: 0.046400 ms MarkObjects: 2.328500 ms  DeleteObjects: 0.017300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.4 MB.
-System memory in use after: 88.5 MB.
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 1.954900 ms (FindLiveObjects: 0.187300 ms CreateObjectMapping: 0.044700 ms MarkObjects: 1.705300 ms  DeleteObjects: 0.016400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001285 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 1.975500 ms (FindLiveObjects: 0.216000 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.696300 ms  DeleteObjects: 0.016000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001218 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2292.
-Total: 2.107200 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.049600 ms MarkObjects: 1.838900 ms  DeleteObjects: 0.016900 ms)
+Total: 1.909100 ms (FindLiveObjects: 0.188300 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.659200 ms  DeleteObjects: 0.015600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001214 seconds.
+Registered in 0.001182 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
@@ -555,671 +246,24 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.953 seconds
+- Completed reload, in  0.975 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.4 MB.
-System memory in use after: 88.5 MB.
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
 
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2295.
-Total: 1.977300 ms (FindLiveObjects: 0.193800 ms CreateObjectMapping: 0.044800 ms MarkObjects: 1.719900 ms  DeleteObjects: 0.017700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 208.560944 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd67b0594eb35264484df21283a88c25') in 0.058882 seconds
-  Import took 0.062140 seconds .
+Total: 1.851900 ms (FindLiveObjects: 0.178000 ms CreateObjectMapping: 0.044300 ms MarkObjects: 1.614800 ms  DeleteObjects: 0.013900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001210 seconds.
+Registered in 0.001212 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.4 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2299.
-Total: 2.037300 ms (FindLiveObjects: 0.195800 ms CreateObjectMapping: 0.046300 ms MarkObjects: 1.776100 ms  DeleteObjects: 0.017500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 76.685205 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e0b433ba70486f1953f3531fe9f7cf') in 0.064619 seconds
-  Import took 0.068199 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.988890 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3500e11f874b3785ff8c714fc8a71a28') in 0.014091 seconds
-  Import took 0.018196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.936959 seconds.
-  path: Assets/Art/topdown_shooter/monster
-  artifactKey: Guid(825e95caa8a9d154a8f160a71848b0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/monster using Guid(825e95caa8a9d154a8f160a71848b0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03cb847ba00ead3ab98b11df65f011d7') in 0.019141 seconds
-  Import took 0.022690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.159305 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol
-  artifactKey: Guid(2f107df0ce2b59040ab0eceba788792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol using Guid(2f107df0ce2b59040ab0eceba788792a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbea6accfd692bf2d1d3d00874401957') in 0.009170 seconds
-  Import took 0.012120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061867 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_down.png
-  artifactKey: Guid(ccb04ac4c23c48c4f8e07173cd4b3f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_down.png using Guid(ccb04ac4c23c48c4f8e07173cd4b3f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b931cff881c33367fa44c255564812b0') in 0.085018 seconds
-  Import took 0.088159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_rightdown.png
-  artifactKey: Guid(4044ce85eaed64146a00c51be598af51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_rightdown.png using Guid(4044ce85eaed64146a00c51be598af51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4de0bbfcaae27161c3383cad394b7aa') in 0.035867 seconds
-  Import took 0.038882 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_right.png
-  artifactKey: Guid(c40693f3ad2f32941a90e8f5aa539196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_right.png using Guid(c40693f3ad2f32941a90e8f5aa539196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7620eb7721ada660ed582fdbd316c6') in 0.028604 seconds
-  Import took 0.031367 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3down.png
-  artifactKey: Guid(88ab823b3ab1e164cb12ea2ad7680cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3down.png using Guid(88ab823b3ab1e164cb12ea2ad7680cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd5d6717e12307bb4d7dcb1451e97182') in 0.035919 seconds
-  Import took 0.039366 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_down.png
-  artifactKey: Guid(dea4cfb18b708c14d849f96981abe87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_down.png using Guid(dea4cfb18b708c14d849f96981abe87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2933e324c6fc2ffac5fc58954e3fa48') in 0.027428 seconds
-  Import took 0.030610 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_right.png
-  artifactKey: Guid(1dc7e8f0e8e626a4482538dcdfa8761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_right.png using Guid(1dc7e8f0e8e626a4482538dcdfa8761a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a74285c5bbb5418867c071944f5abbd') in 0.020060 seconds
-  Import took 0.023351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3left.png
-  artifactKey: Guid(5b117b9526e36c246a562e787e1f5f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3left.png using Guid(5b117b9526e36c246a562e787e1f5f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4776b3d637bbe687bd6b6710e944459') in 0.033291 seconds
-  Import took 0.036942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_leftup.png
-  artifactKey: Guid(1d6b00229013f844f91cc5bbfd28b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_leftup.png using Guid(1d6b00229013f844f91cc5bbfd28b1cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be37f82ad52fcb7ffe9cba470909c1f') in 0.020409 seconds
-  Import took 0.023468 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_up.png
-  artifactKey: Guid(e28a51abe05ff5c4892254dc491225b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_up.png using Guid(e28a51abe05ff5c4892254dc491225b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993f5d42ce78b2674377e5055d1dea63') in 0.033127 seconds
-  Import took 0.036361 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3rightup.png
-  artifactKey: Guid(d278a426bfaee574cbe3753da7eac9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3rightup.png using Guid(d278a426bfaee574cbe3753da7eac9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cc927cf45f6795263cc33b986adfd2') in 0.034012 seconds
-  Import took 0.037081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000199 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3up.png
-  artifactKey: Guid(20cb3e0cd38826b439352fd2b9fa027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3up.png using Guid(20cb3e0cd38826b439352fd2b9fa027b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f73deece9b471291060a82b43206bd9d') in 0.036758 seconds
-  Import took 0.041148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3rightdown.png
-  artifactKey: Guid(68ad85328f0b49540b82536beb5cdbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3rightdown.png using Guid(68ad85328f0b49540b82536beb5cdbc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '971525e0cd8f7eb87b0f3f3bbc25e6bc') in 0.024730 seconds
-  Import took 0.028082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_left.png
-  artifactKey: Guid(31cdcf937a1c0224594f448dd38283f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_left.png using Guid(31cdcf937a1c0224594f448dd38283f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea83401fbd490532b174f6bb2467d6e') in 0.057927 seconds
-  Import took 0.061093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_rightdown.png
-  artifactKey: Guid(6b74357c7874e1e4095b16e4a1db3850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_rightdown.png using Guid(6b74357c7874e1e4095b16e4a1db3850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d1576b07d0dfc07569c7421a1284b8') in 0.020489 seconds
-  Import took 0.023735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_rightup.png
-  artifactKey: Guid(91c03ff060215d740abfdeaf419bfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_rightup.png using Guid(91c03ff060215d740abfdeaf419bfff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1de61872671a1e9f82374525d2119e8') in 0.020883 seconds
-  Import took 0.024030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3leftdown.png
-  artifactKey: Guid(8832450640cf37d42a689aa9d4b7edcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3leftdown.png using Guid(8832450640cf37d42a689aa9d4b7edcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8102e7a6af3b3667d5cea9f5aa55c15') in 0.022250 seconds
-  Import took 0.025814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_rightup.png
-  artifactKey: Guid(db90afd1a8cdc964dbaef1254a15b6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_rightup.png using Guid(db90afd1a8cdc964dbaef1254a15b6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70579f3c148960aecb637b1849f8563d') in 0.019552 seconds
-  Import took 0.022634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_up.png
-  artifactKey: Guid(6e43ec3e17ba3a7478cb0c9ea85778b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_up.png using Guid(6e43ec3e17ba3a7478cb0c9ea85778b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c2744ec2d4cb6a96835b10d350c3406') in 0.028363 seconds
-  Import took 0.031381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_leftdown.png
-  artifactKey: Guid(c3b5dc86b2f3555408ac0511f40ce294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv2_leftdown.png using Guid(c3b5dc86b2f3555408ac0511f40ce294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1af42d2d54438687b2d45594e7f34a9') in 0.019093 seconds
-  Import took 0.022127 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3leftup.png
-  artifactKey: Guid(e10b219dcc7e87c489020992afb3eee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3leftup.png using Guid(e10b219dcc7e87c489020992afb3eee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c9782b80aa0d4e2be0846fde7e1517') in 0.019890 seconds
-  Import took 0.022811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3right.png
-  artifactKey: Guid(27385ac34a226d645829cca4c83f9849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/topdown_shooter/towers/pistol/tower_pistol_lv3right.png using Guid(27385ac34a226d645829cca4c83f9849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4a59d3a5c36ea61a03eff79f4e72b5') in 0.098529 seconds
-  Import took 0.101431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.772625 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_0.png
-  artifactKey: Guid(4c11f041d244ee54aa5d6a623cf33d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_0.png using Guid(4c11f041d244ee54aa5d6a623cf33d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b167b85a793734fc25dc9a16546ebdc') in 0.022543 seconds
-  Import took 0.025820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_1.png
-  artifactKey: Guid(5ff3e324cefff714ca87ac2e5ce5405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_1.png using Guid(5ff3e324cefff714ca87ac2e5ce5405c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0603cf62fa5d6d972fcd2dd905b89c6c') in 0.012764 seconds
-  Import took 0.015931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_2.png
-  artifactKey: Guid(7a0a8d3a28e3bee4dbed514a4bdcccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_2.png using Guid(7a0a8d3a28e3bee4dbed514a4bdcccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16eb35043dd9a41e07b92f45215ee521') in 0.016606 seconds
-  Import took 0.019978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_5.png
-  artifactKey: Guid(3f3ffb705382a2d4786e705bb6a814b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_5.png using Guid(3f3ffb705382a2d4786e705bb6a814b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfa56baee09dc4f90cee0df45e081c2') in 0.011780 seconds
-  Import took 0.014924 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_3.png
-  artifactKey: Guid(68c0733f041f3434eb798ccb04d2f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_3.png using Guid(68c0733f041f3434eb798ccb04d2f362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40311d467e73f324c3dbfe132b561cc7') in 0.011841 seconds
-  Import took 0.015392 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_6.png
-  artifactKey: Guid(c556691d1b4128548aecc633211c761c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_6.png using Guid(c556691d1b4128548aecc633211c761c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091bc6839465260a0387913d655ab46c') in 0.012558 seconds
-  Import took 0.015557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_4.png
-  artifactKey: Guid(5fe6ada2e19d4454ea006cbfd26df604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_4.png using Guid(5fe6ada2e19d4454ea006cbfd26df604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7043ffea3c45b8d0406040f5eaaf0f39') in 0.012002 seconds
-  Import took 0.014845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_7.png
-  artifactKey: Guid(494072e3f564dfc4293f1c6bad699904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Bandit Sprite/Run/run_run_7.png using Guid(494072e3f564dfc4293f1c6bad699904) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98d810445eaa28898d7c854cd3275d7f') in 0.012241 seconds
-  Import took 0.015514 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 83.804503 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red
-  artifactKey: Guid(3ec97f0c3f05d70419a2ab1d5dff38b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red using Guid(3ec97f0c3f05d70419a2ab1d5dff38b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69c141ab9f40df517c34c3e76aaec3f') in 0.008478 seconds
-  Import took 0.011372 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.851834 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Attack
-  artifactKey: Guid(ce77d710598f24b47b600b7b8b1d7d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Attack using Guid(ce77d710598f24b47b600b7b8b1d7d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be78c78a969663f7478d1046f371439') in 0.002110 seconds
-  Import took 0.005102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.524744 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle
-  artifactKey: Guid(643eacc15a13dd542be22026c113c2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle using Guid(643eacc15a13dd542be22026c113c2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eac791878351c935077b9eb7ddc54e25') in 0.002378 seconds
-  Import took 0.005307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.938175 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/TakeHit
-  artifactKey: Guid(1aeac4fe88dae6b4896dc5e8c06c214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/TakeHit using Guid(1aeac4fe88dae6b4896dc5e8c06c214a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93a694eea76e2abc85180da45a49a52b') in 0.006847 seconds
-  Import took 0.009797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.415076 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _0.png
-  artifactKey: Guid(a6a7b2d50f90e704a91ea0549d31dc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _0.png using Guid(a6a7b2d50f90e704a91ea0549d31dc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33155f057fba49603d79ea4bde5dcc4') in 0.012737 seconds
-  Import took 0.015738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _2.png
-  artifactKey: Guid(c121d170df353ec4484b5faa3edde5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _2.png using Guid(c121d170df353ec4484b5faa3edde5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fdda19396308c0506dba8c77a547964') in 0.011992 seconds
-  Import took 0.014970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _5.png
-  artifactKey: Guid(69263f65f5f5f6f41b3e66fab2bdec25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _5.png using Guid(69263f65f5f5f6f41b3e66fab2bdec25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3c715da0738979bfa883f9039f5e86') in 0.010925 seconds
-  Import took 0.013765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _3.png
-  artifactKey: Guid(e8c61983c344131408a3f22588985eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _3.png using Guid(e8c61983c344131408a3f22588985eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b78dfb95317fbdccb41d64274963a3f') in 0.011531 seconds
-  Import took 0.014307 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _4.png
-  artifactKey: Guid(53c6e338c37dc60429dc39664fa0bdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _4.png using Guid(53c6e338c37dc60429dc39664fa0bdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c91362deaaf4d1c32fd016da3b74260') in 0.011371 seconds
-  Import took 0.014404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _7.png
-  artifactKey: Guid(83276879a74267442aec4809c2f6c605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _7.png using Guid(83276879a74267442aec4809c2f6c605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '317c5dc610152a61da0a1c526da02e8c') in 0.012751 seconds
-  Import took 0.015656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _6.png
-  artifactKey: Guid(4d5546558f2b5ab4da901a11dc31671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _6.png using Guid(4d5546558f2b5ab4da901a11dc31671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edebf04665c219659a3949021d3ef9b6') in 0.011724 seconds
-  Import took 0.014789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _1.png
-  artifactKey: Guid(d56999ea5c29bf4498643c1fa2eeb1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _1.png using Guid(d56999ea5c29bf4498643c1fa2eeb1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06b1d650be16178a92c90f4e37d9879a') in 0.013154 seconds
-  Import took 0.016329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.477379 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _0.png
-  artifactKey: Guid(a6a7b2d50f90e704a91ea0549d31dc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _0.png using Guid(a6a7b2d50f90e704a91ea0549d31dc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a92ecc046d85c25de537576e4cb1fe9') in 0.007106 seconds
-  Import took 0.010572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _2.png
-  artifactKey: Guid(c121d170df353ec4484b5faa3edde5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _2.png using Guid(c121d170df353ec4484b5faa3edde5d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd701d2cd9ff189637bfc45e82184d1') in 0.008225 seconds
-  Import took 0.011250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _5.png
-  artifactKey: Guid(69263f65f5f5f6f41b3e66fab2bdec25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _5.png using Guid(69263f65f5f5f6f41b3e66fab2bdec25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855d337e6d75ffd786a9df878afba168') in 0.006888 seconds
-  Import took 0.010054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _3.png
-  artifactKey: Guid(e8c61983c344131408a3f22588985eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _3.png using Guid(e8c61983c344131408a3f22588985eac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0191d94d689dd586d3e9cd0e7de81329') in 0.008006 seconds
-  Import took 0.010818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _4.png
-  artifactKey: Guid(53c6e338c37dc60429dc39664fa0bdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _4.png using Guid(53c6e338c37dc60429dc39664fa0bdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd2d52813dec029d65e3d9fc73028a17') in 0.007104 seconds
-  Import took 0.009922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _7.png
-  artifactKey: Guid(83276879a74267442aec4809c2f6c605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _7.png using Guid(83276879a74267442aec4809c2f6c605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '947ad036ebf7601179fece335a748098') in 0.007577 seconds
-  Import took 0.010644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _6.png
-  artifactKey: Guid(4d5546558f2b5ab4da901a11dc31671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _6.png using Guid(4d5546558f2b5ab4da901a11dc31671f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f2eaa82b914d521f3efee8025ab1579') in 0.007738 seconds
-  Import took 0.010495 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _1.png
-  artifactKey: Guid(d56999ea5c29bf4498643c1fa2eeb1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Idle/bat idle_Bat Idle Red _1.png using Guid(d56999ea5c29bf4498643c1fa2eeb1f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49a170d3d5fb7cf463f74b3d6cc82b9') in 0.006905 seconds
-  Import took 0.009943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 121.547457 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Attack/bat attack_Bat Attack Red_0.png
-  artifactKey: Guid(315d472d04389ae429da5d1f6db212e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Attack/bat attack_Bat Attack Red_0.png using Guid(315d472d04389ae429da5d1f6db212e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dee55bcff9865ccf86dc317100f35d9') in 0.010946 seconds
-  Import took 0.014074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Attack/bat attack_Bat Attack Red_4.png
-  artifactKey: Guid(01ce383add072064aab8fa0966602995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Attack/bat attack_Bat Attack Red_4.png using Guid(01ce383add072064aab8fa0966602995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa381e4e2dbccb81d2c31847b371808') in 0.011089 seconds
-  Import took 0.014228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Attack/bat attack_Bat Attack Red_5.png
-  artifactKey: Guid(80a516f8c23a06f46b2fb865817f0eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Attack/bat attack_Bat Attack Red_5.png using Guid(80a516f8c23a06f46b2fb865817f0eb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfd6ca68d555cddcafe37129ea718f1e') in 0.010488 seconds
-  Import took 0.013358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Attack/bat attack_Bat Attack Red_3.png
-  artifactKey: Guid(c8461f9fa50993d468b0979c2b5dcbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Attack/bat attack_Bat Attack Red_3.png using Guid(c8461f9fa50993d468b0979c2b5dcbf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262feddf77c27e77f230f0f2526dc006') in 0.010430 seconds
-  Import took 0.013492 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Attack/bat attack_Bat Attack Red_1.png
-  artifactKey: Guid(ae438ce121d45a642b021e2552c342f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Attack/bat attack_Bat Attack Red_1.png using Guid(ae438ce121d45a642b021e2552c342f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c37719ea2d47b624627cc14e95dfb3') in 0.010018 seconds
-  Import took 0.012960 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Attack/bat attack_Bat Attack Red_2.png
-  artifactKey: Guid(ef36f40c5e29cf9478bd6735ab7481de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Attack/bat attack_Bat Attack Red_2.png using Guid(ef36f40c5e29cf9478bd6735ab7481de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c2449a36bc943c0967595e983602fd') in 0.010454 seconds
-  Import took 0.013197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.389817 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death
-  artifactKey: Guid(c7c0b05f2fd19404b853b5a5d3080cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death using Guid(c7c0b05f2fd19404b853b5a5d3080cc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b968881723471841b23b3fa257cc0fe') in 0.002344 seconds
-  Import took 0.005348 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.053684 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_09.png
-  artifactKey: Guid(f61ab8583a8adb04baee2a7ca35a3d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_09.png using Guid(f61ab8583a8adb04baee2a7ca35a3d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5343d539f343952a4c3e442d2019f9') in 0.028990 seconds
-  Import took 0.032398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_11.png
-  artifactKey: Guid(ce195fee538038e46a4ad608732ae059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_11.png using Guid(ce195fee538038e46a4ad608732ae059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fc03780b613604f09acac418818e59') in 0.028460 seconds
-  Import took 0.031260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_10.png
-  artifactKey: Guid(9ca21dfef365f304e8b1f21ebbd3ac01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_10.png using Guid(9ca21dfef365f304e8b1f21ebbd3ac01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb73aa4c461cb7ed67fe7367c9094f74') in 0.030445 seconds
-  Import took 0.033517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_11.png
-  artifactKey: Guid(ce195fee538038e46a4ad608732ae059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_11.png using Guid(ce195fee538038e46a4ad608732ae059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37fc03780b613604f09acac418818e59') in 0.007021 seconds
-  Import took 0.009921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_10.png
-  artifactKey: Guid(9ca21dfef365f304e8b1f21ebbd3ac01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_10.png using Guid(9ca21dfef365f304e8b1f21ebbd3ac01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb73aa4c461cb7ed67fe7367c9094f74') in 0.007306 seconds
-  Import took 0.010009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.537947 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_00.png
-  artifactKey: Guid(ac50a5aa5638e0f46a928de84ef92444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_00.png using Guid(ac50a5aa5638e0f46a928de84ef92444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b1f67f8cf463e613ea1a4b9a903335') in 0.011212 seconds
-  Import took 0.014223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_04.png
-  artifactKey: Guid(06d327a314480fd49a181ae85000088a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_04.png using Guid(06d327a314480fd49a181ae85000088a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df10a43f4c1e683ff7bcacb4a0eac97') in 0.012616 seconds
-  Import took 0.015587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_07.png
-  artifactKey: Guid(cd49f3074f88c7e478e2d1dd2be13459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_07.png using Guid(cd49f3074f88c7e478e2d1dd2be13459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '965029f236f2df8de0141e402bcdcd6e') in 0.011071 seconds
-  Import took 0.013814 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_09.png
-  artifactKey: Guid(f61ab8583a8adb04baee2a7ca35a3d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_09.png using Guid(f61ab8583a8adb04baee2a7ca35a3d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58fa66f372cb5a6c391e80ff5615d741') in 0.007203 seconds
-  Import took 0.009984 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_01.png
-  artifactKey: Guid(4d2503b0a0f5d5a4ba365274dc6546b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_01.png using Guid(4d2503b0a0f5d5a4ba365274dc6546b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7170abc9787567087f9068f438ccf8ca') in 0.011317 seconds
-  Import took 0.014338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_08.png
-  artifactKey: Guid(98fabce0390ef7e41bf9cabede420ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_08.png using Guid(98fabce0390ef7e41bf9cabede420ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27318ec1b383dcfaf30e103144355a80') in 0.011273 seconds
-  Import took 0.014311 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_05.png
-  artifactKey: Guid(96714a76dc40a80408d58693b139f0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_05.png using Guid(96714a76dc40a80408d58693b139f0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c9821cd56af6d18451b8c6fea287cae') in 0.014243 seconds
-  Import took 0.017641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_02.png
-  artifactKey: Guid(60c6419701dcd7243ac1dbc5da0d2d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_02.png using Guid(60c6419701dcd7243ac1dbc5da0d2d20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e79e4ebd3aaba1c2724066ad99d29f') in 0.011506 seconds
-  Import took 0.014398 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_06.png
-  artifactKey: Guid(c475463db1200f54f822ebc702fca09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_06.png using Guid(c475463db1200f54f822ebc702fca09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5959916d114df6d6ce687e3ec535e8c') in 0.011394 seconds
-  Import took 0.014360 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_11.png
-  artifactKey: Guid(ce195fee538038e46a4ad608732ae059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_11.png using Guid(ce195fee538038e46a4ad608732ae059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470489f4bd245686539b9965282f9db1') in 0.007215 seconds
-  Import took 0.010022 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_10.png
-  artifactKey: Guid(9ca21dfef365f304e8b1f21ebbd3ac01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_10.png using Guid(9ca21dfef365f304e8b1f21ebbd3ac01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afd26d6486cadf8c3fe63b8d1be05eff') in 0.007297 seconds
-  Import took 0.010314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_03.png
-  artifactKey: Guid(797001c8f9e7b244c9ec995fda52db18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Bat/Bat Red/Death/bat death_Bat Death Red_03.png using Guid(797001c8f9e7b244c9ec995fda52db18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f26d8552059bc7d581a92a6844cd7f33') in 0.011757 seconds
-  Import took 0.014975 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001295 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -1227,19 +271,88 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.938 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.7 MB.
-System memory in use after: 88.8 MB.
+System memory in use before: 85.1 MB.
+System memory in use after: 85.2 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2314.
-Total: 1.914700 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.651800 ms  DeleteObjects: 0.015100 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2298.
+Total: 1.895900 ms (FindLiveObjects: 0.189900 ms CreateObjectMapping: 0.046000 ms MarkObjects: 1.640200 ms  DeleteObjects: 0.018600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001407 seconds.
+Registered in 0.001139 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.924 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2301.
+Total: 1.865300 ms (FindLiveObjects: 0.172500 ms CreateObjectMapping: 0.043900 ms MarkObjects: 1.634100 ms  DeleteObjects: 0.014200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001224 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.926 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 1.815200 ms (FindLiveObjects: 0.181100 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.575200 ms  DeleteObjects: 0.014000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001209 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.953 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2307.
+Total: 1.945500 ms (FindLiveObjects: 0.204100 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.680900 ms  DeleteObjects: 0.014100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001186 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
@@ -1253,689 +366,166 @@ Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.7 MB.
-System memory in use after: 88.8 MB.
+System memory in use before: 85.2 MB.
+System memory in use after: 85.3 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2317.
-Total: 1.870300 ms (FindLiveObjects: 0.206900 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.602000 ms  DeleteObjects: 0.015100 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2310.
+Total: 1.905500 ms (FindLiveObjects: 0.198000 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.645600 ms  DeleteObjects: 0.014700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001392 seconds.
+Registered in 0.001189 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.962 seconds
+- Completed reload, in  1.002 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.7 MB.
-System memory in use after: 88.8 MB.
+System memory in use before: 85.2 MB.
+System memory in use after: 85.3 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2320.
-Total: 2.026400 ms (FindLiveObjects: 0.188700 ms CreateObjectMapping: 0.048600 ms MarkObjects: 1.773700 ms  DeleteObjects: 0.014200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 212.760783 seconds.
-  path: Assets/Prefabs/Enemies/BatRed.prefab
-  artifactKey: Guid(52c2693957712b24d92c75f4d6f066fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/BatRed.prefab using Guid(52c2693957712b24d92c75f4d6f066fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (BatRed) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (BatRed) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: '6fdd5c1a4b6684e075649b168cc2b860') in 0.065332 seconds
-  Import took 0.068680 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 2.100300 ms (FindLiveObjects: 0.215000 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.822400 ms  DeleteObjects: 0.016400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001190 seconds.
+Registered in 0.001253 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.967 seconds
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2316.
+Total: 2.061700 ms (FindLiveObjects: 0.201700 ms CreateObjectMapping: 0.047100 ms MarkObjects: 1.793600 ms  DeleteObjects: 0.018400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001205 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.944 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.9 MB.
+System memory in use before: 85.2 MB.
+System memory in use after: 85.3 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2324.
-Total: 2.934600 ms (FindLiveObjects: 0.295400 ms CreateObjectMapping: 0.050800 ms MarkObjects: 2.567900 ms  DeleteObjects: 0.018900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 134.908117 seconds.
-  path: Assets/Prefabs/Bullet/HitEffect.prefab
-  artifactKey: Guid(209616f64f2d6c245918465d35ba2b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet/HitEffect.prefab using Guid(209616f64f2d6c245918465d35ba2b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0973e114f11ad3d1697b70770162a6a') in 0.060564 seconds
-  Import took 0.063726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.289141 seconds.
-  path: Assets/Prefabs/Bullet/ShellEmpty.prefab
-  artifactKey: Guid(ecd48da7034690347a0d1ce625ffca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet/ShellEmpty.prefab using Guid(ecd48da7034690347a0d1ce625ffca69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd918dee57d66f9f863f02324e0d409e8') in 0.013530 seconds
-  Import took 0.016568 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/Prefabs/Bullet/ShellEmpty1.prefab
-  artifactKey: Guid(18f5eb92ac6524948b5d8a19dd6f80ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Bullet/ShellEmpty1.prefab using Guid(18f5eb92ac6524948b5d8a19dd6f80ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d7bdabb519a72c4fe82a1af48f4bba') in 0.014545 seconds
-  Import took 0.017980 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2319.
+Total: 2.057300 ms (FindLiveObjects: 0.277500 ms CreateObjectMapping: 0.067300 ms MarkObjects: 1.693200 ms  DeleteObjects: 0.018100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001558 seconds.
+Registered in 0.001133 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.956 seconds
+- Completed reload, in  0.971 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2322.
+Total: 1.953400 ms (FindLiveObjects: 0.180700 ms CreateObjectMapping: 0.045100 ms MarkObjects: 1.712100 ms  DeleteObjects: 0.014700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001208 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.932 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.9 MB.
+System memory in use before: 85.2 MB.
+System memory in use after: 85.3 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2328.
-Total: 1.948600 ms (FindLiveObjects: 0.261900 ms CreateObjectMapping: 0.047600 ms MarkObjects: 1.623000 ms  DeleteObjects: 0.015000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 3822.259321 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Grey/Run
-  artifactKey: Guid(42a039618cda88b4ea98c06e56095b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Grey/Run using Guid(42a039618cda88b4ea98c06e56095b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1755730a67ba8e009e8a979748e84f96') in 0.010507 seconds
-  Import took 0.013978 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2325.
+Total: 1.946300 ms (FindLiveObjects: 0.208800 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.676100 ms  DeleteObjects: 0.014500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.781936 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Grey/Run/Run Grey_Run Grey_0.png
-  artifactKey: Guid(46399b3cfc06945468c0bf64237966cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Grey/Run/Run Grey_Run Grey_0.png using Guid(46399b3cfc06945468c0bf64237966cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9751690f17f951d1b7076d024816ca') in 0.051938 seconds
-  Import took 0.054991 seconds .
+  Time since last request: 2020.259549 seconds.
+  path: Assets/Prefabs/Enemies/BatRed.prefab
+  artifactKey: Guid(52c2693957712b24d92c75f4d6f066fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/BatRed.prefab using Guid(52c2693957712b24d92c75f4d6f066fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8f19c8161e464a975f68baef28d784') in 0.096069 seconds
+  Import took 0.099769 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Grey/Run/Run Grey_Run Grey_3.png
-  artifactKey: Guid(3f7dce7ed559e83458174df4ca162dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Grey/Run/Run Grey_Run Grey_3.png using Guid(3f7dce7ed559e83458174df4ca162dcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb4dcdcceb84f741d51c2ea064efe75') in 0.010154 seconds
-  Import took 0.013187 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Grey/Run/Run Grey_Run Grey_1.png
-  artifactKey: Guid(1d12b8ba74d1de24a8c7ded241602a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Grey/Run/Run Grey_Run Grey_1.png using Guid(1d12b8ba74d1de24a8c7ded241602a53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5363b884c99fab5ec62fe55573bf5d0b') in 0.011945 seconds
-  Import took 0.015581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Grey/Run/Run Grey_Run Grey_2.png
-  artifactKey: Guid(9a9e6d696efc6e649be60799acd477a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.2/Wildlife Pack/Squirrel/Grey/Run/Run Grey_Run Grey_2.png using Guid(9a9e6d696efc6e649be60799acd477a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7877f07c3b8568094ca7579e3edddcf3') in 0.011011 seconds
-  Import took 0.014009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 42.424745 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Green/Death
-  artifactKey: Guid(3c118d8229dc84046bfa52232e92f8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Green/Death using Guid(3c118d8229dc84046bfa52232e92f8d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9daa860aa5c7ad0da0ea757256bc0b') in 0.007317 seconds
-  Import took 0.010331 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.490658 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red
-  artifactKey: Guid(f08eb4e7fcb8350498e4f240ed3b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red using Guid(f08eb4e7fcb8350498e4f240ed3b066a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c66f1be001221dd9f75d7c24b1d0e8') in 0.002322 seconds
-  Import took 0.005325 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.760269 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle
-  artifactKey: Guid(7d728af2166c21f4ab39ed49ea2224dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle using Guid(7d728af2166c21f4ab39ed49ea2224dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63736509383a98b06f8a69172ca2eb92') in 0.008856 seconds
-  Import took 0.012752 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.588273 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_0.png
-  artifactKey: Guid(16486b33398b53344999e7342b365586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_0.png using Guid(16486b33398b53344999e7342b365586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48c35891e7ed853fc32c844c52398212') in 0.011864 seconds
-  Import took 0.014857 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_2.png
-  artifactKey: Guid(a0b5770496ff91c48ba70d0ee30947ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_2.png using Guid(a0b5770496ff91c48ba70d0ee30947ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0aa4175b9db1f981ecb094c36cd204') in 0.013028 seconds
-  Import took 0.016289 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_5.png
-  artifactKey: Guid(324482c646da4154c9fbaacf55028a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_5.png using Guid(324482c646da4154c9fbaacf55028a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '473ec22183c8574112c587b39f500e05') in 0.013260 seconds
-  Import took 0.016026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_3.png
-  artifactKey: Guid(976c736a03ccf9e4b923532f1abede06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_3.png using Guid(976c736a03ccf9e4b923532f1abede06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bcb819fa56124057784d05b00a265b6') in 0.010317 seconds
-  Import took 0.013048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_1.png
-  artifactKey: Guid(a41c7d46f28b9034da673e049525b751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_1.png using Guid(a41c7d46f28b9034da673e049525b751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1192996e15aaa37748f97b11a6e57a') in 0.014043 seconds
-  Import took 0.016808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_7.png
-  artifactKey: Guid(5a94c05d26f5a6d4eba3db2745ce1935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_7.png using Guid(5a94c05d26f5a6d4eba3db2745ce1935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9910e779856d96df2b459ac18fc8880') in 0.010606 seconds
-  Import took 0.013385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_6.png
-  artifactKey: Guid(688bb0e752308f544bf73e8b73244cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_6.png using Guid(688bb0e752308f544bf73e8b73244cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744dcf97f81a91b87bb2d1cb9dd6bb74') in 0.012556 seconds
-  Import took 0.015261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_4.png
-  artifactKey: Guid(c3882b4e2297ea94b889e41317cfa2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Move or Idle/Move_Move and Idle Red_4.png using Guid(c3882b4e2297ea94b889e41317cfa2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '741e46e0aa76123cc1a3bc3e67f6739a') in 0.011482 seconds
-  Import took 0.014215 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.521575 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death
-  artifactKey: Guid(64a1f95ebf5af5d45bc72ee4a1762a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death using Guid(64a1f95ebf5af5d45bc72ee4a1762a73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a884863c50d2d1fd6e53b2a623fc46e5') in 0.002176 seconds
-  Import took 0.005186 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.933398 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_0.png
-  artifactKey: Guid(2933196e8e917154a86a552712633a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_0.png using Guid(2933196e8e917154a86a552712633a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3604a1e4faa72dffc45b3709caf54c03') in 0.012979 seconds
-  Import took 0.016456 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_6.png
-  artifactKey: Guid(f8327d5bb24bdc541acb4e861855eba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_6.png using Guid(f8327d5bb24bdc541acb4e861855eba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c267fd0cc94241f2bca700504c5ef0c9') in 0.014231 seconds
-  Import took 0.018012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_4.png
-  artifactKey: Guid(07742f96de3560c458e9d976be738147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_4.png using Guid(07742f96de3560c458e9d976be738147) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1406d6cd0f6cbe3e5fd205ec847244') in 0.014850 seconds
-  Import took 0.018613 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_3.png
-  artifactKey: Guid(b2024d695db531542b162569e935fb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_3.png using Guid(b2024d695db531542b162569e935fb57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd170de1d74199942436120705606b32f') in 0.021662 seconds
-  Import took 0.025188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_7.png
-  artifactKey: Guid(3edfe188f33d58f4fa6dfbd1a067440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_7.png using Guid(3edfe188f33d58f4fa6dfbd1a067440d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4375c12fecf5c462750e897c2ebad86') in 0.011685 seconds
-  Import took 0.014648 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_5.png
-  artifactKey: Guid(9aa52a72cdb8bd74b9ff9b49023cbe10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_5.png using Guid(9aa52a72cdb8bd74b9ff9b49023cbe10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782e1d3f9f344c07fa01870d242c9a88') in 0.011087 seconds
-  Import took 0.013927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_1.png
-  artifactKey: Guid(b60d3802322ad5a43ac3cfc3a0246c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_1.png using Guid(b60d3802322ad5a43ac3cfc3a0246c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281861f31b7c5adefaf40da6dd7b8416') in 0.012318 seconds
-  Import took 0.015213 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_2.png
-  artifactKey: Guid(dafe4f968398df542a31f69e4159951c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Death/Death_Death Red_2.png using Guid(dafe4f968398df542a31f69e4159951c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712361730b38c71c698756cbd482d3fb') in 0.012501 seconds
-  Import took 0.015935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.250741 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Take Hit
-  artifactKey: Guid(9553ff784a6cfbc4bb9e8449ae7e11d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Take Hit using Guid(9553ff784a6cfbc4bb9e8449ae7e11d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b553ca2be112f0829c870f2a9def1951') in 0.119872 seconds
-  Import took 0.122959 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.219392 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Take Hit/Take Hit_Take Hit Red_0.png
-  artifactKey: Guid(cd93e1899df247a478f51dba6753be83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Take Hit/Take Hit_Take Hit Red_0.png using Guid(cd93e1899df247a478f51dba6753be83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa3435c09a2a62f69a75832d162615c4') in 0.026468 seconds
-  Import took 0.029441 seconds .
+  Time since last request: 0.000173 seconds.
+  path: Assets/Prefabs/Enemies/SlimePurple.prefab
+  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae6ca2cad5eac4acfc626fb534c6b40f') in 0.022210 seconds
+  Import took 0.025564 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000205 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Take Hit/Take Hit_Take Hit Red_2.png
-  artifactKey: Guid(5a3f8226821b6d140a378e886eefe3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Take Hit/Take Hit_Take Hit Red_2.png using Guid(5a3f8226821b6d140a378e886eefe3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5383504f9ffe675e72be94d6a52b023') in 0.036938 seconds
-  Import took 0.039613 seconds .
+  path: Assets/Prefabs/Enemies/Enemy_Slime.prefab
+  artifactKey: Guid(19efd736ce1787f4983d8cc9f68ed831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Enemy_Slime.prefab using Guid(19efd736ce1787f4983d8cc9f68ed831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2fecc08066031cd6609fbfb96a08a1') in 0.028169 seconds
+  Import took 0.031586 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Take Hit/Take Hit_Take Hit Red_1.png
-  artifactKey: Guid(b46eeab30300a5d4282b82b52b65fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Take Hit/Take Hit_Take Hit Red_1.png using Guid(b46eeab30300a5d4282b82b52b65fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de8d30f4e1aba1cac856e65c3a6cfd5') in 0.027648 seconds
-  Import took 0.030423 seconds .
+  Time since last request: 0.000238 seconds.
+  path: Assets/Prefabs/Enemies/Enemy_Slime Variant.prefab
+  artifactKey: Guid(048eb0b66d70d6c4680da44c1e20d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Enemy_Slime Variant.prefab using Guid(048eb0b66d70d6c4680da44c1e20d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34bb8b99085ed35dc6ecd2fdb5e873f0') in 0.020943 seconds
+  Import took 0.024575 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Take Hit/Take Hit_Take Hit Red_1.png
-  artifactKey: Guid(b46eeab30300a5d4282b82b52b65fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Take Hit/Take Hit_Take Hit Red_1.png using Guid(b46eeab30300a5d4282b82b52b65fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6de8d30f4e1aba1cac856e65c3a6cfd5') in 0.006918 seconds
-  Import took 0.009869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.465496 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Take Hit/Take Hit_Take Hit Red_0.png
-  artifactKey: Guid(cd93e1899df247a478f51dba6753be83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Take Hit/Take Hit_Take Hit Red_0.png using Guid(cd93e1899df247a478f51dba6753be83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933965e191bdea3ca68eb1119486254c') in 0.007237 seconds
-  Import took 0.010425 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Take Hit/Take Hit_Take Hit Red_1.png
-  artifactKey: Guid(b46eeab30300a5d4282b82b52b65fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Rogue Lite Asset Pack/Update 1.3/Slime/Red/Take Hit/Take Hit_Take Hit Red_1.png using Guid(b46eeab30300a5d4282b82b52b65fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74bb1d11b27e99f28c4e53fda8d8f617') in 0.008448 seconds
-  Import took 0.011428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.499050 seconds.
-  path: Assets/Animation/Enemies/SlimeRed/SlimeRed.controller
-  artifactKey: Guid(a59a0800537f54841a8ba06009b0b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/SlimeRed/SlimeRed.controller using Guid(a59a0800537f54841a8ba06009b0b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3680d5f6c2e95c3d6e1bc03dfbb31fce') in 0.008438 seconds
-  Import took 0.011873 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002249 seconds.
-  path: Assets/Animation/Enemies/SlimeRed/SlimeRed.controller
-  artifactKey: Guid(a59a0800537f54841a8ba06009b0b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/SlimeRed/SlimeRed.controller using Guid(a59a0800537f54841a8ba06009b0b903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3680d5f6c2e95c3d6e1bc03dfbb31fce') in 0.003220 seconds
-  Import took 0.006222 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001277 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.961 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2334.
-Total: 1.878300 ms (FindLiveObjects: 0.185300 ms CreateObjectMapping: 0.045300 ms MarkObjects: 1.632000 ms  DeleteObjects: 0.014800 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001199 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2337.
-Total: 2.377500 ms (FindLiveObjects: 0.321800 ms CreateObjectMapping: 0.063600 ms MarkObjects: 1.972600 ms  DeleteObjects: 0.018000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001191 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.981 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2340.
-Total: 2.123500 ms (FindLiveObjects: 0.193200 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.845000 ms  DeleteObjects: 0.039000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001199 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.9 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2343.
-Total: 1.984800 ms (FindLiveObjects: 0.213800 ms CreateObjectMapping: 0.045900 ms MarkObjects: 1.707300 ms  DeleteObjects: 0.016700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 255.695157 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af3d37cc947d2a5dd50c63cdafb3084') in 0.065899 seconds
-  Import took 0.069317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.590974 seconds.
+  Time since last request: 0.000205 seconds.
   path: Assets/Prefabs/Enemies/SlimeRed.prefab
   artifactKey: Guid(9a7a505e1db3f6145bb44c3d95d52a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimeRed.prefab using Guid(9a7a505e1db3f6145bb44c3d95d52a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (SlimeRed) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
-The Animator Controller (SlimeRed) you have used is not valid. Animations will not play
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
-UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
-UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
-UnityEditor.GameObjectInspector:GetPreviewData ()
-UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
-UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
-
-[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
-
- -> (artifact id: 'a3e11e3e09d570eb7776c31163e07ac8') in 0.017399 seconds
-  Import took 0.020851 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001135 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.957 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2347.
-Total: 2.089900 ms (FindLiveObjects: 0.196600 ms CreateObjectMapping: 0.045500 ms MarkObjects: 1.831000 ms  DeleteObjects: 0.015600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001218 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.965 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2350.
-Total: 1.945400 ms (FindLiveObjects: 0.189500 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.693600 ms  DeleteObjects: 0.016600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001172 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.004 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2353.
-Total: 1.887300 ms (FindLiveObjects: 0.197000 ms CreateObjectMapping: 0.047200 ms MarkObjects: 1.626900 ms  DeleteObjects: 0.015200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.953322 seconds.
-  path: Assets/Prefabs/Enemies/Enemy_Slime.prefab
-  artifactKey: Guid(19efd736ce1787f4983d8cc9f68ed831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Enemy_Slime.prefab using Guid(19efd736ce1787f4983d8cc9f68ed831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e5ed35fdd5d11a3ada03887a5347a2') in 0.066207 seconds
-  Import took 0.071081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Prefabs/Enemies/Enemy_Slime Variant.prefab
-  artifactKey: Guid(048eb0b66d70d6c4680da44c1e20d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Enemy_Slime Variant.prefab using Guid(048eb0b66d70d6c4680da44c1e20d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '936966ac7cbd40ab6fccdf01e46b1607') in 0.017976 seconds
-  Import took 0.021721 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.556635 seconds.
-  path: Assets/Prefabs/Enemies/Enemy_Slime Variant.prefab
-  artifactKey: Guid(048eb0b66d70d6c4680da44c1e20d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Enemy_Slime Variant.prefab using Guid(048eb0b66d70d6c4680da44c1e20d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0845a2bb9c0f5559c0fa202d4b59b983') in 0.014750 seconds
-  Import took 0.018108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Prefabs/Enemies/Enemy_Slime.prefab
-  artifactKey: Guid(19efd736ce1787f4983d8cc9f68ed831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Enemy_Slime.prefab using Guid(19efd736ce1787f4983d8cc9f68ed831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ec4995be284896fafce72c2c5883947') in 0.013084 seconds
-  Import took 0.016421 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001254 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.943 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2357.
-Total: 1.916300 ms (FindLiveObjects: 0.195700 ms CreateObjectMapping: 0.044300 ms MarkObjects: 1.660300 ms  DeleteObjects: 0.015000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001229 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.955 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2360.
-Total: 2.026400 ms (FindLiveObjects: 0.198000 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.765500 ms  DeleteObjects: 0.016600 ms)
+Start importing Assets/Prefabs/Enemies/SlimeRed.prefab using Guid(9a7a505e1db3f6145bb44c3d95d52a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbfc0dd79cee3c31a107bdddb576946d') in 0.023004 seconds
+  Import took 0.027172 seconds .
 
 ========================================================================
 Received Prepare
@@ -1949,44 +539,21 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.925 seconds
+- Completed reload, in  0.947 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 89.0 MB.
+System memory in use before: 88.6 MB.
+System memory in use after: 88.7 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2363.
-Total: 2.071600 ms (FindLiveObjects: 0.212600 ms CreateObjectMapping: 0.046100 ms MarkObjects: 1.794400 ms  DeleteObjects: 0.017300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001225 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.958 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 89.0 MB.
-
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2366.
-Total: 2.089300 ms (FindLiveObjects: 0.192200 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.834400 ms  DeleteObjects: 0.016200 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 1.964500 ms (FindLiveObjects: 0.190900 ms CreateObjectMapping: 0.045900 ms MarkObjects: 1.711300 ms  DeleteObjects: 0.015500 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001339 seconds.
+Registered in 0.001161 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
@@ -1995,72 +562,95 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.961 seconds
+- Completed reload, in  0.956 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 89.0 MB.
+System memory in use before: 88.6 MB.
+System memory in use after: 88.7 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2369.
-Total: 1.978200 ms (FindLiveObjects: 0.211300 ms CreateObjectMapping: 0.046000 ms MarkObjects: 1.704400 ms  DeleteObjects: 0.015500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 988.757305 seconds.
-  path: Assets/Prefabs/Portal_Spawn.prefab
-  artifactKey: Guid(87f9b9c976c683e43bfbb19b45cccd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Portal_Spawn.prefab using Guid(87f9b9c976c683e43bfbb19b45cccd02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0610e8744ea25e6b241da492c85bb7') in 0.068972 seconds
-  Import took 0.072567 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 1.917200 ms (FindLiveObjects: 0.185600 ms CreateObjectMapping: 0.043700 ms MarkObjects: 1.669900 ms  DeleteObjects: 0.017200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.244321 seconds.
+  Time since last request: 102.488302 seconds.
+  path: Assets/Prefabs/Player.prefab
+  artifactKey: Guid(63c13d4d67df61b459fc41bc563395db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player.prefab using Guid(63c13d4d67df61b459fc41bc563395db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c9a8f399ac65733e2a4dfb163bba9d') in 0.067348 seconds
+  Import took 0.070935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.960486 seconds.
   path: Assets/Prefabs/Enemies/SlimeRed.prefab
   artifactKey: Guid(9a7a505e1db3f6145bb44c3d95d52a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimeRed.prefab using Guid(9a7a505e1db3f6145bb44c3d95d52a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e5d25ee7fb72b4a068984af90e3d68') in 0.013605 seconds
-  Import took 0.017074 seconds .
+Start importing Assets/Prefabs/Enemies/SlimeRed.prefab using Guid(9a7a505e1db3f6145bb44c3d95d52a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5000c65823d23d534ca3d6b4d81a70c9') in 0.021096 seconds
+  Import took 0.024698 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.719440 seconds.
-  path: Assets/Prefabs/Enemies/SlimePurple.prefab
-  artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797c4a3e234c0e9905d7824b29200549') in 0.014553 seconds
-  Import took 0.017946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.848588 seconds.
-  path: Assets/Prefabs/Enemies/Enemy_Slime Variant.prefab
-  artifactKey: Guid(048eb0b66d70d6c4680da44c1e20d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Enemy_Slime Variant.prefab using Guid(048eb0b66d70d6c4680da44c1e20d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa68782579114e3286c84cef759cd026') in 0.018406 seconds
-  Import took 0.022153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
+  Time since last request: 16.660824 seconds.
   path: Assets/Prefabs/Enemies/Enemy_Slime.prefab
   artifactKey: Guid(19efd736ce1787f4983d8cc9f68ed831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/Enemy_Slime.prefab using Guid(19efd736ce1787f4983d8cc9f68ed831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4835b9593c59adafb2f32e37c7ad2e9') in 0.020515 seconds
-  Import took 0.024709 seconds .
+Start importing Assets/Prefabs/Enemies/Enemy_Slime.prefab using Guid(19efd736ce1787f4983d8cc9f68ed831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e9cd6777d47d5de0f3fe4b71b5b2fe2') in 0.019831 seconds
+  Import took 0.024094 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.495134 seconds.
+  Time since last request: 2.579353 seconds.
+  path: Assets/Prefabs/Enemies/BatRed.prefab
+  artifactKey: Guid(52c2693957712b24d92c75f4d6f066fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/BatRed.prefab using Guid(52c2693957712b24d92c75f4d6f066fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeeb9484c4fb65f218afb00c0fec87e3') in 0.016879 seconds
+  Import took 0.020431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
   path: Assets/Prefabs/Enemies/SlimePurple.prefab
   artifactKey: Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119999c22a575722442e24eefdedae65') in 0.013185 seconds
-  Import took 0.016587 seconds .
+Start importing Assets/Prefabs/Enemies/SlimePurple.prefab using Guid(f43bc15f612684e4b86667f254464803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f684f5a824bc41bbcfa331a9262810a9') in 0.018196 seconds
+  Import took 0.022058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Prefabs/Enemies/Enemy_Slime Variant.prefab
+  artifactKey: Guid(048eb0b66d70d6c4680da44c1e20d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemies/Enemy_Slime Variant.prefab using Guid(048eb0b66d70d6c4680da44c1e20d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea961c3788b8c2fd3297278d3755b044') in 0.026700 seconds
+  Import took 0.032130 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001184 seconds.
+Registered in 0.001137 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.952 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.6 MB.
+System memory in use after: 88.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2342.
+Total: 1.877200 ms (FindLiveObjects: 0.195300 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.621600 ms  DeleteObjects: 0.014700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001268 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
@@ -2068,27 +658,65 @@ RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
 - Completed reload, in  0.953 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.9 MB.
-System memory in use after: 89.0 MB.
+System memory in use before: 88.6 MB.
+System memory in use after: 88.8 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2373.
-Total: 1.994200 ms (FindLiveObjects: 0.196600 ms CreateObjectMapping: 0.044300 ms MarkObjects: 1.737200 ms  DeleteObjects: 0.015100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.020150 seconds.
-  path: Assets/Prefabs/Enemies/SlimeRed.prefab
-  artifactKey: Guid(9a7a505e1db3f6145bb44c3d95d52a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Enemies/SlimeRed.prefab using Guid(9a7a505e1db3f6145bb44c3d95d52a2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8069153358b13699243f10195c085103') in 0.060026 seconds
-  Import took 0.063363 seconds .
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2345.
+Total: 2.152800 ms (FindLiveObjects: 0.197100 ms CreateObjectMapping: 0.046700 ms MarkObjects: 1.883700 ms  DeleteObjects: 0.023700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001179 seconds.
+Registered in 0.001232 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.960 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2348.
+Total: 2.299200 ms (FindLiveObjects: 0.186800 ms CreateObjectMapping: 0.046300 ms MarkObjects: 2.045000 ms  DeleteObjects: 0.019900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001222 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 2.096200 ms (FindLiveObjects: 0.217800 ms CreateObjectMapping: 0.046000 ms MarkObjects: 1.813700 ms  DeleteObjects: 0.017600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001333 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
@@ -2097,15 +725,199 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.960 seconds
+- Completed reload, in  0.963 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.0 MB.
-System memory in use after: 89.1 MB.
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
 
-Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2377.
-Total: 2.020900 ms (FindLiveObjects: 0.236000 ms CreateObjectMapping: 0.045800 ms MarkObjects: 1.722200 ms  DeleteObjects: 0.015900 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2354.
+Total: 2.030800 ms (FindLiveObjects: 0.205800 ms CreateObjectMapping: 0.045200 ms MarkObjects: 1.762100 ms  DeleteObjects: 0.016800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001234 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.970 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2357.
+Total: 1.967800 ms (FindLiveObjects: 0.223600 ms CreateObjectMapping: 0.046400 ms MarkObjects: 1.680100 ms  DeleteObjects: 0.016500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001185 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.943 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2360.
+Total: 1.862600 ms (FindLiveObjects: 0.184300 ms CreateObjectMapping: 0.045100 ms MarkObjects: 1.617700 ms  DeleteObjects: 0.014500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001227 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.961 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2363.
+Total: 2.046000 ms (FindLiveObjects: 0.227100 ms CreateObjectMapping: 0.048200 ms MarkObjects: 1.752900 ms  DeleteObjects: 0.016900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001226 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.951 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2366.
+Total: 1.894400 ms (FindLiveObjects: 0.197100 ms CreateObjectMapping: 0.044600 ms MarkObjects: 1.637400 ms  DeleteObjects: 0.014100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001251 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2369.
+Total: 1.937300 ms (FindLiveObjects: 0.215200 ms CreateObjectMapping: 0.047600 ms MarkObjects: 1.658200 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001369 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.950 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2372.
+Total: 1.899900 ms (FindLiveObjects: 0.191300 ms CreateObjectMapping: 0.045400 ms MarkObjects: 1.645000 ms  DeleteObjects: 0.017100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001197 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.948 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.8 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2375.
+Total: 1.961600 ms (FindLiveObjects: 0.208400 ms CreateObjectMapping: 0.046200 ms MarkObjects: 1.691900 ms  DeleteObjects: 0.014100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.7 MB.
+System memory in use after: 88.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2378.
+Total: 2.189800 ms (FindLiveObjects: 0.223500 ms CreateObjectMapping: 0.047300 ms MarkObjects: 1.898700 ms  DeleteObjects: 0.018500 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

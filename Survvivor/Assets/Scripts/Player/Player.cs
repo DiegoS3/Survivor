@@ -43,8 +43,7 @@ public class Player : MonoBehaviour
                 abilityType = AbilityType.Simple;
                 usingItem = false;
             }
-        }
-        
+        }        
     }
 
     public AbilityType GetAbilityType()
@@ -60,21 +59,18 @@ public class Player : MonoBehaviour
         switch (item.itemType)
         {
             case Item.ItemType.Shotgun:
-                Debug.Log("Usada escopeta");
                 abilityType = AbilityType.Shotgun;                
                 inventory.RemoveItem(item);
                 break;
+
             case Item.ItemType.MoreRate:
-                Debug.Log("Usada rate");
                 abilityType = AbilityType.MoreRate;
                 inventory.RemoveItem(item);
                 break;
+
             case Item.ItemType.MultiFire:
-                Debug.Log("Usada fire");
                 abilityType = AbilityType.MultiFire;
                 inventory.RemoveItem(item);
-                break;
-            default:
                 break;
         }
     }
@@ -85,12 +81,12 @@ public class Player : MonoBehaviour
         {
             case "Coin":
                 Destroy(collision.gameObject);
-                gameObject.GetComponent<PlayerStats>().UpdateCoins();
+                PlayerStats.Instance.UpdateCoins();
                 break;
 
             case "Heart":
                 Destroy(collision.gameObject);
-                gameObject.GetComponent<PlayerStats>().UpdateHealth(1);
+                PlayerStats.Instance.UpdateHealth(1);
                 break;
 
             case "Shotgun":

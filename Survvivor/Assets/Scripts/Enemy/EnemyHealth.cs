@@ -10,9 +10,6 @@ public class EnemyHealth : MonoBehaviour
     [SerializeField]
     private float maxHealth;
 
-    [SerializeField]
-    private GameObject player;
-
     private Animator anim;
     private ItemDrop getItem;
 
@@ -20,9 +17,7 @@ public class EnemyHealth : MonoBehaviour
     private void Start()
     {
         health = maxHealth;
-        Debug.Log(maxHealth);
         score = (int)maxHealth;
-        Debug.Log(score);
         anim = GetComponent<Animator>();
         getItem = GetComponent<ItemDrop>();
     }
@@ -42,7 +37,7 @@ public class EnemyHealth : MonoBehaviour
             gameObject.GetComponent<CircleCollider2D>().enabled = false;
             if (gameObject != null)
             {
-                player.GetComponent<PlayerStats>().UpdateEnemies(score);
+                PlayerStats.Instance.UpdateEnemies(score);
             }
             if (getItem != null)
             {

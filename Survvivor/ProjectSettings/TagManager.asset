@@ -12,6 +12,7 @@ TagManager:
   - MoreRate
   - Shotgun
   - MultiFire
+  - CoinPick
   layers:
   - Default
   - TransparentFX
