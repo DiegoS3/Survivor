@@ -4,6 +4,13 @@ using UnityEngine.SceneManagement;
 
 public class Loader : MonoBehaviour
 {
+    public static Loader Instance { get; private set; }
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     public enum Scene
     {
         LevelOne,
@@ -20,6 +27,16 @@ public class Loader : MonoBehaviour
     private void Load(Scene scene)
     {
         SceneManager.LoadScene(scene.ToString());
+    }
+
+    public void LoginSignUp()
+    {
+        Load(Scene.LoginSignUp);
+    }
+
+    public void MainMenu()
+    {
+        Load(Scene.MainMenu);
     }
 
     public void LevelOne()
