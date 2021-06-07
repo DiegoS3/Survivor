@@ -15,11 +15,11 @@ D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58039
+49737
 Successfully changed project path to: D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
 D:/Users/diego/Desktop/REPOSITORIOS/TFG/Survivor/Survvivor
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 85.87 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 58.11 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.0f1 (c7b5465681fb)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/Resources/UnitySubsystems
@@ -35,667 +35,209 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity/Editor/2020.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001414 seconds.
+Registered in 0.001404 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.73 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 55.32 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.677 seconds
+- Completed reload, in  2.754 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010348 seconds.
+Registered in 0.001264 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 60.28 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 56.80 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.148 seconds
+- Completed reload, in  1.042 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1930 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.6 MB.
+Unloading 1843 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.6 MB.
+System memory in use after: 85.7 MB.
 
-Unloading 104 unused Assets to reduce memory usage. Loaded Objects now: 2305.
-Total: 2.132800 ms (FindLiveObjects: 0.200900 ms CreateObjectMapping: 0.057600 ms MarkObjects: 1.790200 ms  DeleteObjects: 0.083100 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Editor Default Resources/Firebase/fb_config_dark.png
-  artifactKey: Guid(0ad9ef5fff5524355a9670c90a99cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_config_dark.png using Guid(0ad9ef5fff5524355a9670c90a99cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea4b8fd83dfe445caad5c56353f1ac24') in 0.090451 seconds
-  Import took 0.093616 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2291.
+Total: 2.093600 ms (FindLiveObjects: 0.202700 ms CreateObjectMapping: 0.057900 ms MarkObjects: 1.765900 ms  DeleteObjects: 0.065300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_database.png
-  artifactKey: Guid(3eea7b558c67b48e18acf3c278392e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_database.png using Guid(3eea7b558c67b48e18acf3c278392e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ebaa6700f613dcf6a3fc515e2a29cd') in 0.012150 seconds
-  Import took 0.015067 seconds .
+  path: Assets/Art/Buttons/Google.png
+  artifactKey: Guid(a8b81ed6b94be8e4a8e12e621ceecdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Buttons/Google.png using Guid(a8b81ed6b94be8e4a8e12e621ceecdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c677675284069fe627dd950d8486c7b') in 0.053297 seconds
+  Import took 0.170936 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_analytics.png
-  artifactKey: Guid(dc218b335b1d14cd5ae532f65042d829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_analytics.png using Guid(dc218b335b1d14cd5ae532f65042d829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de706acff17965cbc459224e98744161') in 0.012411 seconds
-  Import took 0.015385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_database_dark.png
-  artifactKey: Guid(9f6bfa9d8aefb40dc92461c372c73b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_database_dark.png using Guid(9f6bfa9d8aefb40dc92461c372c73b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17775d3c0502e6c22d0b5faa1a618273') in 0.012763 seconds
-  Import took 0.015761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_cloud_messaging.png
-  artifactKey: Guid(837e8e1f35e334e81931d0857680cebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_cloud_messaging.png using Guid(837e8e1f35e334e81931d0857680cebf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f754149e06c0a7a15794f8a803d3afb9') in 0.012612 seconds
-  Import took 0.015940 seconds .
+  Time since last request: 0.000171 seconds.
+  path: Assets/Art/Buttons/Facebook.png
+  artifactKey: Guid(7a5884989182642429d9850161ee0cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Buttons/Facebook.png using Guid(7a5884989182642429d9850161ee0cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f99665960b4ea67345a85ca7a8ed40a4') in 0.006276 seconds
+  Import took 0.008925 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000216 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_crashlytics_dark.png
-  artifactKey: Guid(214009068900439da4a9cded17d58090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_crashlytics_dark.png using Guid(214009068900439da4a9cded17d58090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9623cdfbf51b000942953018edccc47c') in 0.012022 seconds
-  Import took 0.015123 seconds .
+  path: Assets/Art/Buttons/CerrarSesion.png
+  artifactKey: Guid(82f151813839edb41a890db52658f783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Buttons/CerrarSesion.png using Guid(82f151813839edb41a890db52658f783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8938d0517b74b2980b94daa1b513f2a0') in 0.006614 seconds
+  Import took 0.017725 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Editor Default Resources
-  artifactKey: Guid(5a06a1f363e81e548bafbd01bf4cd18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources using Guid(5a06a1f363e81e548bafbd01bf4cd18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa019f5b19d0556e20e117f0c3e73bbd') in 0.010393 seconds
-  Import took 0.013270 seconds .
+  Time since last request: 98.317488 seconds.
+  path: Assets/Art/Buttons/CerrarSesion.png
+  artifactKey: Guid(82f151813839edb41a890db52658f783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Buttons/CerrarSesion.png using Guid(82f151813839edb41a890db52658f783) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a827a517221967dda7b65affec9b6a') in 0.085039 seconds
+  Import took 0.088189 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_functions.png
-  artifactKey: Guid(953367231f9e3e22e70e5d1c91a40fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_functions.png using Guid(953367231f9e3e22e70e5d1c91a40fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563f566c8258b35492ad14ee004443ae') in 0.011292 seconds
-  Import took 0.014044 seconds .
+  Time since last request: 30.737704 seconds.
+  path: Assets/Art/Buttons/Facebook.png
+  artifactKey: Guid(7a5884989182642429d9850161ee0cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Buttons/Facebook.png using Guid(7a5884989182642429d9850161ee0cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1584b6d4a7f84265ca761350dbfed77a') in 0.057531 seconds
+  Import took 0.067984 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Editor Default Resources/Firebase/firebase_lockup.png
-  artifactKey: Guid(9f058f25e8e2d47cfb894951d4d7e48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/firebase_lockup.png using Guid(9f058f25e8e2d47cfb894951d4d7e48a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bd84cfcda462b261431276c803b05b6') in 0.012748 seconds
-  Import took 0.015660 seconds .
+  Time since last request: 0.000214 seconds.
+  path: Assets/Art/Buttons/Google.png
+  artifactKey: Guid(a8b81ed6b94be8e4a8e12e621ceecdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Buttons/Google.png using Guid(a8b81ed6b94be8e4a8e12e621ceecdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c0637febbf1b62a7496fa8fa4ac3f13') in 0.013862 seconds
+  Import took 0.016714 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_crashlytics.png
-  artifactKey: Guid(008a5e76206e49f9b06d8ba144aabb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_crashlytics.png using Guid(008a5e76206e49f9b06d8ba144aabb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04cf64ff2a68c7f437d204d42d82908c') in 0.009485 seconds
-  Import took 0.012429 seconds .
+  Time since last request: 15.159711 seconds.
+  path: Assets/Art/OptionsMenu/simple UI & icons
+  artifactKey: Guid(ba38339150007994fa91a918b52832a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OptionsMenu/simple UI & icons using Guid(ba38339150007994fa91a918b52832a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b892f3bbbeab0f72318a6ec7c9934cd2') in 0.007336 seconds
+  Import took 0.030448 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_storage_dark.png
-  artifactKey: Guid(2955864b938094f579ea9902b65ac10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_storage_dark.png using Guid(2955864b938094f579ea9902b65ac10c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b69f0b3ab889d88ea9ad6843308e0b') in 0.009998 seconds
-  Import took 0.012885 seconds .
+  Time since last request: 1.597815 seconds.
+  path: Assets/Art/OptionsMenu/simple UI & icons/icons
+  artifactKey: Guid(661dd85b721de6c48aa5169c83beebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OptionsMenu/simple UI & icons/icons using Guid(661dd85b721de6c48aa5169c83beebf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1accf49f91d6ef75e223dd5d107a28') in 0.007214 seconds
+  Import took 0.010157 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_analytics_dark.png
-  artifactKey: Guid(9fe4b3bd3b7d2477dac92fb7429d1d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_analytics_dark.png using Guid(9fe4b3bd3b7d2477dac92fb7429d1d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6ec795f30dbb507d0a2c19a10a13e2') in 0.008665 seconds
-  Import took 0.011781 seconds .
+  Time since last request: 0.085864 seconds.
+  path: Assets/Art/OptionsMenu/simple UI & icons/icons/icon_07.png
+  artifactKey: Guid(4c6ff0803aeb5d1418f145597c16d05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OptionsMenu/simple UI & icons/icons/icon_07.png using Guid(4c6ff0803aeb5d1418f145597c16d05e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a708f4127680672ee4cd722c8e6cbde') in 0.030614 seconds
+  Import took 0.033587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.816927 seconds.
+  path: Assets/Art/OptionsMenu/simple UI & icons/box
+  artifactKey: Guid(32a7144410aaa4d4ea525d663aff29fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OptionsMenu/simple UI & icons/box using Guid(32a7144410aaa4d4ea525d663aff29fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aebedf6e98de1594feb925695e6237a') in 0.007342 seconds
+  Import took 0.010226 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078543 seconds.
+  path: Assets/Art/OptionsMenu/simple UI & icons/box/box_login.png
+  artifactKey: Guid(63d580203551294479b2f0a8c08bba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OptionsMenu/simple UI & icons/box/box_login.png using Guid(63d580203551294479b2f0a8c08bba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a5ac26f88c65ba9fb02e0a7ce3611b2') in 0.007126 seconds
+  Import took 0.010028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Art/OptionsMenu/simple UI & icons/box/inputText.png
+  artifactKey: Guid(52dc245e068e054409433734def5f817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OptionsMenu/simple UI & icons/box/inputText.png using Guid(52dc245e068e054409433734def5f817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ecea766a9e25db184d81e1a33afba2') in 0.007631 seconds
+  Import took 0.010298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.339436 seconds.
+  path: Assets/CerrarSesion.png
+  artifactKey: Guid(c2507ba37598a674c83a15b65e7b9c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CerrarSesion.png using Guid(c2507ba37598a674c83a15b65e7b9c67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca641c4ccab247aec54e8b2e47fa1c16') in 0.017998 seconds
+  Import took 0.021379 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.110686 seconds.
+  path: Assets/Art/OptionsMenu/simple UI & icons/box/box_login.png
+  artifactKey: Guid(63d580203551294479b2f0a8c08bba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OptionsMenu/simple UI & icons/box/box_login.png using Guid(63d580203551294479b2f0a8c08bba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22dfe09285968f351126c5801e85155') in 0.014638 seconds
+  Import took 0.017854 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041877 seconds.
+  path: Assets/Art/OptionsMenu/simple UI & icons/box/box_login.png
+  artifactKey: Guid(63d580203551294479b2f0a8c08bba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OptionsMenu/simple UI & icons/box/box_login.png using Guid(63d580203551294479b2f0a8c08bba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c22dfe09285968f351126c5801e85155') in 0.013816 seconds
+  Import took 0.016839 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.428748 seconds.
+  path: Assets/Scenes/Menus/MainMenu.unity
+  artifactKey: Guid(737e3beb870951b46b2cdeb5d609e3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menus/MainMenu.unity using Guid(737e3beb870951b46b2cdeb5d609e3d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66ae33a13447c29618460df194b3b62') in 0.008485 seconds
+  Import took 0.011448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.741605 seconds.
+  path: Assets/Scenes/Menus/LoginSignUp.unity
+  artifactKey: Guid(c6ba70bca94ad574f9bd0864eccf1b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menus/LoginSignUp.unity using Guid(c6ba70bca94ad574f9bd0864eccf1b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98f0d426c6ff94d99e61985139d9b34e') in 0.007570 seconds
+  Import took 0.010667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.495010 seconds.
+  path: Assets/Art/Inventory/shotgun.png
+  artifactKey: Guid(3af3900e22a86b042a9b6cd14080c349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Inventory/shotgun.png using Guid(3af3900e22a86b042a9b6cd14080c349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c758bbac27d0a3883d4605569763a59a') in 0.083082 seconds
+  Import took 0.086161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Art/Inventory/Slot.png
+  artifactKey: Guid(f6dd4fc017402ef41a0d54d4a475488b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Inventory/Slot.png using Guid(f6dd4fc017402ef41a0d54d4a475488b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b74ca65d329fc2a1cbdcc831a2a3df7') in 0.057876 seconds
+  Import took 0.060869 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000198 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_functions_dark.png
-  artifactKey: Guid(b5aa3e4f7432e1c5698417cc13f85271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_functions_dark.png using Guid(b5aa3e4f7432e1c5698417cc13f85271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e976dcfee421cd2095aa2a413919c73') in 0.008745 seconds
-  Import took 0.011697 seconds .
+  path: Assets/Art/Inventory/shotgun2.png
+  artifactKey: Guid(9369cd2523c511149bd59523b252e69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Inventory/shotgun2.png using Guid(9369cd2523c511149bd59523b252e69e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abdb99d7c0aac9471d7d6d0881432aea') in 0.064468 seconds
+  Import took 0.067289 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_auth.png
-  artifactKey: Guid(394b3ec4d60c24476a12e4ba696d9e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_auth.png using Guid(394b3ec4d60c24476a12e4ba696d9e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2513addc58e267ff3ccb66407ae7f14b') in 0.009857 seconds
-  Import took 0.012904 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_auth_dark.png
-  artifactKey: Guid(3a9e1ef6287664c389bb09e2ac1b23b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_auth_dark.png using Guid(3a9e1ef6287664c389bb09e2ac1b23b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c787f242bade1ab3f4e1cb383cc220') in 0.010311 seconds
-  Import took 0.013293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_config.png
-  artifactKey: Guid(415eaec414af14d11955222a282aca08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_config.png using Guid(415eaec414af14d11955222a282aca08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aaf5abb29e1eaf8a5dd1c27e0e63c38') in 0.009633 seconds
-  Import took 0.012523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_cloud_messaging_dark.png
-  artifactKey: Guid(20c5b8a1f82cb4aadb77ca20683d2a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_cloud_messaging_dark.png using Guid(20c5b8a1f82cb4aadb77ca20683d2a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bffa4880e0ce92b4bea28fecb2e89286') in 0.008883 seconds
-  Import took 0.011629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_dynamic_links.png
-  artifactKey: Guid(df6f219c396f4ad9b5048bae6944cb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_dynamic_links.png using Guid(df6f219c396f4ad9b5048bae6944cb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90aa8ed4862aa7f8ef29bfb3d3db67a3') in 0.008739 seconds
-  Import took 0.011574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_dynamic_links_dark.png
-  artifactKey: Guid(9355a4671cfe4eef90879863318d1a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_dynamic_links_dark.png using Guid(9355a4671cfe4eef90879863318d1a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276d84a331b6bea18aa020576034e8e0') in 0.009508 seconds
-  Import took 0.012877 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_dynamic_links.png
-  artifactKey: Guid(df6f219c396f4ad9b5048bae6944cb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_dynamic_links.png using Guid(df6f219c396f4ad9b5048bae6944cb8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90aa8ed4862aa7f8ef29bfb3d3db67a3') in 0.006242 seconds
-  Import took 0.009472 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Editor Default Resources/Firebase/firebase_lockup_dark.png
-  artifactKey: Guid(b93330fc8ea08407dbc514b5101afa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/firebase_lockup_dark.png using Guid(b93330fc8ea08407dbc514b5101afa14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb57b3da673441e71ed0c1205284def') in 0.011487 seconds
-  Import took 0.014615 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_dynamic_links_dark.png
-  artifactKey: Guid(9355a4671cfe4eef90879863318d1a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_dynamic_links_dark.png using Guid(9355a4671cfe4eef90879863318d1a4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '276d84a331b6bea18aa020576034e8e0') in 0.005323 seconds
-  Import took 0.008478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Editor Default Resources/Firebase
-  artifactKey: Guid(1a1b3b56d2808c642a7edb1220d51493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase using Guid(1a1b3b56d2808c642a7edb1220d51493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '032240d6c68f48134de3182acc3db1af') in 0.002246 seconds
-  Import took 0.005471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Editor Default Resources/Firebase/fb_storage.png
-  artifactKey: Guid(573eb851c99f948f4bf2de49322bfd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor Default Resources/Firebase/fb_storage.png using Guid(573eb851c99f948f4bf2de49322bfd53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6f03812effee0b4b0428c82086960cd') in 0.010475 seconds
-  Import took 0.014147 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 51.598153 seconds.
-  path: Assets/Scripts/Firebase
-  artifactKey: Guid(bfb22f8cc2f28e74cb317fcbbc55a42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Firebase using Guid(bfb22f8cc2f28e74cb317fcbbc55a42a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc9e102c38b289e814453e479de649a') in 0.002149 seconds
-  Import took 0.005074 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010494 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.294 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1967 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 89.9 MB.
-System memory in use after: 90.0 MB.
-
-Unloading 138 unused Assets to reduce memory usage. Loaded Objects now: 2312.
-Total: 2.758900 ms (FindLiveObjects: 0.222500 ms CreateObjectMapping: 0.052300 ms MarkObjects: 2.398700 ms  DeleteObjects: 0.083800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010641 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.213 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1967 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.0 MB.
-System memory in use after: 90.1 MB.
-
-Unloading 138 unused Assets to reduce memory usage. Loaded Objects now: 2315.
-Total: 2.554000 ms (FindLiveObjects: 0.221400 ms CreateObjectMapping: 0.049900 ms MarkObjects: 2.226100 ms  DeleteObjects: 0.055600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 20.633945 seconds.
-  path: Assets/ExternalDependencyManager
-  artifactKey: Guid(936298368fe93704e901d9a337629d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalDependencyManager using Guid(936298368fe93704e901d9a337629d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a02b2f65451922964a5556f72947bf') in 0.011048 seconds
-  Import took 0.014253 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001293 seconds.
-  path: Assets/ExternalDependencyManager
-  artifactKey: Guid(936298368fe93704e901d9a337629d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalDependencyManager using Guid(936298368fe93704e901d9a337629d9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a02b2f65451922964a5556f72947bf') in 0.002164 seconds
-  Import took 0.005359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.489437 seconds.
-  path: Assets/ExternalDependencyManager/Editor
-  artifactKey: Guid(35fe7f7d7d9e12847b3d0e37da8813ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ExternalDependencyManager/Editor using Guid(35fe7f7d7d9e12847b3d0e37da8813ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523085566a557b655e79bf03e69ab6f8') in 0.006234 seconds
-  Import took 0.009208 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.843679 seconds.
-  path: Assets/StreamingAssets
-  artifactKey: Guid(d8e3f181f939de546b36aba0c67e3bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StreamingAssets using Guid(d8e3f181f939de546b36aba0c67e3bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac19733da15efcaa812e3e9b399a22f') in 0.002412 seconds
-  Import took 0.005427 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008190 seconds.
-Begin MonoManager ReloadAssembly
-Error: Could not load signature of Firebase.Editor.GenerateXmlFromGoogleServicesJson:OnBundleIdChanged due to: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-
-Unloading broken assembly Assets/Firebase/Editor/Firebase.Editor.dll, this assembly can cause crashes in the runtime
-
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-System.IO.FileNotFoundException: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
-File name: 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null'
-  at Firebase.Editor.AndroidSettingsChecker..cctor () [0x0000c] in Z:\tmp\tmp.yGfzMzMQ5j\firebase\app\client\unity\editor\src\AndroidAPILevelChecker.cs:37 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-FileNotFoundException: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
-  at Firebase.Editor.AndroidSettingsChecker..cctor () [0x0000c] in Z:\tmp\tmp.yGfzMzMQ5j\firebase\app\client\unity\editor\src\AndroidAPILevelChecker.cs:37 
-Rethrow as TypeInitializationException: The type initializer for 'Firebase.Editor.AndroidSettingsChecker' threw an exception.
-  at (wrapper managed-to-native) System.Reflection.MonoCMethod.InternalInvoke(System.Reflection.MonoCMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00002] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
-  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic) [0x000a8] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00009] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00027] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00020] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at UnityEditor.AssetPostprocessingInternal.GetMeshProcessorsHashString () [0x00035] in <50f55621a2ca4f31a35283e2979a8bf5>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.AssetPostprocessingInternal:GetMeshProcessorsHashString()
-
-TypeLoadException: Could not load type of field 'Firebase.Editor.GenerateXmlFromGoogleServicesJson:<>f__mg$cache0' (17) due to: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-  at (wrapper managed-to-native) System.RuntimeType.GetConstructors_native(System.RuntimeType,System.Reflection.BindingFlags)
-  at System.RuntimeType.GetConstructors_internal (System.Reflection.BindingFlags bindingAttr, System.RuntimeType reflectedType) [0x00008] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetConstructorCandidates (System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.CallingConventions callConv, System.Type[] types, System.Boolean allowPrefixLookup) [0x00034] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetConstructors (System.Reflection.BindingFlags bindingAttr) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetDefaultConstructor () [0x0002c] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00009] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00027] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00020] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at UnityEditor.AssetPostprocessingInternal.GetMeshProcessorsHashString () [0x00035] in <50f55621a2ca4f31a35283e2979a8bf5>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.AssetPostprocessingInternal:GetMeshProcessorsHashString()
-
-FileNotFoundException: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
-  at Firebase.Editor.AndroidSettingsChecker..cctor () [0x0000c] in Z:\tmp\tmp.yGfzMzMQ5j\firebase\app\client\unity\editor\src\AndroidAPILevelChecker.cs:37 
-Rethrow as TypeInitializationException: The type initializer for 'Firebase.Editor.AndroidSettingsChecker' threw an exception.
-  at (wrapper managed-to-native) System.Reflection.MonoCMethod.InternalInvoke(System.Reflection.MonoCMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00002] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
-  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic) [0x000a8] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00009] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00027] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00020] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x00035] in <50f55621a2ca4f31a35283e2979a8bf5>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
-
-TypeLoadException: Could not load type of field 'Firebase.Editor.GenerateXmlFromGoogleServicesJson:<>f__mg$cache0' (17) due to: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-  at (wrapper managed-to-native) System.RuntimeType.GetConstructors_native(System.RuntimeType,System.Reflection.BindingFlags)
-  at System.RuntimeType.GetConstructors_internal (System.Reflection.BindingFlags bindingAttr, System.RuntimeType reflectedType) [0x00008] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetConstructorCandidates (System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.CallingConventions callConv, System.Type[] types, System.Boolean allowPrefixLookup) [0x00034] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetConstructors (System.Reflection.BindingFlags bindingAttr) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetDefaultConstructor () [0x0002c] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00009] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00027] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00020] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at UnityEditor.AssetPostprocessingInternal.GetTextureProcessorsHashString () [0x00035] in <50f55621a2ca4f31a35283e2979a8bf5>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.AssetPostprocessingInternal:GetTextureProcessorsHashString()
-
-FileNotFoundException: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
-  at Firebase.Editor.AndroidSettingsChecker..cctor () [0x0000c] in Z:\tmp\tmp.yGfzMzMQ5j\firebase\app\client\unity\editor\src\AndroidAPILevelChecker.cs:37 
-Rethrow as TypeInitializationException: The type initializer for 'Firebase.Editor.AndroidSettingsChecker' threw an exception.
-  at (wrapper managed-to-native) System.Reflection.MonoCMethod.InternalInvoke(System.Reflection.MonoCMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00002] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
-  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic) [0x000a8] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00009] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00027] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00020] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at UnityEditor.AssetPostprocessingInternal.GetAudioProcessorsHashString () [0x00035] in <50f55621a2ca4f31a35283e2979a8bf5>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.AssetPostprocessingInternal:GetAudioProcessorsHashString()
-
-TypeLoadException: Could not load type of field 'Firebase.Editor.GenerateXmlFromGoogleServicesJson:<>f__mg$cache0' (17) due to: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-  at (wrapper managed-to-native) System.RuntimeType.GetConstructors_native(System.RuntimeType,System.Reflection.BindingFlags)
-  at System.RuntimeType.GetConstructors_internal (System.Reflection.BindingFlags bindingAttr, System.RuntimeType reflectedType) [0x00008] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetConstructorCandidates (System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.CallingConventions callConv, System.Type[] types, System.Boolean allowPrefixLookup) [0x00034] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetConstructors (System.Reflection.BindingFlags bindingAttr) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetDefaultConstructor () [0x0002c] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00009] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00027] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00020] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at UnityEditor.AssetPostprocessingInternal.GetAudioProcessorsHashString () [0x00035] in <50f55621a2ca4f31a35283e2979a8bf5>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.AssetPostprocessingInternal:GetAudioProcessorsHashString()
-
-FileNotFoundException: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
-  at Firebase.Editor.AndroidSettingsChecker..cctor () [0x0000c] in Z:\tmp\tmp.yGfzMzMQ5j\firebase\app\client\unity\editor\src\AndroidAPILevelChecker.cs:37 
-Rethrow as TypeInitializationException: The type initializer for 'Firebase.Editor.AndroidSettingsChecker' threw an exception.
-  at (wrapper managed-to-native) System.Reflection.MonoCMethod.InternalInvoke(System.Reflection.MonoCMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00002] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
-  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic) [0x000a8] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00009] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00027] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00020] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at UnityEditor.AssetPostprocessingInternal.GetSpeedTreeProcessorsHashString () [0x00035] in <50f55621a2ca4f31a35283e2979a8bf5>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.AssetPostprocessingInternal:GetSpeedTreeProcessorsHashString()
-
-TypeLoadException: Could not load type of field 'Firebase.Editor.GenerateXmlFromGoogleServicesJson:<>f__mg$cache0' (17) due to: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-  at (wrapper managed-to-native) System.RuntimeType.GetConstructors_native(System.RuntimeType,System.Reflection.BindingFlags)
-  at System.RuntimeType.GetConstructors_internal (System.Reflection.BindingFlags bindingAttr, System.RuntimeType reflectedType) [0x00008] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetConstructorCandidates (System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.CallingConventions callConv, System.Type[] types, System.Boolean allowPrefixLookup) [0x00034] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetConstructors (System.Reflection.BindingFlags bindingAttr) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetDefaultConstructor () [0x0002c] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00009] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00027] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00020] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at UnityEditor.AssetPostprocessingInternal.GetSpeedTreeProcessorsHashString () [0x00035] in <50f55621a2ca4f31a35283e2979a8bf5>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.AssetPostprocessingInternal:GetSpeedTreeProcessorsHashString()
-
-FileNotFoundException: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies.
-  at Firebase.Editor.AndroidSettingsChecker..cctor () [0x0000c] in Z:\tmp\tmp.yGfzMzMQ5j\firebase\app\client\unity\editor\src\AndroidAPILevelChecker.cs:37 
-Rethrow as TypeInitializationException: The type initializer for 'Firebase.Editor.AndroidSettingsChecker' threw an exception.
-  at (wrapper managed-to-native) System.Reflection.MonoCMethod.InternalInvoke(System.Reflection.MonoCMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00002] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-Rethrow as TargetInvocationException: Exception has been thrown by the target of an invocation.
-  at System.Reflection.MonoCMethod.InternalInvoke (System.Object obj, System.Object[] parameters) [0x00014] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic) [0x000a8] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00009] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00027] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00020] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at UnityEditor.AssetPostprocessingInternal.GetPrefabProcessorsHashString () [0x00035] in <50f55621a2ca4f31a35283e2979a8bf5>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.AssetPostprocessingInternal:GetPrefabProcessorsHashString()
-
-TypeLoadException: Could not load type of field 'Firebase.Editor.GenerateXmlFromGoogleServicesJson:<>f__mg$cache0' (17) due to: Could not load file or assembly 'Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null' or one of its dependencies. assembly:Google.JarResolver, Version=1.2.0.0, Culture=neutral, PublicKeyToken=null type:<unknown type> member:(null) signature:<none>
-  at (wrapper managed-to-native) System.RuntimeType.GetConstructors_native(System.RuntimeType,System.Reflection.BindingFlags)
-  at System.RuntimeType.GetConstructors_internal (System.Reflection.BindingFlags bindingAttr, System.RuntimeType reflectedType) [0x00008] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetConstructorCandidates (System.String name, System.Reflection.BindingFlags bindingAttr, System.Reflection.CallingConventions callConv, System.Type[] types, System.Boolean allowPrefixLookup) [0x00034] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetConstructors (System.Reflection.BindingFlags bindingAttr) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.GetDefaultConstructor () [0x0002c] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceMono (System.Boolean nonPublic) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceSlow (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00009] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.RuntimeType.CreateInstanceDefaultCtor (System.Boolean publicOnly, System.Boolean skipCheckThis, System.Boolean fillCache, System.Threading.StackCrawlMark& stackMark) [0x00027] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type, System.Boolean nonPublic) [0x00020] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at System.Activator.CreateInstance (System.Type type) [0x00000] in <eae584ce26bc40229c1b1aa476bfa589>:0 
-  at UnityEditor.AssetPostprocessingInternal.GetPrefabProcessorsHashString () [0x00035] in <50f55621a2ca4f31a35283e2979a8bf5>:0 
-UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
-UnityEngine.DebugLogHandler:LogException(Exception, Object)
-UnityEngine.Logger:LogException(Exception, Object)
-UnityEngine.Debug:LogException(Exception)
-UnityEditor.AssetPostprocessingInternal:GetPrefabProcessorsHashString()
-
-- Completed reload, in  0.977 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.18 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1917 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.9 MB.
-
-Unloading 88 unused Assets to reduce memory usage. Loaded Objects now: 2318.
-Total: 1.993500 ms (FindLiveObjects: 0.192200 ms CreateObjectMapping: 0.047400 ms MarkObjects: 1.711400 ms  DeleteObjects: 0.040900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003400 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.965 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1903 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.4 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 74 unused Assets to reduce memory usage. Loaded Objects now: 2321.
-Total: 1.882900 ms (FindLiveObjects: 0.187200 ms CreateObjectMapping: 0.045900 ms MarkObjects: 1.616100 ms  DeleteObjects: 0.032800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 94.636647 seconds.
-  path: Assets/Parse
-  artifactKey: Guid(4d1cf59d5bd75594f89c3e7f0df25f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Parse using Guid(4d1cf59d5bd75594f89c3e7f0df25f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bae9ae3327534b8564d2171e2d6237f4') in 0.009251 seconds
-  Import took 0.012332 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001713 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.953 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1899 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.3 MB.
-System memory in use after: 88.4 MB.
-
-Unloading 70 unused Assets to reduce memory usage. Loaded Objects now: 2324.
-Total: 1.845200 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.046700 ms MarkObjects: 1.584600 ms  DeleteObjects: 0.027400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 12.218600 seconds.
-  path: Assets/Plugins
-  artifactKey: Guid(1259f2438e64a0148a51c2874377ef9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins using Guid(1259f2438e64a0148a51c2874377ef9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1874b5b5f9bd72865fea302b85820d81') in 0.005278 seconds
-  Import took 0.008285 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.365279 seconds.
-  path: Assets/Firebase/Plugins
-  artifactKey: Guid(108f0fa787d014b4192fe226eabe7f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Firebase/Plugins using Guid(108f0fa787d014b4192fe226eabe7f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6623f4fa9687bb406fc86a6f57d818f9') in 0.002039 seconds
-  Import took 0.004971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.579753 seconds.
-  path: Assets/Firebase/Plugins/x86_64
-  artifactKey: Guid(e80aac896a4ed194dad9e658f008973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Firebase/Plugins/x86_64 using Guid(e80aac896a4ed194dad9e658f008973d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5588435085b4e4a5708ae88dde2efcab') in 0.006469 seconds
-  Import took 0.009421 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001539 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.011 seconds
-Platform modules already initialized, skipping
-Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1842 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.7 MB.
-System memory in use after: 86.9 MB.
-
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2327.
-Total: 2.204300 ms (FindLiveObjects: 0.216900 ms CreateObjectMapping: 0.049000 ms MarkObjects: 1.909600 ms  DeleteObjects: 0.027400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
-========================================================================
-Received Import Request.
-  Time since last request: 97.413178 seconds.
-  path: Assets/Scenes/Menus/LoginSignUp.unity
-  artifactKey: Guid(c6ba70bca94ad574f9bd0864eccf1b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Menus/LoginSignUp.unity using Guid(c6ba70bca94ad574f9bd0864eccf1b1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a0508224276a0dcd1c470bc6950a8a') in 0.015207 seconds
-  Import took 0.018341 seconds .
+  Time since last request: 8.792371 seconds.
+  path: Assets/Art/OptionsMenu/simple UI & icons/box/inputText.png
+  artifactKey: Guid(52dc245e068e054409433734def5f817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/OptionsMenu/simple UI & icons/box/inputText.png using Guid(52dc245e068e054409433734def5f817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df7cfa06c345e15fc3c469c138d5b441') in 0.013398 seconds
+  Import took 0.016516 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

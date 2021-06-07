@@ -91,8 +91,6 @@
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Art\topdown_shooter\towers\readme.txt" />
-     <None Include="Assets\Firebase\Plugins\x86_64\FirebaseCppAuth.dll" />
-     <None Include="Assets\Firebase\Plugins\x86_64\FirebaseCppApp-7_2_0.dll" />
      <None Include="Assets\Art\topdown_shooter\guns\readme.txt" />
      <None Include="Assets\Art\topdown_shooter\characters\readme.txt" />
     <Reference Include="UnityEngine">
