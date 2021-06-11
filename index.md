@@ -12,7 +12,6 @@
 </table>
 
 ### Login
-
 <table>
 	<tr>
 		<th style="padding: 20px">
@@ -24,7 +23,6 @@
 </table>
 
 ### Menú principal
-
 <table>
   <tr>
     <th style="padding: 20px">
@@ -37,7 +35,6 @@
 </table>
 
 ### In Game
-
 <table>
   <tr>
     <th style="padding: 20px">
@@ -49,7 +46,6 @@
 </table>
 
 ### Menú pausa
-
 <table>
   <tr>
     <th style="padding: 20px">
@@ -61,7 +57,6 @@
 </table>
 
 ### Menú opciones
-
 <table>
   <tr>
     <th style="padding: 20px">
