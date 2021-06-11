@@ -1,37 +1,71 @@
-## Welcome to GitHub Pages
+## Manual de usuario de Survivor (Videojuego)
 
-You can use the [editor on GitHub](https://github.com/DiegoS3/Survivor/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Splashscreen
+<table>
+  <tr>
+    <th style="padding: 20px">
+      <img src="https://user-images.githubusercontent.com/65809307/121679483-a79fe800-cab8-11eb-871f-f8a5e5df5f25.png" width="1080px" height="566px">  
+      Esta es la pantalla de carga que es lo primero que ves nada más entrar a Survivor, esta pantalla se muestra durante una cantidad determinada de segundos 
+      mientras carga el juego.
+    </th>    
+  </tr>
+</table>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Login
 
-### Markdown
+<table>
+	<tr>
+		<th style="padding: 20px">
+      <img src="https://user-images.githubusercontent.com/65809307/121679787-05cccb00-cab9-11eb-8a02-e972063abd56.png" width="1080px" height="566px">   
+      En esta pantalla el usuario puede conectar al juego a través de Google, Facebook o con un email y una contraseña, en caso de no tener estas credenciales
+      el usuario puede acceder a la web para obtener sus credenciales utilizando el botón de Registrarse.
+    </th>
+  </tr>
+</table>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Menú principal
 
-```markdown
-Syntax highlighted code block
+<table>
+  <tr>
+    <th style="padding: 20px">
+      <img src="https://user-images.githubusercontent.com/65809307/121679915-30b71f00-cab9-11eb-8763-63297f75d8f9.png" width="1080px" height="566px"> 
+			Cuando el usuario ha logueado correctamente se encontrará ante esta pantalla que le permite comenzar a jugar, el botón de opciones que le permite 
+			modificar las diferentes opciones de audio, cerrar sesión que quitará la sesión actual y deberá iniciar sesión nuevamente para poder acceder a esta pantalla,
+			además le devuelve a la pantalla anterior, salir, para cerrar la aplicación. Además en la parte inferior izquierda se observa la versión en la que se 
+			encuentra el juego y en la parte inferior derecha un botón que le permite al usuario acceder a la web para ver el estado actual de los rankings.
+    </th>
+</table>
 
-# Header 1
-## Header 2
-### Header 3
+### In Game
 
-- Bulleted
-- List
+<table>
+  <tr>
+    <th style="padding: 20px">
+      <img src="https://user-images.githubusercontent.com/65809307/121679987-49bfd000-cab9-11eb-9b48-c43e6b065d36.png" width="1080px" height="566px">  
+      Esta será la pantalla que verá una vez haya decidido empezar a jugar, se observan los joysticks, de los cuales el izquierdo le permiten moverse por 
+			el mapa y el derecho disparar y girar, arriba a la izquierda tiene las diferentes estadisticas actuales, en medio se observa el tiempo que lleva vivo 
+			y en la parte superior derecha el botón pausa que le llevará una nueva pantalla con diferentes opciones.
+    </th>
+</table>
 
-1. Numbered
-2. List
+### Menú pausa
 
-**Bold** and _Italic_ and `Code` text
+<table>
+  <tr>
+    <th style="padding: 20px">
+      <img src="https://user-images.githubusercontent.com/65809307/121680036-59d7af80-cab9-11eb-9cb1-09b42ff66858.png" width="1080px" height="566px">  
+      Esta es la pantalla de pausa en la cual mediante los diferentes botones podrá realizar determinadas acciones, el primer botón reanuda la partida anteriormente
+			pausa, se observa de nuevo el botón opciones que remitira al jugador a la pantalla de opciones y el botón salir que acaba la partida y devuleve al usuario
+			a la pantalla principal.
+    </th>
+</table>
 
-[Link](url) and ![Image](src)
-```
+### Menú opciones
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DiegoS3/Survivor/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<table>
+  <tr>
+    <th style="padding: 20px">
+      <img src="https://user-images.githubusercontent.com/65809307/121680166-8095e600-cab9-11eb-8ba0-0a09631388f9.png" width="1080px" height="566px">  
+      Esta es la pantalla de opciones, que permite al jugador modificar la música, el sonido y el brillo, o directamente quitar la música y el sonido.
+    </th>
+</table>
