@@ -32,6 +32,7 @@
 			además le devuelve a la pantalla anterior, salir, para cerrar la aplicación. Además en la parte inferior izquierda se observa la versión en la que se 
 			encuentra el juego y en la parte inferior derecha un botón que le permite al usuario acceder a la web para ver el estado actual de los rankings.
     </th>
+  </tr>
 </table>
 
 ### In Game
@@ -43,6 +44,7 @@
 			el mapa y el derecho disparar y girar, arriba a la izquierda tiene las diferentes estadisticas actuales, en medio se observa el tiempo que lleva vivo 
 			y en la parte superior derecha el botón pausa que le llevará una nueva pantalla con diferentes opciones.
     </th>
+  </tr>
 </table>
 
 ### Menú pausa
@@ -54,6 +56,7 @@
 			pausa, se observa de nuevo el botón opciones que remitira al jugador a la pantalla de opciones y el botón salir que acaba la partida y devuleve al usuario
 			a la pantalla principal.
     </th>
+  </tr>
 </table>
 
 ### Menú opciones
@@ -63,4 +66,5 @@
       <img src="https://user-images.githubusercontent.com/65809307/121680166-8095e600-cab9-11eb-8ba0-0a09631388f9.png" width="1080px" height="566px">  
       Esta es la pantalla de opciones, que permite al jugador modificar la música, el sonido y el brillo, o directamente quitar la música y el sonido.
     </th>
+  </tr>
 </table>
